@@ -1,0 +1,272 @@
+# Exported from NWmax 0.8 c00 at 9/24/2018 8:12:26 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: pmt0
+#local file: Unknown
+filedependancy Unknown
+newmodel pmt0
+setsupermodel pmt0 a_ba
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom pmt0
+node dummy pmt0
+  parent NULL
+endnode
+node dummy rootdummy
+  parent pmt0
+  position -0.000405171 0.0200069 1.2072
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.768628 0.345098 0.882353 
+endnode
+node dummy torso_g
+  parent rootdummy
+  position 0.000405168 0.0108289 0.000205994
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.768628 0.345098 0.882353 
+endnode
+node dummy Lbicep_g
+  parent torso_g
+  position -0.23 -0.110836 0.392594
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.768628 0.345098 0.882353 
+endnode
+node dummy lforearm_g
+  parent Lbicep_g
+  position -0.05 0.0212191 -0.4
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.584314 0.694118 
+endnode
+node dummy lhand_g
+  parent lforearm_g
+  position -0.06 0.0228936 -0.4
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.584314 0.694118 
+endnode
+node dummy lhand
+  parent lhand_g
+  position -0.0153355 -2.00272e-007 -0.0945176
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.584314 0.694118 
+endnode
+node dummy lforearm
+  parent lforearm_g
+  position -0.0301827 -2.28882e-007 -0.187034
+  orientation 1.50038e-006 -1.0 -5.04775e-005 -0.069811
+  wirecolor 0.109804 0.584314 0.694118 
+endnode
+node dummy Lshoulder_g
+  parent Lbicep_g
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.584314 0.694118 
+endnode
+node dummy neck_g
+  parent torso_g
+  position 0.0 -0.0810528 0.552594
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.529412 0.0235294 
+endnode
+node dummy head_g
+  parent neck_g
+  position 0.0 0.0186997 0.0767157
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.529412 0.0235294 
+endnode
+node dummy head
+  parent head_g
+  position 0.0 -0.000279422 0.19265
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.529412 0.0235294 
+endnode
+node dummy Rbicep_g
+  parent torso_g
+  position 0.23 -0.110836 0.392594
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.529412 0.0235294 
+endnode
+node dummy Rshoulder_g
+  parent Rbicep_g
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.529412 0.0235294 
+endnode
+node dummy rforearm_g
+  parent Rbicep_g
+  position 0.05 0.0212191 -0.4
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.529412 0.0235294 
+endnode
+node dummy rhand_g
+  parent rforearm_g
+  position 0.06 0.0228936 -0.4
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.529412 0.431373 0.0313726 
+endnode
+node dummy rhand
+  parent rhand_g
+  position 0.0110699 1.40667e-007 -0.0961305
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.529412 0.431373 0.0313726 
+endnode
+node dummy Impact
+  parent torso_g
+  position -0.0125054 0.0184151 0.25276
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.529412 0.431373 0.0313726 
+endnode
+node dummy pelvis_g
+  parent rootdummy
+  position 0.000405168 0.0108289 -0.0372
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.529412 0.431373 0.0313726 
+endnode
+node dummy belt_g
+  parent pelvis_g
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.529412 0.431373 0.0313726 
+endnode
+node dummy rthigh_g
+  parent pelvis_g
+  position 0.135 -0.0234426 -0.206129
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy rshin_g
+  parent rthigh_g
+  position -0.0294573 -0.0164711 -0.437782
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy rfoot_g
+  parent rshin_g
+  position -0.0215928 -0.0666267 -0.389469
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy lthigh_g
+  parent pelvis_g
+  position -0.135 -0.0234426 -0.206129
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy lshin_g
+  parent lthigh_g
+  position 0.0306218 -0.0164711 -0.437782
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy lfoot_g
+  parent lshin_g
+  position 0.020427 -0.0666266 -0.389469
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.835294 0.603922 0.898039 
+endnode
+node dummy handconjure
+  parent pmt0
+  position 0.00713298 0.395733 1.51766
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.835294 0.603922 0.898039 
+endnode
+node dummy headconjure
+  parent pmt0
+  position -9.17205e-005 -0.147674 2.3983
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.835294 0.603922 0.898039 
+endnode
+endmodelgeom pmt0
+
+#NWmax ANIM ASCII
+newanim 10 pmt0
+  length -1.0
+  transtime 1.0
+  animroot pmt0
+    node dummy pmt0
+        parent NULL
+    endnode
+    node dummy rootdummy
+        parent pmt0
+    endnode
+    node dummy torso_g
+        parent rootdummy
+    endnode
+    node dummy Lbicep_g
+        parent torso_g
+    endnode
+    node dummy lforearm_g
+        parent Lbicep_g
+    endnode
+    node dummy lhand_g
+        parent lforearm_g
+    endnode
+    node dummy lhand
+        parent lhand_g
+    endnode
+    node dummy lforearm
+        parent lforearm_g
+    endnode
+    node dummy Lshoulder_g
+        parent Lbicep_g
+    endnode
+    node dummy neck_g
+        parent torso_g
+    endnode
+    node dummy head_g
+        parent neck_g
+    endnode
+    node dummy head
+        parent head_g
+    endnode
+    node dummy Rbicep_g
+        parent torso_g
+    endnode
+    node dummy Rshoulder_g
+        parent Rbicep_g
+    endnode
+    node dummy rforearm_g
+        parent Rbicep_g
+    endnode
+    node dummy rhand_g
+        parent rforearm_g
+    endnode
+    node dummy rhand
+        parent rhand_g
+    endnode
+    node dummy Impact
+        parent torso_g
+    endnode
+    node dummy pelvis_g
+        parent rootdummy
+    endnode
+    node dummy belt_g
+        parent pelvis_g
+    endnode
+    node dummy rthigh_g
+        parent pelvis_g
+    endnode
+    node dummy rshin_g
+        parent rthigh_g
+    endnode
+    node dummy rfoot_g
+        parent rshin_g
+    endnode
+    node dummy lthigh_g
+        parent pelvis_g
+    endnode
+    node dummy lshin_g
+        parent lthigh_g
+    endnode
+    node dummy lfoot_g
+        parent lshin_g
+    endnode
+    node dummy handconjure
+        parent pmt0
+    endnode
+    node dummy headconjure
+        parent pmt0
+    endnode
+doneanim 10 pmt0
+
+donemodel pmt0

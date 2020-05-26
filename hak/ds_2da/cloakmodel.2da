@@ -1,0 +1,259 @@
+2DA V2.0
+
+           LABEL                       MODEL TEXTURE ICON HIDEWING HIDETAIL HIDESHOL HIDESHOR ENVMAP  CEP_Version Creator SourceURL 
+0          ****                        0     0       0    0        0        0        0        ****                                  
+1          Plain                       1     1       1    1        0        0        1        default                               
+2          Arcane                      1     10      2    1        0        0        1        default                               
+3          GreatCloak                  2     2       3    1        0        1        1        default                               
+4          FineGreatCl                 2     13      4    1        0        1        1        default                               
+5          Hooded                      3     3       5    1        0        1        1        default                               
+6          Fancy                       4     4       6    1        0        1        1        default                               
+7          Elegant                     4     11      7    1        0        1        1        default                               
+8          Elven                       4     12      8    1        0        1        1        default                               
+9          Wizard                      5     5       9    1        0        1        1        default                               
+10         Jeweled                     7     14      10   1        0        1        1        default                               
+11         Blackgd_Cyric               6     6       11   1        0        0        0        default                               
+12         Paladin_Helm                6     7       12   1        0        0        0        default                               
+13         Champion_Torm               6     8       13   1        0        0        0        default                               
+14         DragonKnight                6     9       14   1        0        0        0        default                               
+15         ManyStarred                 5     15      15   1        0        1        1        default                               
+16         PlainWizard                 5     16      16   1        0        1        1        default                               
+17         Gilthanas                   1     17      17   1        0        0        1        default             Lisa    http://neverwintervault.org/project/nwn1/hakpak/original-hakpak/lisas-third-stab-fancy-schmancy-cloaks
+18         Lolths                      3     18      18   1        0        1        1        ****                Lisa    http://neverwintervault.org/project/nwn1/hakpak/original-hakpak/lisas-third-stab-fancy-schmancy-cloaks
+19         Ragged                      3     19      19   1        0        1        1        ****                Lisa    http://neverwintervault.org/project/nwn1/hakpak/original-hakpak/lisas-third-stab-fancy-schmancy-cloaks
+20         Caviler_Hat                 20    20      20   0        0        0        0        default             Lisa    http://nwvault.ign.com/View.php?view=Hakpaks.Detail&id=1742
+21         Oriental                    7     21      21   1        0        1        1        default             Lisa    http://neverwintervault.org/project/nwn1/hakpak/original-hakpak/lisas-third-stab-fancy-schmancy-cloaks
+22         Aenea_Mantle                2     102     102  0        0        1        1        ****                The Amethyst Dragonhttp://neverwintervault.org/project/nwn1/hakpak/original-hakpak/amethyst-dragons-cloaks
+23         Aenea_Prank                 1     109     109  0        0        0        0        ****                The Amethyst Dragonhttp://neverwintervault.org/project/nwn1/hakpak/original-hakpak/amethyst-dragons-cloaks
+24         Aenea_Music                 1     112     112  0        0        0        1        default             The Amethyst Dragonhttp://neverwintervault.org/project/nwn1/hakpak/original-hakpak/amethyst-dragons-cloaks
+25         Aenea_Patched               1     113     113  0        0        0        1        default             The Amethyst Dragonhttp://neverwintervault.org/project/nwn1/hakpak/original-hakpak/amethyst-dragons-cloaks
+26         Aenea_Mantle_Plain          2     115     115  0        0        1        1        ****                The Amethyst Dragonhttp://neverwintervault.org/project/nwn1/hakpak/original-hakpak/amethyst-dragons-cloaks
+27         Aenea_Mantle_Jester         2     118     118  0        0        1        1        ****                The Amethyst Dragonhttp://neverwintervault.org/project/nwn1/hakpak/original-hakpak/amethyst-dragons-cloaks
+28         Aenea_Mantle_Eyes_1         2     119     119  0        0        1        1        ****                The Amethyst Dragonhttp://neverwintervault.org/project/nwn1/hakpak/original-hakpak/amethyst-dragons-cloaks
+29         Aenea_Plaid                 1     122     122  0        0        0        1        default             The Amethyst Dragonhttp://neverwintervault.org/project/nwn1/hakpak/original-hakpak/amethyst-dragons-cloaks
+30         Aenea_Eyes_Cloak_1          7     111     111  0        0        1        1        default             The Amethyst Dragonhttp://neverwintervault.org/project/nwn1/hakpak/original-hakpak/amethyst-dragons-cloaks
+31         Paisley                     6     22      22   1        0        0        0        default             Lisa    http://neverwintervault.org/project/nwn1/hakpak/original-hakpak/lisas-third-stab-fancy-schmancy-cloaks
+32         Cult_of_the_Dragon          6     65      16   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+33         Emerald_Enclave             4     101     8    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+34         Fire_Knives                 3     70      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+35         Harpers                     4     76      8    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+36         Iron_Throne                 6     30      16   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+37         Lords_Alliance              4     103     6    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+38         People_of_the_Black_Blood   3     31      99   1        0        1        1        ****    2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+39         Red_Wizards_of_Thay         5     55      9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+40         Silver_Ravens               4     107     6    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+41         The_Xanathars_Guild         5     108     9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+42         Zhentarim                   3     75      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+43         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+44         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+45         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+46         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+47         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+48         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+49         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+50         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+51         Plain_wings_visible         1     1       1    0        0        0        1        default                               
+52         Arcane_wings_visible        1     10      2    0        0        0        1        default                               
+53         GreatCloak_wings_visible    2     2       3    0        0        1        1        default                               
+54         FineGreatCl_wings_visible   2     13      4    0        0        1        1        default                               
+55         Hooded_wings_visible        3     3       5    0        0        1        1        default                               
+56         Fancy_wings_visible         4     4       6    0        0        1        1        default                               
+57         Elegant_wings_visible       4     11      7    0        0        1        1        default                               
+58         Elven_wings_visible         4     12      8    0        0        1        1        default                               
+59         Wizard_wings_visible        5     5       9    0        0        1        1        default                               
+60         Jeweled_wings_visible       7     14      10   0        0        1        1        default                               
+61         Blackgd_Cyric_wings_visible 6     6       11   0        0        0        0        default                               
+62         Paladin_Helm_wings_visible  6     7       12   0        0        0        0        default                               
+63         Champion_Torm_wings_visible 6     8       13   0        0        0        0        default                               
+64         DragonKnight_wings_visible  6     9       14   0        0        0        0        default                               
+65         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+66         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+67         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+68         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+69         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+70         BenH_Wizard_Hat             150   150     150  0        0        0        0        default             Ben Harrisonhttp://www.nexusmods.com/neverwinter/mods/93
+71         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+72         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+73         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+74         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+75         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+76         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+77         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+78         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+79         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+80         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+81         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+82         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+83         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+84         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+85         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+86         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+87         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+88         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+89         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+90         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+91         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+92         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+93         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+94         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+95         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+96         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+97         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+98         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+99         non-appearing_Cloak         0     1       1    0        0        0        0        ****                                  
+100        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+101        Akadi                       4     83      7    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+102        Auril                       4     69      7    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+103        Azuth                       5     77      9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+104        Bane                        6     40      16   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+105        Beshaba                     3     54      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+106        Chauntea                    3     34      34   1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+107        Deneir                      5     84      9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+108        Eldath                      4     46      7    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+109        Finder_Wyvernspur           4     100     7    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+110        Garagos                     3     85      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+111        Gargauth                    6     86      16   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+112        Gond                        2     60      3    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+113        Grumbar                     3     87      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+114        Gwaeron_Windstrom           3     88      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+115        Hoar                        4     89      7    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+116        Ilmater                     3     48      48   1        0        1        1        ****    2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+117        Istishia                    4     90      7    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+118        Jergal                      6     91      16   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+119        Kelemvor                    3     67      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+120        Kossuth                     5     38      9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+121        Lathander                   1     37      1    1        0        0        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+122        Lathander_Hooded            3     39      39   1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+123        Lliira                      4     50      8    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+124        Loviatar                    3     58      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+125        Lurue                       4     92      8    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+126        Malar                       3     79      99   1        0        1        1        ****    2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+127        Mask                        4     41      7    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+128        Mielikki                    3     43      43   1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+129        Milil                       4     80      7    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+130        Mystra                      5     35      9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+131        Nobanion                    6     51      16   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+132        Oghma                       5     42      9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+133        Red_Knight                  6     93      16   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+134        Savras                      5     94      9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+135        Selune                      6     57      16   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+136        Shar                        4     63      7    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+137        Shar_Wizardly               5     68      9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+138        Sharess                     4     64      6    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+139        Shaundakul                  3     82      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+140        Shiallia                    4     95      8    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+141        Siamorphe                   4     78      6    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+142        Silvanus                    3     59      59   1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+143        Sune                        4     33      6    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+144        Talona                      6     49      16   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+145        Talos                       3     56      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+146        Tempus                      6     36      16   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+147        Tiamat                      3     96      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+148        Tymora                      6     44      16   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+149        Tymora_Hooded               3     61      61   1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+150        Tyr                         6     32      32   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+151        Ubtao                       3     97      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+152        Ulutiu                      4     98      7    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+153        Umberlee                    3     72      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+154        Valkur                      4     71      7    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+155        Velsharoon                  5     73      9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+156        Waukeen                     4     45      6    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+157        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+158        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+159        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+160        Bhaal                       4     81      7    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+161        Moander                     3     99      99   1        0        1        1        ****    2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+162        Myrkul                      6     47      16   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+163        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+164        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+165        Eilistraee                  5     52      9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+166        Eilistraee_Hair_Skin        5     53      9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+167        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+168        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+169        Lolth                       5     66      9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+170        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+171        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+172        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+173        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+174        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+175        Corellon_Larethian          4     62      8    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+176        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+177        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+178        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+179        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+180        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+181        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+182        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+183        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+184        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+185        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+186        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+187        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+188        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+189        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+190        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+191        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+192        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+193        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+194        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+195        Moradin                     6     74      16   1        0        0        0        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+196        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+197        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+198        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+199        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+200        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+201        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+202        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+203        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+204        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+205        Garl_Glittergold            3     104     5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+206        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+207        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+208        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+209        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+210        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+211        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+212        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+213        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+214        Yondalla                    3     106     5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+215        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+216        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+217        Gruumsh                     3     105     99   1        0        1        1        ****    2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
+218        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+219        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+220        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+221        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+222        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+223        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+224        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+225        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+226        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+227        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+228        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+229        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+230        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+231        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+232        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+233        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+234        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+235        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+236        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+237        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+238        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+239        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+240        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+241        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+242        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+243        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+244        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+245        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+246        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+247        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+248        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+249        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+250        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+251        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+252        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+253        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+254        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+255        ****                        ****  ****    **** ****     ****     ****     ****     ****                                  

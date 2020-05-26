@@ -1,0 +1,8 @@
+2DA V2.0                                                        
+                                                                
+           Corner1   Edge     Corner2   Height   Model          
+0          Desert    ****     Desert    0        dsdct_z001_01   
+1          Desert    ****     ****      0        dsdct_z001_01    
+2          Desert+   ****     Desert    0        dsdct_z002_01
+3          Desert+   ****     ****      1        dsdct_z001_01
+4          Desert+   ****     Desert+   1        dsdct_z001_01

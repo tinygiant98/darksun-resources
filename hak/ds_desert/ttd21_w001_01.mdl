@@ -1,0 +1,247 @@
+# Rewritten by CleanModels 3 Version 3.5.1 Thu Jul 04 17:25:21 2019
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel ttd21_w001_01
+  classification TILE
+  setsupermodel ttd21_w001_01 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ttd21_w001_01
+node dummy ttd21_w001_01
+  parent NULL
+endnode
+node trimesh plane32
+  parent ttd21_w001_01
+  position 0 0 3
+  orientation 0 0 0 0
+  wirecolor 1 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  bitmap ttd21_sand02
+  shininess 10
+  render 1
+  shadow 0
+  transparencyhint 1
+  rotatetexture 0
+  tilefade 0
+  verts 4
+    5 5 -2
+    -5 5 -2
+    5 -5 -2
+    -5 -5 -2
+  faces 2
+    2 0 3 1 0 1 2 0
+    1 3 0 1 3 2 1 0
+  tverts 4
+    1 -1 0
+    1 1 0
+    -1 -1 0
+    -1 1 0
+endnode
+node aabb plane33
+  parent ttd21_w001_01
+  orientation 0 0 0 0
+  position 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  bitmap NULL
+  render 0
+  shadow 0
+  verts 25
+    5 5 1
+    2.5 5 1
+    0 5 1
+    -2.5 5 1
+    -5 5 1
+    5 2.5 1
+    2.5 2.5 1
+    0 2.5 1
+    -2.5 2.5 1
+    -5 2.5 1
+    5 0 1
+    2.5 0 1
+    0 0 1
+    -2.5 0 1
+    -5 0 1
+    5 -2.5 1
+    2.5 -2.5 1
+    0 -2.5 1
+    -2.5 -2.5 1
+    -5 -2.5 1
+    5 -5 1
+    2.5 -5 1
+    0 -5 1
+    -2.5 -5 1
+    -5 -5 1
+  faces 32
+    5 0 6 0 0 0 0 6
+    1 6 0 0 0 0 0 6
+    6 1 7 0 0 0 0 6
+    2 7 1 0 0 0 0 6
+    7 2 8 0 0 0 0 6
+    3 8 2 0 0 0 0 6
+    8 3 9 0 0 0 0 6
+    4 9 3 0 0 0 0 6
+    10 5 11 0 0 0 0 6
+    6 11 5 0 0 0 0 6
+    11 6 12 0 0 0 0 6
+    7 12 6 0 0 0 0 6
+    12 7 13 0 0 0 0 6
+    8 13 7 0 0 0 0 6
+    13 8 14 0 0 0 0 6
+    9 14 8 0 0 0 0 6
+    15 10 16 0 0 0 0 6
+    11 16 10 0 0 0 0 6
+    16 11 17 0 0 0 0 6
+    12 17 11 0 0 0 0 6
+    17 12 18 0 0 0 0 6
+    13 18 12 0 0 0 0 6
+    18 13 19 0 0 0 0 6
+    14 19 13 0 0 0 0 6
+    20 15 21 0 0 0 0 6
+    16 21 15 0 0 0 0 6
+    21 16 22 0 0 0 0 6
+    17 22 16 0 0 0 0 6
+    22 17 23 0 0 0 0 6
+    18 23 17 0 0 0 0 6
+    23 18 24 0 0 0 0 6
+    19 24 18 0 0 0 0 6
+  aabb     -5 -5 1 5 5 1 -1
+    -5 -5 1 0 5 1 -1
+    -5 -5 1 0 0 1 -1
+    -5 -5 1 -2.5 0 1 -1
+    -5 -5 1 -2.5 -2.5 1 -1
+    -5 -5 1 -2.5 -2.5 1 31
+    -5 -5 1 -2.5 -2.5 1 30
+    -5 -2.5 1 -2.5 0 1 -1
+    -5 -2.5 1 -2.5 0 1 23
+    -5 -2.5 1 -2.5 0 1 22
+    -2.5 -5 1 0 0 1 -1
+    -2.5 -5 1 0 -2.5 1 -1
+    -2.5 -5 1 0 -2.5 1 29
+    -2.5 -5 1 0 -2.5 1 28
+    -2.5 -2.5 1 0 0 1 -1
+    -2.5 -2.5 1 0 0 1 21
+    -2.5 -2.5 1 0 0 1 20
+    -5 0 1 0 5 1 -1
+    -5 0 1 -2.5 5 1 -1
+    -5 0 1 -2.5 2.5 1 -1
+    -5 0 1 -2.5 2.5 1 15
+    -5 0 1 -2.5 2.5 1 14
+    -5 2.5 1 -2.5 5 1 -1
+    -5 2.5 1 -2.5 5 1 7
+    -5 2.5 1 -2.5 5 1 6
+    -2.5 0 1 0 5 1 -1
+    -2.5 0 1 0 2.5 1 -1
+    -2.5 0 1 0 2.5 1 13
+    -2.5 0 1 0 2.5 1 12
+    -2.5 2.5 1 0 5 1 -1
+    -2.5 2.5 1 0 5 1 5
+    -2.5 2.5 1 0 5 1 4
+    0 -5 1 5 5 1 -1
+    0 -5 1 5 0 1 -1
+    0 -5 1 2.5 0 1 -1
+    0 -5 1 2.5 -2.5 1 -1
+    0 -5 1 2.5 -2.5 1 27
+    0 -5 1 2.5 -2.5 1 26
+    0 -2.5 1 2.5 0 1 -1
+    0 -2.5 1 2.5 0 1 19
+    0 -2.5 1 2.5 0 1 18
+    2.5 -5 1 5 0 1 -1
+    2.5 -5 1 5 -2.5 1 -1
+    2.5 -5 1 5 -2.5 1 25
+    2.5 -5 1 5 -2.5 1 24
+    2.5 -2.5 1 5 0 1 -1
+    2.5 -2.5 1 5 0 1 17
+    2.5 -2.5 1 5 0 1 16
+    0 0 1 5 5 1 -1
+    0 0 1 2.5 5 1 -1
+    0 0 1 2.5 2.5 1 -1
+    0 0 1 2.5 2.5 1 11
+    0 0 1 2.5 2.5 1 10
+    0 2.5 1 2.5 5 1 -1
+    0 2.5 1 2.5 5 1 3
+    0 2.5 1 2.5 5 1 2
+    2.5 0 1 5 5 1 -1
+    2.5 0 1 5 2.5 1 -1
+    2.5 0 1 5 2.5 1 9
+    2.5 0 1 5 2.5 1 8
+    2.5 2.5 1 5 5 1 -1
+    2.5 2.5 1 5 5 1 1
+    2.5 2.5 1 5 5 1 0
+endnode
+node light ttd21_w001_01ml1
+  parent ttd21_w001_01
+  position -1.8 0.45 11
+  nDynamicType 1
+  orientation 0 0 0 0
+  ambientonly 0
+  affectdynamic 0
+  shadow 0
+  lightpriority 3
+  fadinglight 1
+  radius 0
+  multiplier 1
+  color 1 1 1
+  flareradius 1
+endnode
+node light ttd21_w001_01ml2
+  parent ttd21_w001_01
+  position 1.2 -1.7 11.4
+  nDynamicType 1
+  orientation 0 0 0 0
+  ambientonly 0
+  affectdynamic 0
+  shadow 0
+  lightpriority 3
+  fadinglight 1
+  radius 0
+  multiplier 1
+  color 1 1 1
+  flareradius 1
+endnode
+node dummy ttd21_w001_01a
+  parent ttd21_w001_01
+  orientation 0 0 0 0
+  position 0 0 0
+endnode
+node trimesh plane34.001
+  parent ttd21_w001_01a
+  position 0 0 2.5
+  orientation 0 0 0 0
+  wirecolor 0.88 0.88 0.88
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  bitmap ttd21_water01
+  shininess 1
+  render 1
+  shadow 0
+  rotatetexture 1
+  tilefade 0
+  verts 4
+    -5 5 0
+    -5 -5 0
+    5 5 0
+    5 -5 0
+  faces 2
+    0 1 2 1 0 1 2 0
+    3 2 1 1 3 2 1 0
+  tverts 4
+    -1 1 0
+    -1 -1 0
+    1 1 0
+    1 -1 0
+endnode
+endmodelgeom ttd21_w001_01
+donemodel ttd21_w001_01
+
+
+
+
+
+
+
+

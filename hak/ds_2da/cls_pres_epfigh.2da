@@ -1,0 +1,20 @@
+2DA V2.0                                                        
+                                                                
+           LABEL             ReqType    ReqParam1          ReqParam2   
+0          FighterOr         CLASSOR    4                  ****
+1          BardNot           CLASSNOT   1                  ****
+2          Cleric_AirNot     CLASSNOT   2                  ****
+3          Cleric_EarthNot   CLASSNOT   5                  ****
+4          Cleric_FireNot    CLASSNOT   6                  ****
+5          Cleric_WaterNot   CLASSNOT   42                 ****
+6          DruidNot          CLASSNOT   3                  ****
+7          GladNot           CLASSNOT   0                  ****
+8          RangerNot         CLASSNOT   7                  ****
+9          ThiefNot          CLASSNOT   8                  ****
+10         DefilerNot        CLASSNOT   9                  ****
+11         PreseverNot       CLASSNOT   10                 ****
+12         TraderNot         CLASSNOT   40                 ****
+13         TemplarNot        CLASSNOT   41                 ****
+14         PsionicistNot     CLASSNOT   43                 ****
+15         Epic_Fighter      FEAT       4895               **** 
+16         ScriptVar         VAR        X1_AllowEpFighter  0

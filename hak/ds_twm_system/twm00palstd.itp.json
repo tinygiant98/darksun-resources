@@ -1,0 +1,178 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "grass"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63635
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "raiselower"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63292
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "road"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63641
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "stream"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63302
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "water"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 5631
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mountains"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "mountains"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Desert"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "desert"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Salt Flats"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "salt"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Rocky Badlands"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rocky"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Scrub Plains"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "scrub"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Jungle"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "jungle"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Silt"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "silt"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stony Barrens"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "stony"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

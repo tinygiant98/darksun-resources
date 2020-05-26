@@ -1,0 +1,19 @@
+2DA V2.0                                                      
+                                                              
+           LABEL       ReqType    ReqParam1       ReqParam2   
+0          Lore        SKILL      7               33           
+1          Arcane      ARCSPELL   1               ****        
+2          PreserverOr CLASSOR    10              ****
+3          PsionOr     CLASSOR    43              ****
+4          DefilerNot  CLASSNOT   9               ****
+5          ScriptVar   VAR        X1_AllowAvangion 0           
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
