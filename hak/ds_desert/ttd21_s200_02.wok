@@ -1,4 +1,4 @@
-# Exported from NWMax Plus v6.11.28 at 5/17/2020 11:51:19 PM
+# Exported from NWMax Plus v6.11.28 at 5/19/2020 12:08:07 AM
 # wok file
 #
 #NWMax Plus WALKMESH  ASCII
@@ -8,7 +8,42 @@ node aabb ground
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.0156863 0.513726 0.0156863 
-  bitmap NULL
+  multimaterial 30
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+    BareBones
+    StoneBridge
+    Temp1
+    Temp2
+    Temp3
+    Temp4
+    Temp5
+    Temp6
+    Temp7
+    Trigger
+  ambient 0.588 0.588 0.588 
+  diffuse 0.937255 0.941177 0.564706 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Sand
   verts 93
     -3.11 -3.14 3.19
     -4.13 -2.11 3.06
