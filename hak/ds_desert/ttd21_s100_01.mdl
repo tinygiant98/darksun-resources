@@ -1,14 +1,13 @@
-# Exported from NWmax 0.8 b61 at 11/25/2018 3:12:21 PM
+# Exported from NWMax Plus v6.11.28 at 5/29/2020 8:10:46 AM
 # mdl file
 #
-#NWmax MODEL ASCII
+#NWMax Plus MODEL  ASCII
 # model: ttd21_s100_01
-#local file: Unknown
 filedependancy Unknown
 newmodel ttd21_s100_01
 setsupermodel ttd21_s100_01 NULL
 classification Tile
-#NWmax GEOM  ASCII
+#NWMax Plus GEOM  ASCII
 beginmodelgeom ttd21_s100_01
 node dummy ttd21_s100_01
   parent NULL
@@ -73,12 +72,12 @@ node trimesh 08
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
+  selfIllumColor 0.0 0.0 0.0 
   ambient 0.0 0.0 0.0 
-  diffuse 0.0 0.0 0.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 0.0 0.0 0.0 
+  Specular 0.0 0.0 0.0 
   shininess 1
-  center -545.0 0.0 453.0 
+  center 545.0 0.0 453.0 
   bitmap tce21_black
   verts 8
     4.9 1.0 3.0
@@ -129,7 +128,7 @@ node aabb 09
   position 0.0 0.0 -3.0
   orientation 0.0 0.0 -1.0 -3.14159
   wirecolor 0.976471 0.976471 0.976471 
-  multimaterial 20
+  multimaterial 30
     Dirt
     Obscuring
     Grass
@@ -150,7 +149,17 @@ node aabb 09
     Door
     Snow
     Sand
-  ambient 0.0 0.0 0.0 
+    BareBones
+    StoneBridge
+    Temp1
+    Temp2
+    Temp3
+    Temp4
+    Temp5
+    Temp6
+    Temp7
+    Trigger
+  ambient 0.588 0.588 0.588 
   diffuse 0.6 0.34 0.16 
   specular 0.0 0.0 0.0 
   shininess 10.0
@@ -548,40 +557,40 @@ node aabb 09
     80 5 0  1  359 297 1206  1
     0 153 136  1  1207 1208 457  1
     1 143 154  1  1147 917 926  1
-    2 1 154  0  1139 1147 926  2
-    9 2 154  0  1135 1139 926  2
-    9 154 131  0  1135 926 955  2
-    10 9 131  0  1131 1135 955  2
-    8 10 131  0  1127 1131 955  2
-    8 131 124  0  1127 955 984  2
-    7 8 124  0  1125 1127 984  2
-    6 7 124  0  1122 1125 984  2
-    6 124 122  0  1122 984 1030  2
-    0 5 153  0  1102 1200 871  2
-    153 5 19  0  871 1200 1197  2
-    153 19 150  0  871 1197 935  2
-    150 19 22  0  935 1197 1193  2
-    150 22 129  0  935 1193 967  2
-    129 22 21  0  967 1193 1189  2
-    129 21 127  0  967 1189 1019  2
-    127 21 20  0  1019 1189 1186  2
-    17 6 122  0  1116 1122 1030  2
-    11 17 122  0  1152 1116 1030  2
-    127 20 18  0  1019 1186 1180  2
-    127 18 23  0  1019 1180 1178  2
-    127 23 12  0  1019 1178 1175  2
-    11 122 123  0  1152 1030 1032  2
-    11 123 13  0  1152 1032 1154  2
-    13 123 125  0  1154 1032 1035  2
-    127 12 126  0  1019 1175 1025  2
-    126 12 14  0  1025 1175 1170  2
-    128 126 14  0  1028 1025 1170  2
-    3 13 125  0  1158 1154 1035  2
-    3 125 133  0  1158 1035 1038  2
-    16 3 133  0  1163 1158 1038  2
-    15 16 133  0  1167 1163 1038  2
-    15 133 128  0  1167 1038 1028  2
-    15 128 14  0  1167 1028 1170  2
+    2 1 154  0  1139 1147 926  7
+    9 2 154  0  1135 1139 926  7
+    9 154 131  0  1135 926 955  7
+    10 9 131  0  1131 1135 955  7
+    8 10 131  0  1127 1131 955  7
+    8 131 124  0  1127 955 984  7
+    7 8 124  0  1125 1127 984  7
+    6 7 124  0  1122 1125 984  7
+    6 124 122  0  1122 984 1030  7
+    0 5 153  0  1102 1200 871  7
+    153 5 19  0  871 1200 1197  7
+    153 19 150  0  871 1197 935  7
+    150 19 22  0  935 1197 1193  7
+    150 22 129  0  935 1193 967  7
+    129 22 21  0  967 1193 1189  7
+    129 21 127  0  967 1189 1019  7
+    127 21 20  0  1019 1189 1186  7
+    17 6 122  0  1116 1122 1030  7
+    11 17 122  0  1152 1116 1030  7
+    127 20 18  0  1019 1186 1180  7
+    127 18 23  0  1019 1180 1178  7
+    127 23 12  0  1019 1178 1175  7
+    11 122 123  0  1152 1030 1032  7
+    11 123 13  0  1152 1032 1154  7
+    13 123 125  0  1154 1032 1035  7
+    127 12 126  0  1019 1175 1025  7
+    126 12 14  0  1025 1175 1170  7
+    128 126 14  0  1028 1025 1170  7
+    3 13 125  0  1158 1154 1035  7
+    3 125 133  0  1158 1035 1038  7
+    16 3 133  0  1163 1158 1038  7
+    15 16 133  0  1167 1163 1038  7
+    15 133 128  0  1167 1038 1028  7
+    15 128 14  0  1167 1028 1170  7
   tverts 1209
     -0.31988 0.18032 0
     0.54066 0.435427 0
@@ -2343,12 +2352,12 @@ node trimesh 10
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
+  selfIllumColor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
   shininess 1
-  center 65.0 0.0 727.0 
+  center -65.0 0.0 727.0 
   bitmap tce21_stonewall01
   verts 72
     3.2 3.2 9.75
@@ -2825,10 +2834,10 @@ node trimesh 07
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
+  selfIllumColor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 0.0 632.5 
   bitmap ttd21_sand01
@@ -4292,12 +4301,12 @@ node trimesh Line1020
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
+  selfIllumColor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
   shininess 1
-  center -306.0 127.0 -99.0 
+  center 306.0 -127.0 -99.0 
   bitmap tce21_marble02
   verts 32
     3.41 -0.27 -2.99
@@ -4433,20 +4442,3 @@ node trimesh Line1020
 endnode
 endmodelgeom ttd21_s100_01
 donemodel ttd21_s100_01
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
