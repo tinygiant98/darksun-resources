@@ -7794,3 +7794,297 @@ doneanim tiledefault ttj21_j002_01
 
 donemodel ttj21_j002_01
 
+51 13   8 11  5 0
+    153 150 152 13   8  6  7 0
+    157 158 159 14   0 10  1 0
+    160 156 159 14   3  2  1 0
+    163 157 156 14   5  0  2 0
+    164 162 156 14   7  6  2 0
+    165 166 163 14   8 11  5 0
+    165 162 164 14   8  6  7 0
+    168 169 170 15   2  0 10 0
+    168 171 173 15   2  1  4 0
+    174 175 169 15   6  5  0 0
+    174 168 172 15   6  2  3 0
+    177 178 175 15   8 11  5 0
+    179 177 174 15   9  8  6 0
+    180 181 182 16   2  0 10 0
+    180 183 185 16   2  1  4 0
+    186 187 181 16   6  5  0 0
+    186 180 184 16   6  2  3 0
+    189 190 187 16   8 11  5 0
+    189 186 188 16   8  6  7 0
+    192 193 194 17   2  0 10 0
+    192 195 197 17   2  1  4 0
+    198 199 193 17   6  5  0 0
+    198 192 196 17   6  2  3 0
+    202 199 198 17  11  5  6 0
+    203 201 198 17   9  8  6 0
+    204 205 206 18   2  0 10 0
+    204 207 209 18   2  1  4 0
+    210 211 205 18   6  5  0 0
+    210 204 208 18   6  2  3 0
+    213 214 211 18   8 11  5 0
+    213 210 212 18   8  6  7 0
+    216 217 218 19   2  0 10 0
+    216 219 221 19   2  1  4 0
+    222 223 217 19   6  5  0 0
+    222 216 220 19   6  2  3 0
+    225 226 223 19   8 11  5 0
+    225 222 224 19   8  6  7 0
+    228 229 230 20   2  0 10 0
+    228 231 233 20   2  1  4 0
+    234 235 229 20   6  5  0 0
+    234 228 232 20   6  2  3 0
+    237 238 235 20   8 11  5 0
+    237 234 236 20   8  6  7 0
+    241 242 243 21   0 10  1 0
+    244 240 243 21   3  2  1 0
+    246 247 241 21   6  5  0 0
+    246 240 244 21   6  2  3 0
+    249 250 247 21   8 11  5 0
+    249 246 248 21   8  6  7 0
+    253 254 255 22   0 10  1 0
+    256 252 255 22   3  2  1 0
+    258 259 253 22   6  5  0 0
+    258 252 256 22   6  2  3 0
+    261 262 259 22   8 11  5 0
+    261 258 260 22   8  6  7 0
+    265 266 267 23   0 10  1 0
+    268 264 267 23   3  2  1 0
+    270 271 265 23   6  5  0 0
+    270 264 268 23   6  2  3 0
+    273 274 271 23   8 11  5 0
+    273 270 272 23   8  6  7 0
+    277 278 279 24   0 10  1 0
+    280 276 279 24   3  2  1 0
+    283 277 276 24   5  0  2 0
+    284 282 276 24   7  6  2 0
+    285 286 283 24   8 11  5 0
+    285 282 284 24   8  6  7 0
+endnode
+node trimesh triangle_spikes.005
+  parent ttj21_j002_01
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap ttj21_spikes01
+  shininess 1
+  rotatetexture 0
+  tilefade 0
+  verts 42
+     6.37956  0.13695  3.41532
+     6.20936  1.95315  4.37177
+     4.40170  1.35695  2.96447
+     4.50993  1.29019  5.32824
+     4.68014 -0.52601  4.37177
+     6.44073  2.47172  3.41532
+     4.77835  3.22275  4.37177
+     4.51328  1.41795  5.32824
+     6.17566  0.66692  4.37177
+     4.40170 -0.09948  5.15318
+     5.85813  1.35695  5.15318
+     4.40170  1.35695  3.28706
+     4.40170  2.81338  5.15318
+     2.94527  1.35695  5.15318
+     4.91850  0.84354  5.47576
+     4.91511  1.87375  5.47576
+     4.40170  1.35695  3.60964
+     3.88490  1.87036  5.47576
+     3.88829  0.84016  5.47576
+     4.32056 -0.96549  3.41532
+     5.81445  0.08133  4.37177
+     4.40170  1.35695  2.96447
+     4.39726  1.22987  5.32824
+     2.90337  0.18304  4.37177
+     4.40170 -0.96691  3.41532
+     5.85813  0.13144  4.37177
+     4.40170  1.22979  5.32824
+     2.94527  0.13144  4.37177
+     4.44228  3.68046  3.41532
+     2.96689  2.60771  4.37177
+     4.40170  1.35695  2.96447
+     4.40392  1.48410  5.32824
+     5.87930  2.55685  4.37177
+     2.40284  2.54223  3.41532
+     2.60473  0.72928  4.37177
+     4.40170  1.35695  2.96447
+     4.29232  1.42181  5.32824
+     4.09043  3.23476  4.37177
+     2.38245  0.20676  3.41532
+     4.05769 -0.51514  4.37177
+     4.29120  1.29401  5.32824
+     2.61597  2.01591  4.37177
+  tverts 5
+     0.0101  0.9899  0
+     0.0101  0.0101  0
+     0.5000  0.5000  0
+     0.9899  0.0101  0
+     0.9899  0.9899  0
+  faces 36
+     0  1  2 1  0 1 2 0
+     1  3  2 1  1 3 2 0
+     3  4  2 1  3 4 2 0
+     4  0  2 1  4 0 2 0
+     5  6  2 2  0 1 2 0
+     6  7  2 2  1 3 2 0
+     7  8  2 2  3 4 2 0
+     8  5  2 2  4 0 2 0
+     9 10 11 3  0 1 2 0
+    10 12 11 3  1 3 2 0
+    12 13 11 3  3 4 2 0
+    13  9 11 3  4 0 2 0
+    14 15 16 4  0 1 2 0
+    15 17 16 4  1 3 2 0
+    17 18 16 4  3 4 2 0
+    18 14 16 4  4 0 2 0
+    19 20 21 5  0 1 2 0
+    20 22 21 5  1 3 2 0
+    22 23 21 5  3 4 2 0
+    23 19 21 5  4 0 2 0
+    24 25 21 6  0 1 2 0
+    25 26 21 6  1 3 2 0
+    26 27 21 6  3 4 2 0
+    27 24 21 6  4 0 2 0
+    28 29 30 7  0 1 2 0
+    29 31 30 7  1 3 2 0
+    31 32 30 7  3 4 2 0
+    32 28 30 7  4 0 2 0
+    33 34 35 8  0 1 2 0
+    34 36 35 8  1 3 2 0
+    36 37 35 8  3 4 2 0
+    37 33 35 8  4 0 2 0
+    38 39 35 9  0 1 2 0
+    39 40 35 9  1 3 2 0
+    40 41 35 9  3 4 2 0
+    41 38 35 9  4 0 2 0
+endnode
+endmodelgeom ttj21_j002_01
+
+# ANIM ASCII
+newanim animloop01 ttj21_j002_01
+  length 0.033
+  transtime 0.25
+  animroot ttj21_j002_01
+  node dummy ttj21_j002_01
+    parent null
+  endnode
+  node trimesh rock03.001
+    parent ttj21_j002_01
+  endnode
+  node trimesh rock01.001
+    parent ttj21_j002_01
+  endnode
+  node trimesh c01_03floor1.000
+    parent ttj21_j002_01
+  endnode
+  node trimesh c01_03floor1.002
+    parent ttj21_j002_01
+  endnode
+  node aabb c01_03floor1.003
+    parent ttj21_j002_01
+  endnode
+  node trimesh c01_03floor1.001
+    parent ttj21_j002_01
+  endnode
+  node trimesh c01_03floor1.005
+    parent ttj21_j002_01
+  endnode
+  node trimesh fern.002
+    parent ttj21_j002_01
+  endnode
+  node dummy tfm01_c01_03ml1
+    parent ttj21_j002_01
+  endnode
+  node trimesh palm1_LOD.001
+    parent ttj21_j002_01
+  endnode
+  node trimesh palm1_LOD.200
+    parent ttj21_j002_01
+  endnode
+  node trimesh Plane.1060_Plane.001
+    parent ttj21_j002_01
+  endnode
+  node trimesh tree_generic_001.002_generic_001.001
+    parent ttj21_j002_01
+  endnode
+  node trimesh 7_29_1_0_0.002
+    parent ttj21_j002_01
+  endnode
+  node trimesh pine.01_triangle_pine.000
+    parent ttj21_j002_01
+  endnode
+  node trimesh shrub.01_triangle_shrub.024
+    parent ttj21_j002_01
+  endnode
+  node trimesh triangle_spikes.005
+    parent ttj21_j002_01
+  endnode
+doneanim animloop01 ttj21_j002_01
+
+newanim tiledefault ttj21_j002_01
+  length 1.667
+  transtime 0.25
+  animroot ttj21_j002_01
+  node dummy ttj21_j002_01
+    parent null
+  endnode
+  node trimesh rock03.001
+    parent ttj21_j002_01
+  endnode
+  node trimesh rock01.001
+    parent ttj21_j002_01
+  endnode
+  node trimesh c01_03floor1.000
+    parent ttj21_j002_01
+  endnode
+  node trimesh c01_03floor1.002
+    parent ttj21_j002_01
+  endnode
+  node aabb c01_03floor1.003
+    parent ttj21_j002_01
+  endnode
+  node trimesh c01_03floor1.001
+    parent ttj21_j002_01
+  endnode
+  node trimesh c01_03floor1.005
+    parent ttj21_j002_01
+  endnode
+  node trimesh fern.002
+    parent ttj21_j002_01
+  endnode
+  node dummy tfm01_c01_03ml1
+    parent ttj21_j002_01
+  endnode
+  node trimesh palm1_LOD.001
+    parent ttj21_j002_01
+  endnode
+  node trimesh palm1_LOD.200
+    parent ttj21_j002_01
+  endnode
+  node trimesh Plane.1060_Plane.001
+    parent ttj21_j002_01
+  endnode
+  node trimesh tree_generic_001.002_generic_001.001
+    parent ttj21_j002_01
+  endnode
+  node trimesh 7_29_1_0_0.002
+    parent ttj21_j002_01
+  endnode
+  node trimesh pine.01_triangle_pine.000
+    parent ttj21_j002_01
+  endnode
+  node trimesh shrub.01_triangle_shrub.024
+    parent ttj21_j002_01
+  endnode
+  node trimesh triangle_spikes.005
+    parent ttj21_j002_01
+  endnode
+doneanim tiledefault ttj21_j002_01
+
+donemodel ttj21_j002_01
+

@@ -651,3 +651,49 @@ donemodel ttd21_w111_01
 
 
 
+.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap ttd21_water01
+  shininess 6
+  render 1
+  shadow 0
+  transparencyhint 1
+  rotatetexture 1
+  tilefade 0
+  verts 4
+    -5.00000  5.00000 -0.50000
+    -5.00000 -5.00000 -0.50000
+     5.00000  5.00000 -0.50000
+     5.00000 -5.00000 -0.50000
+  tverts 4
+    -1.0000  2.0000  0
+    -1.0000 -1.0000  0
+     2.0000  2.0000  0
+     2.0000 -1.0000  0
+  faces 2
+    0 1 2 1  0 1 2 0
+    3 2 1 1  3 2 1 0
+endnode
+endmodelgeom ttd21_w111_01
+donemodel ttd21_w111_01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

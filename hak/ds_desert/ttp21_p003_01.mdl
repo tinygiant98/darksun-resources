@@ -1313,3 +1313,61 @@ newanim tiledefault ttp21_p003_01
 doneanim tiledefault ttp21_p003_01
 
 donemodel ttp21_p003_01
+2 16  2 7 6 0
+    136 137 138 16  0 8 1 0
+    140 135 138 16  3 2 1 0
+    141 136 135 16  5 0 2 0
+    135 140 143 16  2 3 7 0
+endnode
+endmodelgeom ttp21_p003_01
+
+# ANIM ASCII
+newanim animloop01 ttp21_p003_01
+  length 0.033
+  transtime 0.25
+  animroot ttp21_p003_01
+  node dummy ttp21_p003_01
+    parent null
+  endnode
+  node trimesh c01_03floor1.003
+    parent ttp21_p003_01
+  endnode
+  node aabb c01_03floor1.009
+    parent ttp21_p003_01
+  endnode
+  node trimesh c01_03floor1.010
+    parent ttp21_p003_01
+  endnode
+  node trimesh pine.01_triangle_pine.002
+    parent ttp21_p003_01
+  endnode
+  node trimesh pine.01_triangle_pine.005
+    parent ttp21_p003_01
+  endnode
+doneanim animloop01 ttp21_p003_01
+
+newanim tiledefault ttp21_p003_01
+  length 1.667
+  transtime 0.25
+  animroot ttp21_p003_01
+  node dummy ttp21_p003_01
+    parent null
+  endnode
+  node trimesh c01_03floor1.003
+    parent ttp21_p003_01
+  endnode
+  node aabb c01_03floor1.009
+    parent ttp21_p003_01
+  endnode
+  node trimesh c01_03floor1.010
+    parent ttp21_p003_01
+  endnode
+  node trimesh pine.01_triangle_pine.002
+    parent ttp21_p003_01
+  endnode
+  node trimesh pine.01_triangle_pine.005
+    parent ttp21_p003_01
+  endnode
+doneanim tiledefault ttp21_p003_01
+
+donemodel ttp21_p003_01

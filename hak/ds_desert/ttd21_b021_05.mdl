@@ -961,3 +961,50 @@ newanim tiledefault ttd21_b021_05
 doneanim tiledefault ttd21_b021_05
 
 donemodel ttd21_b021_05
+parent ttd21_b021_05
+  endnode
+doneanim night ttd21_b021_05
+
+newanim night2day ttd21_b021_05
+  length 0.033
+  transtime 0.25
+  animroot ttd21_b021_05
+  node dummy ttd21_b021_05
+    parent null
+  endnode
+  node aabb walkmesh13
+    parent ttd21_b021_05
+  endnode
+  node trimesh Cube.001
+    parent ttd21_b021_05
+  endnode
+  node trimesh door.002
+    parent ttd21_b021_05
+  endnode
+  node trimesh stairs32.001
+    parent ttd21_b021_05
+  endnode
+doneanim night2day ttd21_b021_05
+
+newanim tiledefault ttd21_b021_05
+  length 0.0
+  transtime 0.0
+  animroot ttd21_b021_05
+  node dummy ttd21_b021_05
+    parent null
+  endnode
+  node aabb walkmesh13
+    parent ttd21_b021_05
+  endnode
+  node trimesh Cube.001
+    parent ttd21_b021_05
+  endnode
+  node trimesh door.002
+    parent ttd21_b021_05
+  endnode
+  node trimesh stairs32.001
+    parent ttd21_b021_05
+  endnode
+doneanim tiledefault ttd21_b021_05
+
+donemodel ttd21_b021_05

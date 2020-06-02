@@ -375,3 +375,22 @@ newanim tiledefault ttd21_b021_07
 doneanim tiledefault ttd21_b021_07
 
 donemodel ttd21_b021_07
+d21_b021_07
+  length 0.0
+  transtime 0.0
+  animroot ttd21_b021_07
+  node dummy ttd21_b021_07
+    parent null
+  endnode
+  node trimesh Cylinder071
+    parent ttd21_b021_07
+  endnode
+  node trimesh b1_01002
+    parent ttd21_b021_07
+  endnode
+  node aabb walkmesh09
+    parent ttd21_b021_07
+  endnode
+doneanim tiledefault ttd21_b021_07
+
+donemodel ttd21_b021_07

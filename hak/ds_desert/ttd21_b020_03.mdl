@@ -546,3 +546,30 @@ newanim tiledefault ttd21_b020_03
 doneanim tiledefault ttd21_b020_03
 
 donemodel ttd21_b020_03
+day ttd21_b020_03
+
+newanim tiledefault ttd21_b020_03
+  length 0.0
+  transtime 0.0
+  animroot ttd21_b020_03
+  node dummy ttd21_b020_03
+    parent null
+  endnode
+  node trimesh A1.003
+    parent ttd21_b020_03
+  endnode
+  node trimesh b1_03
+    parent ttd21_b020_03
+  endnode
+  node aabb walkmesh03
+    parent ttd21_b020_03
+  endnode
+  node dummy ttd21_b020_03ml2
+    parent ttd21_b020_03
+  endnode
+  node dummy ttd21_b020_03ml1
+    parent ttd21_b020_03
+  endnode
+doneanim tiledefault ttd21_b020_03
+
+donemodel ttd21_b020_03

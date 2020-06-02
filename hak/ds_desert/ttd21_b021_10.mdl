@@ -526,3 +526,29 @@ newanim tiledefault ttd21_b021_10
 doneanim tiledefault ttd21_b021_10
 
 donemodel ttd21_b021_10
+ent ttd21_b021_10
+  endnode
+  node trimesh Plane00001
+    parent ttd21_b021_10
+  endnode
+doneanim night2day ttd21_b021_10
+
+newanim tiledefault ttd21_b021_10
+  length 0.0
+  transtime 0.0
+  animroot ttd21_b021_10
+  node dummy ttd21_b021_10
+    parent null
+  endnode
+  node trimesh b1_01006
+    parent ttd21_b021_10
+  endnode
+  node aabb walkmesh14
+    parent ttd21_b021_10
+  endnode
+  node trimesh Plane00001
+    parent ttd21_b021_10
+  endnode
+doneanim tiledefault ttd21_b021_10
+
+donemodel ttd21_b021_10

@@ -926,3 +926,45 @@ newanim tiledefault ttd21_sf02_01
 doneanim tiledefault ttd21_sf02_01
 
 donemodel ttd21_sf02_01
+esh c01_03floor1.000
+    parent ttd21_sf02_01
+  endnode
+  node trimesh c01_03floor1.001
+    parent ttd21_sf02_01
+  endnode
+  node trimesh c01_03floor1.007
+    parent ttd21_sf02_01
+  endnode
+  node aabb c01_03floor1.011
+    parent ttd21_sf02_01
+  endnode
+  node dummy tfm01_c01_03ml1
+    parent ttd21_sf02_01
+  endnode
+doneanim animloop01 ttd21_sf02_01
+
+newanim tiledefault ttd21_sf02_01
+  length 1.667
+  transtime 0.25
+  animroot ttd21_sf02_01
+  node dummy ttd21_sf02_01
+    parent null
+  endnode
+  node trimesh c01_03floor1.000
+    parent ttd21_sf02_01
+  endnode
+  node trimesh c01_03floor1.001
+    parent ttd21_sf02_01
+  endnode
+  node trimesh c01_03floor1.007
+    parent ttd21_sf02_01
+  endnode
+  node aabb c01_03floor1.011
+    parent ttd21_sf02_01
+  endnode
+  node dummy tfm01_c01_03ml1
+    parent ttd21_sf02_01
+  endnode
+doneanim tiledefault ttd21_sf02_01
+
+donemodel ttd21_sf02_01

@@ -1050,3 +1050,51 @@ newanim tiledefault ttd22_e001_01
 doneanim tiledefault ttd22_e001_01
 
 donemodel ttd22_e001_01
+ 1   0 54 55 0
+    58  2 54 1  47 56 57 0
+     2 57 54 1  56 58 57 0
+     9 53 58 1   0 55 47 0
+    54  4 58 1  57 46 47 0
+    56  3 35 1  52 48 32 0
+     9  1 55 1   0 50 53 0
+endnode
+endmodelgeom ttd22_e001_01
+
+# ANIM ASCII
+newanim animloop01 ttd22_e001_01
+  length 0.033
+  transtime 0.25
+  animroot ttd22_e001_01
+  node dummy ttd22_e001_01
+    parent null
+  endnode
+  node trimesh c01_03floor1.002
+    parent ttd22_e001_01
+  endnode
+  node aabb c01_03floor1.004
+    parent ttd22_e001_01
+  endnode
+  node trimesh c01_03floor1.005
+    parent ttd22_e001_01
+  endnode
+doneanim animloop01 ttd22_e001_01
+
+newanim tiledefault ttd22_e001_01
+  length 1.667
+  transtime 0.25
+  animroot ttd22_e001_01
+  node dummy ttd22_e001_01
+    parent null
+  endnode
+  node trimesh c01_03floor1.002
+    parent ttd22_e001_01
+  endnode
+  node aabb c01_03floor1.004
+    parent ttd22_e001_01
+  endnode
+  node trimesh c01_03floor1.005
+    parent ttd22_e001_01
+  endnode
+doneanim tiledefault ttd22_e001_01
+
+donemodel ttd22_e001_01

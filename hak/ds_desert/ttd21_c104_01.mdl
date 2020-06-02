@@ -68,3 +68,7 @@ node aabb walmesh
 endnode
 endmodelgeom ttd21_c104_01
 donemodel ttd21_c104_01
+00   1
+endnode
+endmodelgeom ttd21_c104_01
+donemodel ttd21_c104_01

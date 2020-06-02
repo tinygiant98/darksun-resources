@@ -395,3 +395,22 @@ newanim tiledefault ttd21_b020_30
 doneanim tiledefault ttd21_b020_30
 
 donemodel ttd21_b020_30
+dnode
+  node dummy ttd21_b020_17ml1.002
+    parent ttd21_b020_30
+  endnode
+  node dummy ttd21_b020_17a.002
+    parent ttd21_b020_30
+  endnode
+  node dummy l_dayn08.027
+    parent ttd21_b020_17a.002
+    colorkey
+       0.000 0.00 0.00 0.00
+    endlist
+  endnode
+  node aabb Plane.001
+    parent ttd21_b020_30
+  endnode
+doneanim tiledefault ttd21_b020_30
+
+donemodel ttd21_b020_30

@@ -12334,3 +12334,488 @@ newanim tiledefault ttd21_b021_08
 doneanim tiledefault ttd21_b021_08
 
 donemodel ttd21_b021_08
+114 112 1  49 48 50 0
+    114 116 112 1  48 51 50 0
+    117 118 116 1  53 52 51 0
+    121 124 120 1  55 54 56 0
+    122 121 120 1  57 55 56 0
+    118 123 122 1  59 58 57 0
+    253 126 125 1  62 66 60 0
+    128 129 127 2   1  0  2 0
+    129 131 127 2   0  3  2 0
+    132 133 131 2   5  4  3 0
+    136 140 135 2   7  6  8 0
+    137 136 135 2   9  7  8 0
+    133 138 137 2  11 10  9 0
+    140 141 139 2  13 12 14 0
+    141 143 139 2  12 15 14 0
+    144 145 143 2  17 16 15 0
+    148 152 147 2  19 18 20 0
+    149 148 147 2  21 19 20 0
+    145 150 149 2  23 22 21 0
+    152 153 151 2  25 24 26 0
+    153 155 151 2  24 27 26 0
+    156 157 155 2  29 28 27 0
+    160 164 159 2  31 30 32 0
+    161 160 159 2  33 31 32 0
+    157 162 161 2  35 34 33 0
+    164 165 163 2  37 36 38 0
+    165 167 163 2  36 39 38 0
+    168 174 167 2  41 40 39 0
+    171 176 170 2  43 42 44 0
+    172 171 170 2  45 43 44 0
+    174 173 172 2  47 46 45 0
+    176 177 175 2  49 48 50 0
+    177 179 175 2  48 51 50 0
+    180 181 179 2  53 52 51 0
+    184 187 183 2  55 54 56 0
+    185 184 183 2  57 55 56 0
+    181 186 185 2  59 58 57 0
+    187 190 189 2  61 60 62 0
+    190 191 189 2  64 63 65 0
+    194 128 193 2   0  1  2 0
+    195 194 193 2   3  0  2 0
+    197 196 195 2   4  5  3 0
+    204 200 199 2   6  7  8 0
+    200 201 199 2   7  9  8 0
+    202 197 201 2  10 11  9 0
+    205 204 203 2  12 13 14 0
+    207 205 203 2  15 12 14 0
+    209 208 207 2  16 17 15 0
+    216 212 211 2  18 19 20 0
+    212 213 211 2  19 21 20 0
+    214 209 213 2  22 23 21 0
+    217 216 215 2  24 25 26 0
+    219 217 215 2  27 24 26 0
+    221 220 219 2  28 29 27 0
+    228 224 223 2  30 31 32 0
+    224 225 223 2  31 33 32 0
+    226 221 225 2  34 35 33 0
+    229 228 227 2  36 37 38 0
+    231 229 227 2  39 36 38 0
+    238 232 231 2  40 41 39 0
+    240 235 234 2  42 43 44 0
+    235 236 234 2  43 45 44 0
+    237 238 236 2  46 47 45 0
+    241 240 239 2  48 49 50 0
+    243 241 239 2  51 48 50 0
+    245 244 243 2  52 53 51 0
+    251 248 247 2  54 55 56 0
+    248 249 247 2  55 57 56 0
+    250 245 249 2  58 59 57 0
+    271 251 270 2  60 61 62 0
+    125 254 253 1  48 51 50 0
+    255 256 254 1  53 52 51 0
+    259 263 258 1  55 54 56 0
+    260 259 258 1  57 55 56 0
+    256 261 260 1  59 58 57 0
+    263 264 262 1  61 60 62 0
+    264 266 262 1  67 68 69 0
+    267 268 266 1  70 63 68 0
+    272 271 270 2  51 48 50 0
+    274 273 272 2  52 53 51 0
+    281 277 276 2  54 55 56 0
+    277 278 276 2  55 57 56 0
+    279 274 278 2  58 59 57 0
+    282 281 280 2  60 61 62 0
+    284 282 280 2  68 67 69 0
+    286 285 284 2  63 70 68 0
+      2   3   1 1   0 71  1 0
+      4   5   2 1   3  5  0 0
+      6   7   5 1   4 72  5 0
+     13  15   9 1   6 73  7 0
+      9  11  10 1   7 10  9 0
+     11   7   6 1  10 74 11 0
+     14  15  13 1  12 75 13 0
+     16  17  14 1  15 17 12 0
+     18  19  17 1  16 76 17 0
+     25  27  21 1  18 77 19 0
+     21  23  22 1  19 22 21 0
+     23  19  18 1  22 78 23 0
+     26  27  25 1  24 79 25 0
+     28  29  26 1  27 29 24 0
+     30  31  29 1  28 80 29 0
+     37  39  33 1  30 81 31 0
+     33  35  34 1  31 34 33 0
+     35  31  30 1  34 82 35 0
+     38  39  37 1  36 83 37 0
+     40  41  38 1  39 41 36 0
+     47  42  41 1  40 84 41 0
+     49  51  44 1  42 85 43 0
+     44  46  45 1  43 46 45 0
+     46  42  47 1  46 86 47 0
+     50  51  49 1  48 87 49 0
+     52  53  50 1  51 53 48 0
+     54  55  53 1  52 88 53 0
+     60  61  57 1  54 89 55 0
+     57  59  58 1  55 58 57 0
+     59  55  54 1  58 90 59 0
+     63  61  60 1  60 66 61 0
+     64  65  63 1  63 91 64 0
+      1   3  67 1   1 71  0 0
+     67  69  68 1   0  5  3 0
+     69  71  70 1   5 72  4 0
+     73  79  77 1   7 73  6 0
+     74  75  73 1   9 10  7 0
+     70  71  75 1  11 74 10 0
+     77  79  78 1  13 75 12 0
+     78  81  80 1  12 17 15 0
+     81  83  82 1  17 76 16 0
+     85  91  89 1  19 77 18 0
+     86  87  85 1  21 22 19 0
+     82  83  87 1  23 78 22 0
+     89  91  90 1  25 79 24 0
+     90  93  92 1  24 29 27 0
+     93  95  94 1  29 80 28 0
+     97 103 101 1  31 81 30 0
+     98  99  97 1  33 34 31 0
+     94  95  99 1  35 82 34 0
+    101 103 102 1  37 83 36 0
+    102 105 104 1  36 41 39 0
+    105 106 111 1  41 84 40 0
+    108 115 113 1  43 85 42 0
+    109 110 108 1  45 46 43 0
+    111 106 110 1  47 86 46 0
+    113 115 114 1  49 87 48 0
+    114 117 116 1  48 53 51 0
+    117 119 118 1  53 88 52 0
+    121 126 124 1  55 89 54 0
+    122 123 121 1  57 58 55 0
+    118 119 123 1  59 90 58 0
+    253 124 126 1  62 61 66 0
+    128 130 129 2   1 71  0 0
+    129 132 131 2   0  5  3 0
+    132 134 133 2   5 72  4 0
+    136 142 140 2   7 73  6 0
+    137 138 136 2   9 10  7 0
+    133 134 138 2  11 74 10 0
+    140 142 141 2  13 75 12 0
+    141 144 143 2  12 17 15 0
+    144 146 145 2  17 76 16 0
+    148 154 152 2  19 77 18 0
+    149 150 148 2  21 22 19 0
+    145 146 150 2  23 78 22 0
+    152 154 153 2  25 79 24 0
+    153 156 155 2  24 29 27 0
+    156 158 157 2  29 80 28 0
+    160 166 164 2  31 81 30 0
+    161 162 160 2  33 34 31 0
+    157 158 162 2  35 82 34 0
+    164 166 165 2  37 83 36 0
+    165 168 167 2  36 41 39 0
+    168 169 174 2  41 84 40 0
+    171 178 176 2  43 85 42 0
+    172 173 171 2  45 46 43 0
+    174 169 173 2  47 86 46 0
+    176 178 177 2  49 87 48 0
+    177 180 179 2  48 53 51 0
+    180 182 181 2  53 88 52 0
+    184 188 187 2  55 89 54 0
+    185 186 184 2  57 58 55 0
+    181 182 186 2  59 90 58 0
+    187 188 190 2  61 66 60 0
+    190 192 191 2  64 91 63 0
+    194 130 128 2   0 71  1 0
+    195 196 194 2   3  5  0 0
+    197 198 196 2   4 72  5 0
+    204 206 200 2   6 73  7 0
+    200 202 201 2   7 10  9 0
+    202 198 197 2  10 74 11 0
+    205 206 204 2  12 75 13 0
+    207 208 205 2  15 17 12 0
+    209 210 208 2  16 76 17 0
+    216 218 212 2  18 77 19 0
+    212 214 213 2  19 22 21 0
+    214 210 209 2  22 78 23 0
+    217 218 216 2  24 79 25 0
+    219 220 217 2  27 29 24 0
+    221 222 220 2  28 80 29 0
+    228 230 224 2  30 81 31 0
+    224 226 225 2  31 34 33 0
+    226 222 221 2  34 82 35 0
+    229 230 228 2  36 83 37 0
+    231 232 229 2  39 41 36 0
+    238 233 232 2  40 84 41 0
+    240 242 235 2  42 85 43 0
+    235 237 236 2  43 46 45 0
+    237 233 238 2  46 86 47 0
+    241 242 240 2  48 87 49 0
+    243 244 241 2  51 53 48 0
+    245 246 244 2  52 88 53 0
+    251 252 248 2  54 89 55 0
+    248 250 249 2  55 58 57 0
+    250 246 245 2  58 90 59 0
+    271 252 251 2  60 66 61 0
+    125 255 254 1  48 53 51 0
+    255 257 256 1  53 88 52 0
+    259 265 263 1  55 89 54 0
+    260 261 259 1  57 58 55 0
+    256 257 261 1  59 90 58 0
+    263 265 264 1  61 66 60 0
+    264 267 266 1  67 70 68 0
+    267 269 268 1  70 91 63 0
+    272 273 271 2  51 53 48 0
+    274 275 273 2  52 88 53 0
+    281 283 277 2  54 89 55 0
+    277 279 278 2  55 58 57 0
+    279 275 274 2  58 90 59 0
+    282 283 281 2  60 66 61 0
+    284 285 282 2  68 70 67 0
+    286 287 285 2  63 91 70 0
+endnode
+endmodelgeom ttd21_b021_08
+
+# ANIM ASCII
+newanim animloop01 ttd21_b021_08
+  length 0.033
+  transtime 0.0
+  animroot ttd21_b021_08
+  node dummy ttd21_b021_08
+    parent null
+  endnode
+  node trimesh Cylinder
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.001
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.004
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.005
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.007
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.008
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.009
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cylinder083
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane002
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane003
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane004
+    parent ttd21_b021_08
+  endnode
+doneanim animloop01 ttd21_b021_08
+
+newanim day ttd21_b021_08
+  length 0.3
+  transtime 0.25
+  animroot ttd21_b021_08
+  node dummy ttd21_b021_08
+    parent null
+  endnode
+  node trimesh Cylinder
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.001
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.004
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.005
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.007
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.008
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.009
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cylinder083
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane002
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane003
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane004
+    parent ttd21_b021_08
+  endnode
+doneanim day ttd21_b021_08
+
+newanim day2night ttd21_b021_08
+  length 0.033
+  transtime 0.25
+  animroot ttd21_b021_08
+  node dummy ttd21_b021_08
+    parent null
+  endnode
+  node trimesh Cylinder
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.001
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.004
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.005
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.007
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.008
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.009
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cylinder083
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane002
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane003
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane004
+    parent ttd21_b021_08
+  endnode
+doneanim day2night ttd21_b021_08
+
+newanim night ttd21_b021_08
+  length 0.3
+  transtime 0.25
+  animroot ttd21_b021_08
+  node dummy ttd21_b021_08
+    parent null
+  endnode
+  node trimesh Cylinder
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.001
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.004
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.005
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.007
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.008
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.009
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cylinder083
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane002
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane003
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane004
+    parent ttd21_b021_08
+  endnode
+doneanim night ttd21_b021_08
+
+newanim night2day ttd21_b021_08
+  length 0.033
+  transtime 0.25
+  animroot ttd21_b021_08
+  node dummy ttd21_b021_08
+    parent null
+  endnode
+  node trimesh Cylinder
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.001
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.004
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.005
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.007
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.008
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.009
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cylinder083
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane002
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane003
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane004
+    parent ttd21_b021_08
+  endnode
+doneanim night2day ttd21_b021_08
+
+newanim tiledefault ttd21_b021_08
+  length 0.0
+  transtime 0.0
+  animroot ttd21_b021_08
+  node dummy ttd21_b021_08
+    parent null
+  endnode
+  node trimesh Cylinder
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.001
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.004
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.005
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.007
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.008
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cube.009
+    parent ttd21_b021_08
+  endnode
+  node trimesh Cylinder083
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane002
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane003
+    parent ttd21_b021_08
+  endnode
+  node trimesh Plane004
+    parent ttd21_b021_08
+  endnode
+doneanim tiledefault ttd21_b021_08
+
+donemodel ttd21_b021_08

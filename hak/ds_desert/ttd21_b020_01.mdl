@@ -553,3 +553,30 @@ newanim tiledefault ttd21_b020_01
 doneanim tiledefault ttd21_b020_01
 
 donemodel ttd21_b020_01
+trimesh A1.001
+    parent ttd21_b020_01
+  endnode
+  node trimesh b1_01
+    parent ttd21_b020_01
+  endnode
+  node aabb walkmesh01
+    parent ttd21_b020_01
+  endnode
+  node dummy ttd21_b020_01ml2
+    parent ttd21_b020_01
+  endnode
+  node dummy ttd21_b020_01ml1
+    parent ttd21_b020_01
+  endnode
+  node dummy ttd21_b020_01a
+    parent ttd21_b020_01
+  endnode
+  node dummy l_dayn08
+    parent ttd21_b020_01a
+    colorkey
+       0.000 0.00 0.00 0.00
+    endlist
+  endnode
+doneanim tiledefault ttd21_b020_01
+
+donemodel ttd21_b020_01

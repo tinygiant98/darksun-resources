@@ -1,0 +1,36 @@
+# Exported from NWmax 0.8 c00 at 17/11/2019 07:29:23
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh PWK
+  parent ak_fence05_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.537255 0.0313726 0.431373 
+  bitmap NULL
+  verts 9
+    -0.027931 -0.893878 0.0
+    0.0551824 -1.08065 0.0
+    0.189448 -0.76215 0.0
+    -0.244446 0.0 0.0
+    0.0 0.0 0.0
+    0.100646 -0.0757694 0.0
+    -0.131714 1.01154 0.0
+    -0.0265522 1.06848 0.0
+    0.0811968 0.682896 0.0
+  faces 8
+    3 0 4  1  0 0 0  7
+    1 4 0  1  0 0 0  7
+    4 1 5  1  0 0 0  7
+    2 5 1  1  0 0 0  7
+    6 3 7  1  0 0 0  7
+    4 7 3  1  0 0 0  7
+    7 4 8  1  0 0 0  7
+    5 8 4  1  0 0 0  7
+endnode
+node dummy e05_pwk_use01
+  parent ak_fence05_pwk
+  position 0.0 -1.4 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.65098 0.898039 0.898039 
+endnode

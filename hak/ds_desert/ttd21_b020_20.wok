@@ -52,4 +52,6 @@ node aabb Cylinder.038
         0.80000 -5.00002  14.00001   5.00000  5.00001  14.00001   6
         3.30000  1.40000  14.00000   5.00000  5.00001  14.00001   2
 endnode
+endwalkmeshgeom ttd21_b020_20  14.00001   2
+endnode
 endwalkmeshgeom ttd21_b020_20

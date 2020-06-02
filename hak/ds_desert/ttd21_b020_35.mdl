@@ -409,3 +409,23 @@ newanim tiledefault ttd21_b020_35
 doneanim tiledefault ttd21_b020_35
 
 donemodel ttd21_b020_35
+ll
+  endnode
+  node trimesh A1.029
+    parent ttd21_b020_35
+  endnode
+  node aabb Cylinder.059
+    parent ttd21_b020_35
+  endnode
+  node trimesh Cylinder.060
+    parent ttd21_b020_35
+  endnode
+  node dummy ttd21_b020_09ml2.001
+    parent ttd21_b020_35
+  endnode
+  node dummy ttd21_b020_09ml1.001
+    parent ttd21_b020_35
+  endnode
+doneanim tiledefault ttd21_b020_35
+
+donemodel ttd21_b020_35
