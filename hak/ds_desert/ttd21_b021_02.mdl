@@ -266,16 +266,3 @@ newanim tiledefault ttd21_b021_02
 doneanim tiledefault ttd21_b021_02
 
 donemodel ttd21_b021_02
-imroot ttd21_b021_02
-  node dummy ttd21_b021_02
-    parent null
-  endnode
-  node trimesh Cylinder.073
-    parent ttd21_b021_02
-  endnode
-  node aabb walkmesh07
-    parent ttd21_b021_02
-  endnode
-doneanim tiledefault ttd21_b021_02
-
-donemodel ttd21_b021_02

@@ -450,24 +450,3 @@ newanim tiledefault ttd21_b020_33
 doneanim tiledefault ttd21_b020_33
 
 donemodel ttd21_b020_33
-ylinder.055
-    parent ttd21_b020_33
-  endnode
-  node dummy ttd21_b020_16ml2.001
-    parent ttd21_b020_33
-  endnode
-  node dummy ttd21_b020_16ml1.001
-    parent ttd21_b020_33
-  endnode
-  node dummy ttd21_b020_16a.001
-    parent ttd21_b020_33
-  endnode
-  node dummy l_dayn08.031
-    parent ttd21_b020_16a.001
-    colorkey
-       0.000 0.00 0.00 0.00
-    endlist
-  endnode
-doneanim tiledefault ttd21_b020_33
-
-donemodel ttd21_b020_33

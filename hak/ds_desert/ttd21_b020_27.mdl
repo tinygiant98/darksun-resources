@@ -459,24 +459,3 @@ newanim tiledefault ttd21_b020_27
 doneanim tiledefault ttd21_b020_27
 
 donemodel ttd21_b020_27
-trimesh Cylinder.046
-    parent ttd21_b020_27
-  endnode
-  node dummy ttd21_b020_22ml2.001
-    parent ttd21_b020_27
-  endnode
-  node dummy ttd21_b020_22ml1.001
-    parent ttd21_b020_27
-  endnode
-  node dummy ttd21_b020_22a.001
-    parent ttd21_b020_27
-  endnode
-  node dummy l_dayn08.024
-    parent ttd21_b020_22a.001
-    colorkey
-       0.000 0.00 0.00 0.00
-    endlist
-  endnode
-doneanim tiledefault ttd21_b020_27
-
-donemodel ttd21_b020_27

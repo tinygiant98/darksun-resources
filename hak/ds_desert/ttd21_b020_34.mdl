@@ -590,31 +590,3 @@ newanim tiledefault ttd21_b020_34
 doneanim tiledefault ttd21_b020_34
 
 donemodel ttd21_b020_34
-
-  node trimesh A1.028
-    parent ttd21_b020_34
-  endnode
-  node aabb Cylinder.057
-    parent ttd21_b020_34
-  endnode
-  node trimesh Cylinder.058
-    parent ttd21_b020_34
-  endnode
-  node dummy ttd21_b020_10ml2.001
-    parent ttd21_b020_34
-  endnode
-  node dummy ttd21_b020_10ml1.001
-    parent ttd21_b020_34
-  endnode
-  node dummy ttd21_b020_10a.001
-    parent ttd21_b020_34
-  endnode
-  node dummy l_dayn08.032
-    parent ttd21_b020_10a.001
-    colorkey
-       0.000 0.00 0.00 0.00
-    endlist
-  endnode
-doneanim tiledefault ttd21_b020_34
-
-donemodel ttd21_b020_34

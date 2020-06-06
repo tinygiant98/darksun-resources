@@ -367,21 +367,3 @@ newanim tiledefault ttd21_b020_29
 doneanim tiledefault ttd21_b020_29
 
 donemodel ttd21_b020_29
-
-    parent ttd21_b020_29
-  endnode
-  node dummy ttd21_b020_18ml1.002
-    parent ttd21_b020_29
-  endnode
-  node dummy ttd21_b020_18a.002
-    parent ttd21_b020_29
-  endnode
-  node dummy l_dayn08.026
-    parent ttd21_b020_18a.002
-    colorkey
-       0.000 0.00 0.00 0.00
-    endlist
-  endnode
-doneanim tiledefault ttd21_b020_29
-
-donemodel ttd21_b020_29
