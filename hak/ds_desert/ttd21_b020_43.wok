@@ -47,6 +47,4 @@ node aabb walkmesh01.001
        -5.00000 -1.70000  14.00001   5.00000  1.63390  14.00001   0
        -5.00000 -1.73610  14.00001   5.00000  1.63390  14.00001   3
 endnode
-endwalkmeshgeom ttd21_b020_4300001   3
-endnode
 endwalkmeshgeom ttd21_b020_43

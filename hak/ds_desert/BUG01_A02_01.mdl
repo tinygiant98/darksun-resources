@@ -79,8 +79,8 @@ node aabb wok_02
     Temp6
     Temp7
     Trigger
-  ambient 0.784314 0.784314 0.784314 
-  diffuse 0.784314 0.784314 0.784314 
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.0 0.0 0.0 
   shininess 10.0
   bitmap Snow

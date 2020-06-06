@@ -20,4 +20,4 @@ node aabb walmesh
        -5.00000 -5.00000  0.00000   5.00000  5.00000  0.00000   0
        -5.00000 -5.00000  0.00000   5.00000  5.00000  0.00000   1
 endnode
-endwalkmeshgeom ttd21_c104_01meshgeom ttd21_c104_01
+endwalkmeshgeom ttd21_c104_01

@@ -746,35 +746,3 @@ node dummy Plane01.008
 endnode
 endmodelgeom ttd21_s020_006
 donemodel ttd21_s020_006
-ds_tt_sand01
-  shininess 1
-  render 1
-  shadow 0
-  rotatetexture 0
-  tilefade 0
-  verts 4
-     5.00000  5.00000  3.00000
-    -5.00000 -5.00000  3.00000
-     5.00000 -5.00000  3.00000
-    -5.00000  5.00000  3.00000
-  tverts 4
-    -0.4980 -0.4980  0
-     1.4980 -0.4980  0
-     1.4980  1.4980  0
-    -0.4980  1.4980  0
-  faces 2
-    2 0 3 1  0 1 2 0
-    2 3 1 1  0 2 3 0
-endnode
-node dummy Plane01.007
-  parent ttd21_s020_006
-  position  0.00000  0.00000  0.00000
-  orientation  0.00000  1.00000  0.00000  0.00000
-endnode
-node dummy Plane01.008
-  parent ttd21_s020_006
-  position  0.00000  0.00000  0.00000
-  orientation  0.00000  1.00000  0.00000  0.00000
-endnode
-endmodelgeom ttd21_s020_006
-donemodel ttd21_s020_006

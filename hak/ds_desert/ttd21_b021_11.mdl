@@ -228,15 +228,3 @@ newanim tiledefault ttd21_b021_11
 doneanim tiledefault ttd21_b021_11
 
 donemodel ttd21_b021_11
-21_b021_11
-    parent null
-  endnode
-  node trimesh Cylinder.075
-    parent ttd21_b021_11
-  endnode
-  node aabb walkmesh04
-    parent ttd21_b021_11
-  endnode
-doneanim tiledefault ttd21_b021_11
-
-donemodel ttd21_b021_11

@@ -143,11 +143,3 @@ newanim tiledefault ttd21_b021_14
 doneanim tiledefault ttd21_b021_14
 
 donemodel ttd21_b021_14
-null
-  endnode
-  node aabb walkmesh12.001
-    parent ttd21_b021_14
-  endnode
-doneanim tiledefault ttd21_b021_14
-
-donemodel ttd21_b021_14

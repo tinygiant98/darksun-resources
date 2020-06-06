@@ -485,27 +485,3 @@ newanim tiledefault ttd21_b020_12
 doneanim tiledefault ttd21_b020_12
 
 donemodel ttd21_b020_12
-
-    parent ttd21_b020_12
-  endnode
-  node aabb Cylinder.024
-    parent ttd21_b020_12
-  endnode
-  node dummy ttd21_b020_12ml2
-    parent ttd21_b020_12
-  endnode
-  node dummy ttd21_b020_12ml1
-    parent ttd21_b020_12
-  endnode
-  node dummy ttd21_b020_12a
-    parent ttd21_b020_12
-  endnode
-  node dummy l_dayn08.045
-    parent ttd21_b020_12a
-    colorkey
-       0.000 0.00 0.00 0.00
-    endlist
-  endnode
-doneanim tiledefault ttd21_b020_12
-
-donemodel ttd21_b020_12
