@@ -1,4 +1,4 @@
-# Exported from NWMax Plus v6.11.28 at 6/3/2020 12:24:45 AM
+# Exported from NWMax Plus v6.11.28 at 6/5/2020 3:27:42 PM
 # mdl file
 #
 #NWMax Plus MODEL  ASCII
@@ -71,9 +71,7 @@ node trimesh Object029
   Diffuse 1.0 1.0 1.0 
   Specular 0.0 0.0 0.0 
   shininess 1
-  center -6.49158 -120.139 224.47 
-  multimaterial 1
-    plc_ds_rck2
+  center -6.49152 -120.139 224.469 
   bitmap plc_ds_rck2
   verts 249
     7.29609 -2.94043 0.165595
@@ -1513,7 +1511,7 @@ node dummy ChunkyWood18_XYdimension
   parent ChunkyWood18
   position 0.0 0.0 0.0
   orientation -1.0 0.0 0.0 -6.28318
-  wirecolor 0.333333 0.109804 0.694118 
+  wirecolor 0.839216 0.894118 0.6 
 endnode
 endmodelgeom plc_ds_rck2
 

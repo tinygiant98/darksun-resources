@@ -1,4 +1,4 @@
-# Exported from NWMax Plus v6.11.28 at 6/4/2020 3:18:19 PM
+# Exported from NWMax Plus v6.11.28 at 6/5/2020 3:22:09 PM
 # mdl file
 #
 #NWMax Plus MODEL  ASCII
@@ -259,13 +259,13 @@ node dummy ChunkyWood18_XYdimension
   parent ChunkyWood18
   position 0.0 0.0 0.0
   orientation -1.0 0.0 0.0 -6.28318
-  wirecolor 0.333333 0.109804 0.694118 
+  wirecolor 0.603922 0.603922 0.898039 
 endnode
 node trimesh Object005
   parent plc_ds_rck5
   position 0.0 0.0 0.0445125
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.972549 0.819608 0.733333 
+  wirecolor 0.972549 0.819608 0.729412 
   tilefade 0
   scale 1.0
   render 1
@@ -280,7 +280,7 @@ node trimesh Object005
   Diffuse 1.0 1.0 1.0 
   Specular 0.0 0.0 0.0 
   shininess 1
-  center -1.73956 60.5333 282.963 
+  center -1.73949 60.533 282.963 
   bitmap plc_ds_rck5
   verts 457
     -0.597041 -2.17437 3.01711
@@ -1805,14 +1805,14 @@ newanim open plc_ds_rck5
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
+    node trimesh Object005
+        parent plc_ds_rck5
+    endnode
     node dummy plc_ds_genr_pwk
         parent plc_ds_rck5
     endnode
     node pwk pwk
         parent plc_ds_genr_pwk
-    endnode
-    node trimesh Object005
-        parent plc_ds_rck5
     endnode
 doneanim open plc_ds_rck5
 
@@ -1840,14 +1840,14 @@ newanim close2open plc_ds_rck5
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
+    node trimesh Object005
+        parent plc_ds_rck5
+    endnode
     node dummy plc_ds_genr_pwk
         parent plc_ds_rck5
     endnode
     node pwk pwk
         parent plc_ds_genr_pwk
-    endnode
-    node trimesh Object005
-        parent plc_ds_rck5
     endnode
 doneanim close2open plc_ds_rck5
 
@@ -1881,14 +1881,14 @@ newanim open2close plc_ds_rck5
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
+    node trimesh Object005
+        parent plc_ds_rck5
+    endnode
     node dummy plc_ds_genr_pwk
         parent plc_ds_rck5
     endnode
     node pwk pwk
         parent plc_ds_genr_pwk
-    endnode
-    node trimesh Object005
-        parent plc_ds_rck5
     endnode
 doneanim open2close plc_ds_rck5
 
@@ -1916,14 +1916,14 @@ newanim close plc_ds_rck5
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
+    node trimesh Object005
+        parent plc_ds_rck5
+    endnode
     node dummy plc_ds_genr_pwk
         parent plc_ds_rck5
     endnode
     node pwk pwk
         parent plc_ds_genr_pwk
-    endnode
-    node trimesh Object005
-        parent plc_ds_rck5
     endnode
 doneanim close plc_ds_rck5
 
@@ -1967,14 +1967,14 @@ newanim die plc_ds_rck5
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
+    node trimesh Object005
+        parent plc_ds_rck5
+    endnode
     node dummy plc_ds_genr_pwk
         parent plc_ds_rck5
     endnode
     node pwk pwk
         parent plc_ds_genr_pwk
-    endnode
-    node trimesh Object005
-        parent plc_ds_rck5
     endnode
 doneanim die plc_ds_rck5
 
@@ -2002,14 +2002,14 @@ newanim dead plc_ds_rck5
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
+    node trimesh Object005
+        parent plc_ds_rck5
+    endnode
     node dummy plc_ds_genr_pwk
         parent plc_ds_rck5
     endnode
     node pwk pwk
         parent plc_ds_genr_pwk
-    endnode
-    node trimesh Object005
-        parent plc_ds_rck5
     endnode
 doneanim dead plc_ds_rck5
 
@@ -2047,14 +2047,14 @@ newanim damage plc_ds_rck5
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
+    node trimesh Object005
+        parent plc_ds_rck5
+    endnode
     node dummy plc_ds_genr_pwk
         parent plc_ds_rck5
     endnode
     node pwk pwk
         parent plc_ds_genr_pwk
-    endnode
-    node trimesh Object005
-        parent plc_ds_rck5
     endnode
 doneanim damage plc_ds_rck5
 
@@ -2082,14 +2082,14 @@ newanim default plc_ds_rck5
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
+    node trimesh Object005
+        parent plc_ds_rck5
+    endnode
     node dummy plc_ds_genr_pwk
         parent plc_ds_rck5
     endnode
     node pwk pwk
         parent plc_ds_genr_pwk
-    endnode
-    node trimesh Object005
-        parent plc_ds_rck5
     endnode
 doneanim default plc_ds_rck5
 

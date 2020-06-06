@@ -1,4 +1,4 @@
-# Exported from NWMax Plus v6.11.28 at 6/4/2020 3:19:14 PM
+# Exported from NWMax Plus v6.11.28 at 6/5/2020 3:23:27 PM
 # mdl file
 #
 #NWMax Plus MODEL  ASCII
@@ -1415,7 +1415,7 @@ node dummy ChunkyWood18_XYdimension
   parent ChunkyWood18
   position 0.0 0.0 0.0
   orientation -1.0 0.0 0.0 -6.28318
-  wirecolor 0.345098 0.345098 0.882353 
+  wirecolor 0.105882 0.694118 0.345098 
 endnode
 endmodelgeom plc_ds_rck4
 
