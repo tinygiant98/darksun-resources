@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b61 at 11/27/2018 6:18:16 PM
+# Exported from NWmax 0.8 b61 at 6/7/2020 10:19:40 PM
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -1677,7 +1677,7 @@ node trimesh Mesh28
   diffuse 0.588 0.588 0.588 
   specular 0.0 0.0 0.0 
   shininess 10
-  center 0.0 -426.0 150.0 
+  center -426.0 0.0 150.0 
   bitmap tce21_black
   verts 8
     -4.67 -1.0 3.0
@@ -1984,7 +1984,7 @@ node trimesh Mesh27
   diffuse 0.588 0.588 0.588 
   specular 0.0 0.0 0.0 
   shininess 10
-  center 0.0 -419.0 187.5 
+  center -419.0 0.0 187.5 
   bitmap tce21_stucco02
   verts 28
     -3.82 -1.01 1.95
@@ -2465,16 +2465,3 @@ node trimesh wok01
 endnode
 endmodelgeom ttd21_s110_01
 donemodel ttd21_s110_01
-
-
-
-
-
-
-
-
-
-
-
-
-

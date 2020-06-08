@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b61 at 11/27/2018 10:45:48 PM
+# Exported from NWmax 0.8 b61 at 6/7/2020 10:24:23 PM
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -2496,12 +2496,3 @@ node trimesh Mesh527
 endnode
 endmodelgeom ttd21_s120_01
 donemodel ttd21_s120_01
-
-
-
-
-
-
-
-
-

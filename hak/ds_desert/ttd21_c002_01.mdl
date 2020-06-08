@@ -1,10 +1,10 @@
-# Exported from NWmax 0.8 b61 at 7/21/2018 2:29:45 PM
+# Exported from NWmax 0.8 b61 at 6/7/2020 10:03:25 PM
 # mdl file
 #
 #NWmax MODEL ASCII
 # model: ttd21_c002_01
-#local file: D:\gmax\Scenes\Adobe Buildings.gmax
-filedependancy Adobe Buildings.gmax
+#local file: Unknown
+filedependancy Unknown
 newmodel ttd21_c002_01
 setsupermodel ttd21_c002_01 NULL
 classification Tile
@@ -2119,18 +2119,18 @@ node dummy ttd21_c002_01a
   parent ttd21_c002_01
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.898039 0.603922 0.843137 
+  wirecolor 0.568627 0.109804 0.694118 
 endnode
 node dummy ttd21_c004_001a02
   parent ttd21_c002_01a
   position 0.0 0.0 3.0
   orientation 0.0 0.0 -1.0 -1.5708
-  wirecolor 0.898039 0.603922 0.843137 
+  wirecolor 0.568627 0.109804 0.694118 
 endnode
 node light l_dayn12
   parent ttd21_c004_001a02
   position -1.27483 -3.88856 1.79753
-  orientation 1.0 0.0 0.0 0.0
+  orientation 0.0 0.0 -1.0 0.0
   wirecolor 1.0 1.0 1.0 
   radius 5.0
   multiplier 1.0
@@ -2145,7 +2145,7 @@ endnode
 node light l_dayn13
   parent ttd21_c004_001a02
   position -1.27483 0.818621 16.3285
-  orientation 1.0 0.0 0.0 0.0
+  orientation 0.0 0.0 -1.0 0.0
   wirecolor 1.0 1.0 1.0 
   radius 5.0
   multiplier 1.0
@@ -2159,29 +2159,3 @@ node light l_dayn13
 endnode
 endmodelgeom ttd21_c002_01
 donemodel ttd21_c002_01
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
