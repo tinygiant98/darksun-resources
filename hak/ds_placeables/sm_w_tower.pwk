@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 c00 at 07/06/2020 12:38:17
+# Exported from NWmax 0.8 c00 at 08/06/2020 22:56:06
 # pwk file
 #
 #NWmax PWKMESH  ASCII
@@ -168,5 +168,5 @@ node dummy wer_pwk_use01
   parent sm_w_tower_pwk
   position 0.0 -0.7 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.423529 0.0313726 0.533333 
+  wirecolor 0.529412 0.0235294 0.0235294 
 endnode
