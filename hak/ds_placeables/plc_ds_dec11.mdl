@@ -1,14 +1,15 @@
-# Exported from NWMax Plus v6.11.28 at 1/5/2020 10:28:59 PM
+# Exported from NWmax 0.8 b61 at 6/28/2020 3:29:47 PM
 # mdl file
 #
-#NWMax Plus MODEL  ASCII
+#NWmax MODEL ASCII
 # model: plc_ds_dec11
-filedependancy wowstuff_NWN.max
+#local file: Unknown
+filedependancy Unknown
 newmodel plc_ds_dec11
 setsupermodel plc_ds_dec11 NULL
 classification Character
 setanimationscale 1.0
-#NWMax Plus GEOM  ASCII
+#NWmax GEOM  ASCII
 beginmodelgeom plc_ds_dec11
 node dummy plc_ds_dec11
   parent NULL
@@ -28,13 +29,11 @@ node trimesh Lnkundr
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
-  center 1.17466 -0.000883102 -381.731 
   ambient 0.588 0.588 0.588 
   diffuse 0.588 0.588 0.588 
   specular 0.0 0.0 0.0 
-  shininess 10.0
+  shininess 10
+  center 1.17465 -0.000879884 -381.732 
   bitmap plc_ds_food1
   verts 4
     -0.623715 0.0325682 -4.10725
@@ -54,7 +53,7 @@ node trimesh Lnkundr
     1.21591 -0.213419 0
     0.274248 0.712267 0
 endnode
-node trimesh world_expansion07_doodads_serpentine_8se_serpentine_long_drape10_m2_Geoset_000
+node trimesh curtain
   parent Lnkundr
   position -0.018251 -0.0368666 4.19144
   orientation 1.0 0.0 0.0 0.0
@@ -70,10 +69,10 @@ node trimesh world_expansion07_doodads_serpentine_8se_serpentine_long_drape10_m2
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center 0.0879059 -3.65327 -10.3836 
+  center 0.0879974 -3.65325 -10.3837 
   bitmap plc_ds_clth6
   verts 586
     -1.34637 0.126979 -0.092926
@@ -5547,10 +5546,10 @@ node trimesh boneh
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center 1.8251 0.509743 71.6064 
+  center 1.825 0.509745 71.6064 
   bitmap plc_ds_dec05
   verts 95
     2.24292 0.00177358 0.66667
@@ -6390,6 +6389,7 @@ node emitter fire!15
   render Normal
   blend_sel 1
   Blend Normal
+  spawntype_sel 0
   spawnType 0
   xSize 100.0
   ySize 99.0
@@ -6422,15 +6422,15 @@ node emitter fire!15
   loop 0
   bounce 0
   m_isTinted 1
-  Splat 0
+  splat 0
   affectedByWind false
   texture fxpa_smoke01
   twosidedtex 1
   xgrid 4
   ygrid 4
   fps 10
-  frameStart 0
-  frameEnd 24
+  framestart 0
+  frameend 24
   random 0
   lightningDelay 0.0
   lightningRadius 0.0
@@ -6444,7 +6444,7 @@ node emitter fire!15
   p2p_bezier2 0.0
   p2p_bezier3 0.0
   grav 0.0
-  Drag 0.0
+  drag 0.0
 endnode
 node emitter ChunkyWood17
   parent plc_ds_dec11
@@ -6457,6 +6457,7 @@ node emitter ChunkyWood17
   render Normal
   blend_sel 1
   Blend Normal
+  spawntype_sel 0
   spawnType 0
   xSize 89.0
   ySize 40.0
@@ -6489,15 +6490,15 @@ node emitter ChunkyWood17
   loop 0
   bounce 1
   m_isTinted 0
-  Splat 0
+  splat 0
   affectedByWind false
   texture fxpa_cloud02
   twosidedtex 1
   xgrid 5
   ygrid 5
   fps 0
-  frameStart 0
-  frameEnd 24
+  framestart 0
+  frameend 24
   random 0
   chunkName PLC_Chunk_W02
   lightningDelay 0.0
@@ -6512,7 +6513,7 @@ node emitter ChunkyWood17
   p2p_bezier2 0.0
   p2p_bezier3 0.0
   grav 0.0
-  Drag 0.0
+  drag 0.0
 endnode
 node emitter ChunkyWood18
   parent plc_ds_dec11
@@ -6525,6 +6526,7 @@ node emitter ChunkyWood18
   render Normal
   blend_sel 1
   Blend Normal
+  spawntype_sel 0
   spawnType 0
   xSize 89.0
   ySize 40.0
@@ -6557,15 +6559,15 @@ node emitter ChunkyWood18
   loop 0
   bounce 1
   m_isTinted 1
-  Splat 0
+  splat 0
   affectedByWind false
   texture fxpa_cloud02
   twosidedtex 0
   xgrid 5
   ygrid 5
   fps 0
-  frameStart 0
-  frameEnd 24
+  framestart 0
+  frameend 24
   random 0
   chunkName PLC_Chunk_W01
   lightningDelay 0.0
@@ -6580,47 +6582,46 @@ node emitter ChunkyWood18
   p2p_bezier2 0.0
   p2p_bezier3 0.0
   grav 0.0
-  Drag 0.0
+  drag 0.0
 endnode
 node dummy ChunkyWood18_XYdimension
   parent ChunkyWood18
   position 0.0 0.0 0.0
-  orientation 1.0 0.0 0.0 -6.28319
-  wirecolor 1.0 1.0 0.0 
+  orientation -1.0 0.0 0.0 -6.28318
+  wirecolor 0.101961 0.694118 0.345098 
 endnode
 node dummy A09_hand
   parent plc_ds_dec11
   position 0.00398437 -1.13699 0.628682
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.345098 0.694118 0.105882 
+  wirecolor 0.101961 0.694118 0.345098 
 endnode
 node dummy A09_head
   parent plc_ds_dec11
   position 0.00398437 0.0108252 1.55678
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.345098 0.694118 0.105882 
+  wirecolor 0.101961 0.694118 0.345098 
 endnode
 node dummy A09_head_hit
   parent plc_ds_dec11
   position 0.00398437 0.0108252 1.03203
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.694118 0.345098 0.105882 
+  wirecolor 0.101961 0.694118 0.345098 
 endnode
 node dummy A09_impact
   parent plc_ds_dec11
   position 0.00398437 0.011001 0.562415
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.541176 0.0313726 0.431373 
+  wirecolor 0.101961 0.694118 0.345098 
 endnode
 node dummy A09_ground
   parent plc_ds_dec11
   position -0.00363281 0.0069873 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.541176 0.0313726 0.431373 
+  wirecolor 0.101961 0.694118 0.345098 
 endnode
 endmodelgeom plc_ds_dec11
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim open plc_ds_dec11
   length 0.0333333
   transtime 0.25
@@ -6631,7 +6632,7 @@ newanim open plc_ds_dec11
     node trimesh Lnkundr
         parent plc_ds_dec11
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_long_drape10_m2_Geoset_000
+    node trimesh curtain
         parent Lnkundr
     endnode
     node trimesh boneh
@@ -6665,9 +6666,7 @@ newanim open plc_ds_dec11
         parent plc_ds_dec11
     endnode
 doneanim open plc_ds_dec11
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim close2open plc_ds_dec11
   length 0.633333
   transtime 0.25
@@ -6678,7 +6677,7 @@ newanim close2open plc_ds_dec11
     node trimesh Lnkundr
         parent plc_ds_dec11
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_long_drape10_m2_Geoset_000
+    node trimesh curtain
         parent Lnkundr
     endnode
     node trimesh boneh
@@ -6712,9 +6711,7 @@ newanim close2open plc_ds_dec11
         parent plc_ds_dec11
     endnode
 doneanim close2open plc_ds_dec11
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim open2close plc_ds_dec11
   length 0.633333
   transtime 0.25
@@ -6731,7 +6728,7 @@ newanim open2close plc_ds_dec11
             0.633333 0.0 0.0 0.0 0.0
         endlist
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_long_drape10_m2_Geoset_000
+    node trimesh curtain
         parent Lnkundr
     endnode
     node trimesh boneh
@@ -6765,9 +6762,7 @@ newanim open2close plc_ds_dec11
         parent plc_ds_dec11
     endnode
 doneanim open2close plc_ds_dec11
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim close plc_ds_dec11
   length 0.0333333
   transtime 0.25
@@ -6778,7 +6773,7 @@ newanim close plc_ds_dec11
     node trimesh Lnkundr
         parent plc_ds_dec11
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_long_drape10_m2_Geoset_000
+    node trimesh curtain
         parent Lnkundr
     endnode
     node trimesh boneh
@@ -6812,9 +6807,7 @@ newanim close plc_ds_dec11
         parent plc_ds_dec11
     endnode
 doneanim close plc_ds_dec11
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim die plc_ds_dec11
   length 0.133333
   transtime 0.0
@@ -6837,7 +6830,7 @@ newanim die plc_ds_dec11
     node trimesh Lnkundr
         parent plc_ds_dec11
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_long_drape10_m2_Geoset_000
+    node trimesh curtain
         parent Lnkundr
     endnode
     node trimesh boneh
@@ -6871,9 +6864,7 @@ newanim die plc_ds_dec11
         parent plc_ds_dec11
     endnode
 doneanim die plc_ds_dec11
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim dead plc_ds_dec11
   length 0.0333333
   transtime 0.0
@@ -6890,7 +6881,7 @@ newanim dead plc_ds_dec11
             0.0333333 0.0 0.0 0.0 0.0
         endlist
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_long_drape10_m2_Geoset_000
+    node trimesh curtain
         parent Lnkundr
     endnode
     node trimesh boneh
@@ -6924,9 +6915,7 @@ newanim dead plc_ds_dec11
         parent plc_ds_dec11
     endnode
 doneanim dead plc_ds_dec11
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim damage plc_ds_dec11
   length 0.0666667
   transtime 0.0
@@ -6947,7 +6936,7 @@ newanim damage plc_ds_dec11
             0.0666667 0.0 0.0 0.0 0.0
         endlist
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_long_drape10_m2_Geoset_000
+    node trimesh curtain
         parent Lnkundr
     endnode
     node trimesh boneh
@@ -6981,9 +6970,7 @@ newanim damage plc_ds_dec11
         parent plc_ds_dec11
     endnode
 doneanim damage plc_ds_dec11
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim default plc_ds_dec11
   length 0.0
   transtime 0.25
@@ -6994,7 +6981,7 @@ newanim default plc_ds_dec11
     node trimesh Lnkundr
         parent plc_ds_dec11
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_long_drape10_m2_Geoset_000
+    node trimesh curtain
         parent Lnkundr
     endnode
     node trimesh boneh
@@ -7028,5 +7015,4 @@ newanim default plc_ds_dec11
         parent plc_ds_dec11
     endnode
 doneanim default plc_ds_dec11
-
 donemodel plc_ds_dec11

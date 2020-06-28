@@ -1,14 +1,15 @@
-# Exported from NWMax Plus v6.11.28 at 1/6/2020 12:23:42 AM
+# Exported from NWmax 0.8 b61 at 6/28/2020 3:05:26 PM
 # mdl file
 #
-#NWMax Plus MODEL  ASCII
+#NWmax MODEL ASCII
 # model: plc_ds_fenc5
-filedependancy wowstuff_NWN.max
+#local file: Unknown
+filedependancy Unknown
 newmodel plc_ds_fenc5
 setsupermodel plc_ds_fenc5 NULL
 classification Character
 setanimationscale 1.0
-#NWMax Plus GEOM  ASCII
+#NWmax GEOM  ASCII
 beginmodelgeom plc_ds_fenc5
 node dummy plc_ds_fenc5
   parent NULL
@@ -29,8 +30,8 @@ node trimesh Lnkundr
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 0.25 0.25 0.25 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 0
   center 1.17465 -0.000879884 -93.7564 
   bitmap plc_ds_tntpl
@@ -52,7 +53,7 @@ node trimesh Lnkundr
     1.21591 -0.213419 0
     0.274248 0.712267 0
 endnode
-node trimesh world_expansion07_doodads_serpentine_8se_serpentine_barricade01_m2_Geoset_001
+node trimesh fence
   parent Lnkundr
   position 0.0 0.0 -0.0685282
   orientation 1.0 0.0 0.0 0.0
@@ -68,10 +69,10 @@ node trimesh world_expansion07_doodads_serpentine_8se_serpentine_barricade01_m2_
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center 0.0 6.44807 39.3294 
+  center 0.0 6.44805 39.3295 
   bitmap plc_ds_fenc2
   verts 248
     -0.14409 0.0258295 0.659269
@@ -3548,6 +3549,7 @@ node emitter fire!15
   render Normal
   blend_sel 1
   Blend Normal
+  spawntype_sel 0
   spawnType 0
   xSize 100.0
   ySize 99.0
@@ -3580,15 +3582,15 @@ node emitter fire!15
   loop 0
   bounce 0
   m_isTinted 1
-  Splat 0
+  splat 0
   affectedByWind false
   texture fxpa_smoke01
   twosidedtex 1
   xgrid 4
   ygrid 4
   fps 10
-  frameStart 0
-  frameEnd 24
+  framestart 0
+  frameend 24
   random 0
   lightningDelay 0.0
   lightningRadius 0.0
@@ -3602,7 +3604,7 @@ node emitter fire!15
   p2p_bezier2 0.0
   p2p_bezier3 0.0
   grav 0.0
-  Drag 0.0
+  drag 0.0
 endnode
 node emitter ChunkyWood17
   parent plc_ds_fenc5
@@ -3615,6 +3617,7 @@ node emitter ChunkyWood17
   render Normal
   blend_sel 1
   Blend Normal
+  spawntype_sel 0
   spawnType 0
   xSize 89.0
   ySize 40.0
@@ -3647,15 +3650,15 @@ node emitter ChunkyWood17
   loop 0
   bounce 1
   m_isTinted 0
-  Splat 0
+  splat 0
   affectedByWind false
   texture fxpa_cloud02
   twosidedtex 1
   xgrid 5
   ygrid 5
   fps 0
-  frameStart 0
-  frameEnd 24
+  framestart 0
+  frameend 24
   random 0
   chunkName PLC_Chunk_W02
   lightningDelay 0.0
@@ -3670,7 +3673,7 @@ node emitter ChunkyWood17
   p2p_bezier2 0.0
   p2p_bezier3 0.0
   grav 0.0
-  Drag 0.0
+  drag 0.0
 endnode
 node emitter ChunkyWood18
   parent plc_ds_fenc5
@@ -3683,6 +3686,7 @@ node emitter ChunkyWood18
   render Normal
   blend_sel 1
   Blend Normal
+  spawntype_sel 0
   spawnType 0
   xSize 89.0
   ySize 40.0
@@ -3715,15 +3719,15 @@ node emitter ChunkyWood18
   loop 0
   bounce 1
   m_isTinted 1
-  Splat 0
+  splat 0
   affectedByWind false
   texture fxpa_cloud02
   twosidedtex 0
   xgrid 5
   ygrid 5
   fps 0
-  frameStart 0
-  frameEnd 24
+  framestart 0
+  frameend 24
   random 0
   chunkName PLC_Chunk_W01
   lightningDelay 0.0
@@ -3738,17 +3742,16 @@ node emitter ChunkyWood18
   p2p_bezier2 0.0
   p2p_bezier3 0.0
   grav 0.0
-  Drag 0.0
+  drag 0.0
 endnode
 node dummy ChunkyWood18_XYdimension
   parent ChunkyWood18
   position 0.0 0.0 0.0
   orientation -1.0 0.0 0.0 -6.28318
-  wirecolor 0.0313726 0.0313726 0.533333 
+  wirecolor 0.894118 0.6 0.721569 
 endnode
 endmodelgeom plc_ds_fenc5
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim open plc_ds_fenc5
   length 0.0333333
   transtime 0.25
@@ -3759,7 +3762,7 @@ newanim open plc_ds_fenc5
     node trimesh Lnkundr
         parent plc_ds_fenc5
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_barricade01_m2_Geoset_001
+    node trimesh fence
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -3777,13 +3780,11 @@ newanim open plc_ds_fenc5
     node dummy plc_ds_wart3_pwk
         parent plc_ds_fenc5
     endnode
-    node pwk pwk
+    node trimesh pwk
         parent plc_ds_wart3_pwk
     endnode
 doneanim open plc_ds_fenc5
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim close2open plc_ds_fenc5
   length 0.633333
   transtime 0.25
@@ -3794,7 +3795,7 @@ newanim close2open plc_ds_fenc5
     node trimesh Lnkundr
         parent plc_ds_fenc5
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_barricade01_m2_Geoset_001
+    node trimesh fence
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -3812,13 +3813,11 @@ newanim close2open plc_ds_fenc5
     node dummy plc_ds_wart3_pwk
         parent plc_ds_fenc5
     endnode
-    node pwk pwk
+    node trimesh pwk
         parent plc_ds_wart3_pwk
     endnode
 doneanim close2open plc_ds_fenc5
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim open2close plc_ds_fenc5
   length 0.633333
   transtime 0.25
@@ -3835,7 +3834,7 @@ newanim open2close plc_ds_fenc5
             0.633333 0.0 0.0 0.0 0.0
         endlist
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_barricade01_m2_Geoset_001
+    node trimesh fence
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -3853,13 +3852,11 @@ newanim open2close plc_ds_fenc5
     node dummy plc_ds_wart3_pwk
         parent plc_ds_fenc5
     endnode
-    node pwk pwk
+    node trimesh pwk
         parent plc_ds_wart3_pwk
     endnode
 doneanim open2close plc_ds_fenc5
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim close plc_ds_fenc5
   length 0.0333333
   transtime 0.25
@@ -3870,7 +3867,7 @@ newanim close plc_ds_fenc5
     node trimesh Lnkundr
         parent plc_ds_fenc5
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_barricade01_m2_Geoset_001
+    node trimesh fence
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -3888,13 +3885,11 @@ newanim close plc_ds_fenc5
     node dummy plc_ds_wart3_pwk
         parent plc_ds_fenc5
     endnode
-    node pwk pwk
+    node trimesh pwk
         parent plc_ds_wart3_pwk
     endnode
 doneanim close plc_ds_fenc5
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim die plc_ds_fenc5
   length 0.133333
   transtime 0.0
@@ -3921,7 +3916,7 @@ newanim die plc_ds_fenc5
             0.133333 0.0 0.0 -3.66914
         endlist
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_barricade01_m2_Geoset_001
+    node trimesh fence
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -3939,13 +3934,11 @@ newanim die plc_ds_fenc5
     node dummy plc_ds_wart3_pwk
         parent plc_ds_fenc5
     endnode
-    node pwk pwk
+    node trimesh pwk
         parent plc_ds_wart3_pwk
     endnode
 doneanim die plc_ds_fenc5
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim dead plc_ds_fenc5
   length 0.0333333
   transtime 0.0
@@ -3956,7 +3949,7 @@ newanim dead plc_ds_fenc5
     node trimesh Lnkundr
         parent plc_ds_fenc5
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_barricade01_m2_Geoset_001
+    node trimesh fence
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -3974,13 +3967,11 @@ newanim dead plc_ds_fenc5
     node dummy plc_ds_wart3_pwk
         parent plc_ds_fenc5
     endnode
-    node pwk pwk
+    node trimesh pwk
         parent plc_ds_wart3_pwk
     endnode
 doneanim dead plc_ds_fenc5
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim damage plc_ds_fenc5
   length 0.0666667
   transtime 0.0
@@ -4001,7 +3992,7 @@ newanim damage plc_ds_fenc5
             0.0666667 0.0 0.0 0.0 0.0
         endlist
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_barricade01_m2_Geoset_001
+    node trimesh fence
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -4019,13 +4010,11 @@ newanim damage plc_ds_fenc5
     node dummy plc_ds_wart3_pwk
         parent plc_ds_fenc5
     endnode
-    node pwk pwk
+    node trimesh pwk
         parent plc_ds_wart3_pwk
     endnode
 doneanim damage plc_ds_fenc5
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim default plc_ds_fenc5
   length 0.0
   transtime 0.25
@@ -4036,7 +4025,7 @@ newanim default plc_ds_fenc5
     node trimesh Lnkundr
         parent plc_ds_fenc5
     endnode
-    node trimesh world_expansion07_doodads_serpentine_8se_serpentine_barricade01_m2_Geoset_001
+    node trimesh fence
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -4054,9 +4043,8 @@ newanim default plc_ds_fenc5
     node dummy plc_ds_wart3_pwk
         parent plc_ds_fenc5
     endnode
-    node pwk pwk
+    node trimesh pwk
         parent plc_ds_wart3_pwk
     endnode
 doneanim default plc_ds_fenc5
-
 donemodel plc_ds_fenc5

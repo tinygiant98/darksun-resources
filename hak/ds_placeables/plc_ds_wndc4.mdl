@@ -1,14 +1,15 @@
-# Exported from NWMax Plus v6.11.28 at 1/6/2020 12:24:56 PM
+# Exported from NWmax 0.8 b61 at 6/28/2020 3:13:01 PM
 # mdl file
 #
-#NWMax Plus MODEL  ASCII
+#NWmax MODEL ASCII
 # model: plc_ds_wndc4
-filedependancy wowstuff_NWN.max
+#local file: Unknown
+filedependancy Unknown
 newmodel plc_ds_wndc4
 setsupermodel plc_ds_wndc4 NULL
 classification Character
 setanimationscale 1.0
-#NWMax Plus GEOM  ASCII
+#NWmax GEOM  ASCII
 beginmodelgeom plc_ds_wndc4
 node dummy plc_ds_wndc4
   parent NULL
@@ -29,8 +30,8 @@ node trimesh Lnkundr
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 0.25 0.25 0.25 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 0
   center 1.17465 -0.000879884 -93.7564 
   bitmap plc_ds_tntpl
@@ -56,7 +57,7 @@ node trimesh birdhead
   parent Lnkundr
   position 0.00976105 -0.0404205 1.45279
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.52549 0.431373 0.0313726 
+  wirecolor 0.521569 0.431373 0.0313726 
   tilefade 0
   scale 1.0
   render 1
@@ -68,10 +69,10 @@ node trimesh birdhead
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center 1.43436 0.269086 -0.607491 
+  center 1.43436 0.269085 -0.6075 
   bitmap plc_ds_skul1
   verts 49
     0.015268 -0.0145914 0.000755081
@@ -502,11 +503,11 @@ node trimesh birdhead
     0.237452 0.242222 0
     0.265237 0.182142 0
 endnode
-node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy01_m2_Geoset_000
+node trimesh chimes
   parent Lnkundr
   position -0.0191257 -0.00412872 2.12041
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.52549 0.0235294 0.0235294 
+  wirecolor 0.521569 0.0196078 0.0196078 
   tilefade 0
   scale 1.0
   render 1
@@ -518,10 +519,10 @@ node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy01_m2_Geoset
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center 1.91256 1.44181 -44.192 
+  center 1.91255 1.44181 -44.1919 
   bitmap plc_ds_dec07
   verts 124
     0.0794639 0.0350235 -0.499924
@@ -1724,6 +1725,7 @@ node emitter fire!15
   render Normal
   blend_sel 1
   Blend Normal
+  spawntype_sel 0
   spawnType 0
   xSize 100.0
   ySize 99.0
@@ -1756,15 +1758,15 @@ node emitter fire!15
   loop 0
   bounce 0
   m_isTinted 1
-  Splat 0
+  splat 0
   affectedByWind false
   texture fxpa_smoke01
   twosidedtex 1
   xgrid 4
   ygrid 4
   fps 10
-  frameStart 0
-  frameEnd 24
+  framestart 0
+  frameend 24
   random 0
   lightningDelay 0.0
   lightningRadius 0.0
@@ -1778,7 +1780,7 @@ node emitter fire!15
   p2p_bezier2 0.0
   p2p_bezier3 0.0
   grav 0.0
-  Drag 0.0
+  drag 0.0
 endnode
 node emitter ChunkyWood17
   parent plc_ds_wndc4
@@ -1791,6 +1793,7 @@ node emitter ChunkyWood17
   render Normal
   blend_sel 1
   Blend Normal
+  spawntype_sel 0
   spawnType 0
   xSize 89.0
   ySize 40.0
@@ -1823,15 +1826,15 @@ node emitter ChunkyWood17
   loop 0
   bounce 1
   m_isTinted 0
-  Splat 0
+  splat 0
   affectedByWind false
   texture fxpa_cloud02
   twosidedtex 1
   xgrid 5
   ygrid 5
   fps 0
-  frameStart 0
-  frameEnd 24
+  framestart 0
+  frameend 24
   random 0
   chunkName PLC_Chunk_W02
   lightningDelay 0.0
@@ -1846,7 +1849,7 @@ node emitter ChunkyWood17
   p2p_bezier2 0.0
   p2p_bezier3 0.0
   grav 0.0
-  Drag 0.0
+  drag 0.0
 endnode
 node emitter ChunkyWood18
   parent plc_ds_wndc4
@@ -1859,6 +1862,7 @@ node emitter ChunkyWood18
   render Normal
   blend_sel 1
   Blend Normal
+  spawntype_sel 0
   spawnType 0
   xSize 89.0
   ySize 40.0
@@ -1891,15 +1895,15 @@ node emitter ChunkyWood18
   loop 0
   bounce 1
   m_isTinted 1
-  Splat 0
+  splat 0
   affectedByWind false
   texture fxpa_cloud02
   twosidedtex 0
   xgrid 5
   ygrid 5
   fps 0
-  frameStart 0
-  frameEnd 24
+  framestart 0
+  frameend 24
   random 0
   chunkName PLC_Chunk_W01
   lightningDelay 0.0
@@ -1914,17 +1918,16 @@ node emitter ChunkyWood18
   p2p_bezier2 0.0
   p2p_bezier3 0.0
   grav 0.0
-  Drag 0.0
+  drag 0.0
 endnode
 node dummy ChunkyWood18_XYdimension
   parent ChunkyWood18
   position 0.0 0.0 0.0
   orientation -1.0 0.0 0.0 -6.28318
-  wirecolor 0.105882 0.694118 0.345098 
+  wirecolor 0.580392 0.694118 0.101961 
 endnode
 endmodelgeom plc_ds_wndc4
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim open plc_ds_wndc4
   length 0.0333333
   transtime 0.25
@@ -1938,7 +1941,7 @@ newanim open plc_ds_wndc4
     node trimesh birdhead
         parent Lnkundr
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy01_m2_Geoset_000
+    node trimesh chimes
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -1954,9 +1957,7 @@ newanim open plc_ds_wndc4
         parent ChunkyWood18
     endnode
 doneanim open plc_ds_wndc4
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim close2open plc_ds_wndc4
   length 0.633333
   transtime 0.25
@@ -1970,7 +1971,7 @@ newanim close2open plc_ds_wndc4
     node trimesh birdhead
         parent Lnkundr
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy01_m2_Geoset_000
+    node trimesh chimes
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -1986,9 +1987,7 @@ newanim close2open plc_ds_wndc4
         parent ChunkyWood18
     endnode
 doneanim close2open plc_ds_wndc4
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim open2close plc_ds_wndc4
   length 0.633333
   transtime 0.25
@@ -2008,7 +2007,7 @@ newanim open2close plc_ds_wndc4
     node trimesh birdhead
         parent Lnkundr
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy01_m2_Geoset_000
+    node trimesh chimes
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -2024,9 +2023,7 @@ newanim open2close plc_ds_wndc4
         parent ChunkyWood18
     endnode
 doneanim open2close plc_ds_wndc4
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim close plc_ds_wndc4
   length 0.0333333
   transtime 0.25
@@ -2040,7 +2037,7 @@ newanim close plc_ds_wndc4
     node trimesh birdhead
         parent Lnkundr
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy01_m2_Geoset_000
+    node trimesh chimes
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -2056,9 +2053,7 @@ newanim close plc_ds_wndc4
         parent ChunkyWood18
     endnode
 doneanim close plc_ds_wndc4
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim die plc_ds_wndc4
   length 0.133333
   transtime 0.0
@@ -2088,7 +2083,7 @@ newanim die plc_ds_wndc4
     node trimesh birdhead
         parent Lnkundr
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy01_m2_Geoset_000
+    node trimesh chimes
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -2104,9 +2099,7 @@ newanim die plc_ds_wndc4
         parent ChunkyWood18
     endnode
 doneanim die plc_ds_wndc4
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim dead plc_ds_wndc4
   length 0.0333333
   transtime 0.0
@@ -2120,7 +2113,7 @@ newanim dead plc_ds_wndc4
     node trimesh birdhead
         parent Lnkundr
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy01_m2_Geoset_000
+    node trimesh chimes
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -2136,9 +2129,7 @@ newanim dead plc_ds_wndc4
         parent ChunkyWood18
     endnode
 doneanim dead plc_ds_wndc4
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim damage plc_ds_wndc4
   length 0.0666667
   transtime 0.0
@@ -2162,7 +2153,7 @@ newanim damage plc_ds_wndc4
     node trimesh birdhead
         parent Lnkundr
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy01_m2_Geoset_000
+    node trimesh chimes
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -2178,9 +2169,7 @@ newanim damage plc_ds_wndc4
         parent ChunkyWood18
     endnode
 doneanim damage plc_ds_wndc4
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim default plc_ds_wndc4
   length 0.0
   transtime 0.25
@@ -2194,7 +2183,7 @@ newanim default plc_ds_wndc4
     node trimesh birdhead
         parent Lnkundr
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy01_m2_Geoset_000
+    node trimesh chimes
         parent Lnkundr
     endnode
     node emitter fire!15
@@ -2210,5 +2199,4 @@ newanim default plc_ds_wndc4
         parent ChunkyWood18
     endnode
 doneanim default plc_ds_wndc4
-
 donemodel plc_ds_wndc4

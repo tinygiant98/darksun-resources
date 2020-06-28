@@ -1,14 +1,15 @@
-# Exported from NWMax Plus v6.11.28 at 1/6/2020 12:21:33 PM
+# Exported from NWmax 0.8 b61 at 6/28/2020 3:06:23 PM
 # mdl file
 #
-#NWMax Plus MODEL  ASCII
+#NWmax MODEL ASCII
 # model: plc_ds_wndc1
-filedependancy wowstuff_NWN.max
+#local file: Unknown
+filedependancy Unknown
 newmodel plc_ds_wndc1
 setsupermodel plc_ds_wndc1 NULL
 classification Character
 setanimationscale 1.0
-#NWMax Plus GEOM  ASCII
+#NWmax GEOM  ASCII
 beginmodelgeom plc_ds_wndc1
 node dummy plc_ds_wndc1
   parent NULL
@@ -29,8 +30,8 @@ node trimesh Lnkundr
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 0.25 0.25 0.25 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 0
   center 1.17465 -0.000879884 -93.7564 
   bitmap plc_ds_tntpl
@@ -63,6 +64,7 @@ node emitter fire!15
   render Normal
   blend_sel 1
   Blend Normal
+  spawntype_sel 0
   spawnType 0
   xSize 100.0
   ySize 99.0
@@ -95,15 +97,15 @@ node emitter fire!15
   loop 0
   bounce 0
   m_isTinted 1
-  Splat 0
+  splat 0
   affectedByWind false
   texture fxpa_smoke01
   twosidedtex 1
   xgrid 4
   ygrid 4
   fps 10
-  frameStart 0
-  frameEnd 24
+  framestart 0
+  frameend 24
   random 0
   lightningDelay 0.0
   lightningRadius 0.0
@@ -117,7 +119,7 @@ node emitter fire!15
   p2p_bezier2 0.0
   p2p_bezier3 0.0
   grav 0.0
-  Drag 0.0
+  drag 0.0
 endnode
 node emitter ChunkyWood17
   parent plc_ds_wndc1
@@ -130,6 +132,7 @@ node emitter ChunkyWood17
   render Normal
   blend_sel 1
   Blend Normal
+  spawntype_sel 0
   spawnType 0
   xSize 89.0
   ySize 40.0
@@ -162,15 +165,15 @@ node emitter ChunkyWood17
   loop 0
   bounce 1
   m_isTinted 0
-  Splat 0
+  splat 0
   affectedByWind false
   texture fxpa_cloud02
   twosidedtex 1
   xgrid 5
   ygrid 5
   fps 0
-  frameStart 0
-  frameEnd 24
+  framestart 0
+  frameend 24
   random 0
   chunkName PLC_Chunk_W02
   lightningDelay 0.0
@@ -185,7 +188,7 @@ node emitter ChunkyWood17
   p2p_bezier2 0.0
   p2p_bezier3 0.0
   grav 0.0
-  Drag 0.0
+  drag 0.0
 endnode
 node emitter ChunkyWood18
   parent plc_ds_wndc1
@@ -198,6 +201,7 @@ node emitter ChunkyWood18
   render Normal
   blend_sel 1
   Blend Normal
+  spawntype_sel 0
   spawnType 0
   xSize 89.0
   ySize 40.0
@@ -230,15 +234,15 @@ node emitter ChunkyWood18
   loop 0
   bounce 1
   m_isTinted 1
-  Splat 0
+  splat 0
   affectedByWind false
   texture fxpa_cloud02
   twosidedtex 0
   xgrid 5
   ygrid 5
   fps 0
-  frameStart 0
-  frameEnd 24
+  framestart 0
+  frameend 24
   random 0
   chunkName PLC_Chunk_W01
   lightningDelay 0.0
@@ -253,19 +257,19 @@ node emitter ChunkyWood18
   p2p_bezier2 0.0
   p2p_bezier3 0.0
   grav 0.0
-  Drag 0.0
+  drag 0.0
 endnode
 node dummy ChunkyWood18_XYdimension
   parent ChunkyWood18
   position 0.0 0.0 0.0
   orientation -1.0 0.0 0.0 -6.28318
-  wirecolor 0.105882 0.694118 0.345098 
+  wirecolor 0.690196 0.101961 0.101961 
 endnode
-node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy03_m2_Geoset_001
+node trimesh dreamcatcher
   parent plc_ds_wndc1
   position 0.0 0.0 2.15259
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.878431 0.776471 0.341176 
+  wirecolor 0.87451 0.776471 0.337255 
   tilefade 0
   scale 1.0
   render 1
@@ -277,10 +281,10 @@ node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy03_m2_Geoset
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center -3.00662 1.84398 -43.7807 
+  center -3.00665 1.84395 -43.7808 
   bitmap plc_ds_dec07
   verts 549
     0.0815784 -0.00536561 -0.534437
@@ -5748,8 +5752,7 @@ node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy03_m2_Geoset
     0.601304 0.82025 0
 endnode
 endmodelgeom plc_ds_wndc1
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim open plc_ds_wndc1
   length 0.0333333
   transtime 0.25
@@ -5772,13 +5775,11 @@ newanim open plc_ds_wndc1
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy03_m2_Geoset_001
+    node trimesh dreamcatcher
         parent plc_ds_wndc1
     endnode
 doneanim open plc_ds_wndc1
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim close2open plc_ds_wndc1
   length 0.633333
   transtime 0.25
@@ -5801,13 +5802,11 @@ newanim close2open plc_ds_wndc1
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy03_m2_Geoset_001
+    node trimesh dreamcatcher
         parent plc_ds_wndc1
     endnode
 doneanim close2open plc_ds_wndc1
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim open2close plc_ds_wndc1
   length 0.633333
   transtime 0.25
@@ -5836,13 +5835,11 @@ newanim open2close plc_ds_wndc1
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy03_m2_Geoset_001
+    node trimesh dreamcatcher
         parent plc_ds_wndc1
     endnode
 doneanim open2close plc_ds_wndc1
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim close plc_ds_wndc1
   length 0.0333333
   transtime 0.25
@@ -5865,13 +5862,11 @@ newanim close plc_ds_wndc1
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy03_m2_Geoset_001
+    node trimesh dreamcatcher
         parent plc_ds_wndc1
     endnode
 doneanim close plc_ds_wndc1
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim die plc_ds_wndc1
   length 0.133333
   transtime 0.0
@@ -5910,13 +5905,11 @@ newanim die plc_ds_wndc1
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy03_m2_Geoset_001
+    node trimesh dreamcatcher
         parent plc_ds_wndc1
     endnode
 doneanim die plc_ds_wndc1
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim dead plc_ds_wndc1
   length 0.0333333
   transtime 0.0
@@ -5939,13 +5932,11 @@ newanim dead plc_ds_wndc1
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy03_m2_Geoset_001
+    node trimesh dreamcatcher
         parent plc_ds_wndc1
     endnode
 doneanim dead plc_ds_wndc1
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim damage plc_ds_wndc1
   length 0.0666667
   transtime 0.0
@@ -5978,13 +5969,11 @@ newanim damage plc_ds_wndc1
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy03_m2_Geoset_001
+    node trimesh dreamcatcher
         parent plc_ds_wndc1
     endnode
 doneanim damage plc_ds_wndc1
-
-
-#NWMax Plus ANIM  ASCII
+#NWmax ANIM ASCII
 newanim default plc_ds_wndc1
   length 0.0
   transtime 0.25
@@ -6007,9 +5996,8 @@ newanim default plc_ds_wndc1
     node dummy ChunkyWood18_XYdimension
         parent ChunkyWood18
     endnode
-    node trimesh world_expansion07_doodads_witch_8wi_witch_hangingeffigy03_m2_Geoset_001
+    node trimesh dreamcatcher
         parent plc_ds_wndc1
     endnode
 doneanim default plc_ds_wndc1
-
 donemodel plc_ds_wndc1
