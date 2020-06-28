@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b61 at 11.07.2017 19:54:05
+# Exported from NWmax 0.8 b61 at 20.05.2018 10:34:20
 # pwk file
 #
 #NWmax PWKMESH  ASCII
@@ -52,11 +52,11 @@ node dummy 040_pwk_use01
   parent plc_nat40_pwk
   position 1.13314 -1.14245 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.345098 0.780392 0.882353 
+  wirecolor 0.839216 0.894118 0.6 
 endnode
 node dummy 040_pwk_use02
   parent plc_nat40_pwk
   position -0.946663 1.12912 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.345098 0.780392 0.882353 
+  wirecolor 0.839216 0.894118 0.6 
 endnode
