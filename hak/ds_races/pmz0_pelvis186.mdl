@@ -16,7 +16,7 @@ node dummy pmz0_pelvis186
 endnode
 node trimesh pmz0_pelvis186g
   parent pmz0_pelvis186
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
   ambient 1.0 1.0 1.0 

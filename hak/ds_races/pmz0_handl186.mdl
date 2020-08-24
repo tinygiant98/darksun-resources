@@ -16,7 +16,7 @@ node dummy pmz0_handl186
 endnode
 node trimesh pmz0_handl186g
   parent pmz0_handl186
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 0.970495 0.107832 0.215666 -4.42201e-006
   wirecolor 0.694118 0.345098 0.101961 
   ambient 1.0 1.0 1.0 

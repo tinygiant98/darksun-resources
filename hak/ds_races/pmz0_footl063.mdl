@@ -15,7 +15,7 @@ node dummy pmz0_footl063
 endnode
 node trimesh pmz0_footl063g
   parent pmz0_footl063
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 0.986184 0.0205445 -0.164372 0.0
   wirecolor 0.686275 0.101961 0.101961 
   ambient 1.0 1.0 1.0 

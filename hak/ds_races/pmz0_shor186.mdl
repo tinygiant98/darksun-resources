@@ -16,7 +16,7 @@ node dummy pmz0_shor186
 endnode
 node trimesh pmz0_shor186g
   parent pmz0_shor186
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 1.0 -1.25851e-006 0.0 0.0
   wirecolor 0.694118 0.345098 0.101961 
   ambient 1.0 1.0 1.0 

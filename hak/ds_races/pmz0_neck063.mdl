@@ -1,6 +1,6 @@
 #MAXMODEL ASCII
 # model: pmz0_neck063
-filedependancy pmz0_neck063.max
+filedependancy pmh0_neck063.max
 newmodel pmz0_neck063
 setsupermodel pmz0_neck063 NULL
 classification character
@@ -64,7 +64,7 @@ node trimesh pmz0_neck063g
     8 3 6 1 13 3 8 1
     7 5 9 1 10 7 14 1
     7 9 6 1 11 15 8 1
-  position 0 0 0
+  position 0.0000000 0.0000000 0.0000000
   orientation 0 0 0 0
 endnode
 endmodelgeom pmz0_neck063

@@ -541,5 +541,7 @@
 537   "DS: Crodlu_Light03"                           Crod_light3       default
 538   "DS: Ant_01"                                   c_Ant_Giant       default
 539   "DS: Inix_Beast"                               Inix_creature     default
+540   "DS: Basilisk"                                 c_Basilisk_mt     ****
+541   "DS: Basilisk2"                                c_Basilisk_mt2    ****
 
 

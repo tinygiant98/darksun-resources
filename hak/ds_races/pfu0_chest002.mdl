@@ -1,21 +1,22 @@
-# Exported from NWMax Plus v6.11.28 at 12/19/2019 12:07:48 AM
+# Exported from NWmax 0.8 b61 at 8/14/2020 6:13:08 PM
 # mdl file
 #
-#NWMax Plus MODEL  ASCII
+#NWmax MODEL ASCII
 # model: pfu0_chest002
-filedependancy shiv.max
+#local file: Unknown
+filedependancy Unknown
 newmodel pfu0_chest002
 setsupermodel pfu0_chest002 NULL
 classification Character
 setanimationscale 1.0
-#NWMax Plus GEOM  ASCII
+#NWmax GEOM  ASCII
 beginmodelgeom pfu0_chest002
 node dummy pfu0_chest002
   parent NULL
 endnode
 node trimesh chest001
   parent pfu0_chest002
-  position 0.0 0.0 0.0
+  position 0.0 0.0 -0.0642632
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.8 0.8 0.8 
   tilefade 0
@@ -27,12 +28,12 @@ node trimesh chest001
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center -0.00880146 -1.72675 21.5738 
+  center -0.00879955 -1.72675 21.5738 
   bitmap torso
   verts 470
     -0.000184048 -0.058722 0.494154
@@ -5120,7 +5121,7 @@ node trimesh chest001
 endnode
 node trimesh chest
   parent pfu0_chest002
-  position 0.0 0.0 0.0
+  position 0.0 0.0 -0.0642632
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.8 0.8 0.8 
   tilefade 0
@@ -5132,12 +5133,12 @@ node trimesh chest
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center -0.0289445 0.461957 22.4065 
+  center -0.0289502 0.46195 22.4065 
   bitmap torso
   verts 535
     -0.000289387 -0.0315019 -0.0474269

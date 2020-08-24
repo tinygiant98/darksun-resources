@@ -15,7 +15,7 @@ node dummy pmz0_shinl063
 endnode
 node trimesh lshin_g
   parent pmz0_shinl063
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.686275 0.101961 0.101961 
   tilefade 0
@@ -222,13 +222,13 @@ node trimesh lshin_g
 endnode
 node trimesh flap
   parent lshin_g
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.686275 0.101961 0.101961 
   tilefade 0
   scale 1.0
   render 1
-  shadow 1
+  Shadow 0
   beaming 0
   inheritcolor 0
   rotatetexture 0

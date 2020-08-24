@@ -15,7 +15,7 @@ node dummy pmz0_forer063
 endnode
 node trimesh pmz0_forer063g
   parent pmz0_forer063
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation -1.0 0.0 0.0 -3.14159
   wirecolor 1.0 1.0 1.0 
   tilefade 0
@@ -33,7 +33,7 @@ node trimesh pmz0_forer063g
   Specular 0.05 0.05 0.05 
   shininess 26
   center undefined
-  bitmap pmz0_forarml063
+  bitmap pmh0_forarml063
   verts 16
     0.0534785 -0.00581661 0.00984653
     -0.00439044 0.0456255 -0.0239516
@@ -111,13 +111,13 @@ node trimesh pmz0_forer063g
 endnode
 node trimesh Cylinder02
   parent pmz0_forer063g
-  position 0.0350284 -0.0184765 0.299134
+  position 0.0350284 -0.0184765 0.2991340
   orientation 1.0 0.0 0.0 -6.28319
   wirecolor 0.694118 0.341176 0.101961 
   tilefade 0
   scale 1.0
   render 1
-  shadow 1
+  Shadow 0
   beaming 0
   inheritcolor 0
   rotatetexture 0
@@ -129,7 +129,7 @@ node trimesh Cylinder02
   Specular 0.0 0.0 0.0 
   shininess 1
   center undefined
-  bitmap pmz0_forarml063
+  bitmap pmh0_forarml063
   verts 17
     0.0 0.0 0.0
     -0.030899 -0.0369338 0.0

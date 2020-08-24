@@ -1,14 +1,15 @@
-# Exported from NWMax Plus v6.11.28 at 3/29/2020 2:50:17 AM
+# Exported from NWmax 0.8 b61 at 8/23/2020 4:55:54 PM
 # mdl file
 #
-#NWMax Plus MODEL  ASCII
+#NWmax MODEL ASCII
 # model: pmi0
-filedependancy thrikreen03rockskins02.max
+#local file: Unknown
+filedependancy Unknown
 newmodel pmi0
 setsupermodel pmi0 pmk0_noncom
 classification Character
 setanimationscale 0.9
-#NWMax Plus GEOM  ASCII
+#NWmax GEOM  ASCII
 beginmodelgeom pmi0
 node dummy pmi0
   parent NULL
@@ -17,37 +18,37 @@ node dummy rootdummy
   parent pmi0
   position -0.0004701 0.023208 1.15083
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.776471 0.882353 0.341176 
+  wirecolor 0.341176 0.878431 0.560784 
 endnode
 node dummy pelvis_g
   parent rootdummy
   position 0.0004701 -0.000102987 0.000145264
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.690196 0.101961 0.101961 
+  wirecolor 0.341176 0.878431 0.560784 
 endnode
 node dummy belt_g
   parent pelvis_g
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.690196 0.101961 0.101961 
+  wirecolor 0.341176 0.878431 0.560784 
 endnode
 node dummy rthigh_g
   parent pelvis_g
   position 0.102161 -0.0104689 -0.147619
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.690196 0.101961 0.101961 
+  wirecolor 0.341176 0.878431 0.560784 
 endnode
 node dummy rshin_g
   parent rthigh_g
   position 0.022839 0.0274232 -0.460869
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.690196 0.101961 0.101961 
+  wirecolor 0.694118 0.580392 0.101961 
 endnode
 node dummy rfoot_g
   parent rshin_g
   position -0.01674 -0.0714749 -0.441156
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.690196 0.101961 0.101961 
+  wirecolor 0.694118 0.580392 0.101961 
 endnode
 node trimesh lf
   parent rfoot_g
@@ -65,10 +66,10 @@ node trimesh lf
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center 6.02331 -5.63061 -2.97142 
+  center 2.03092 16.6276 -3.53176 
   bitmap kreenrockskin1
   verts 92
     -0.0246412 -0.0405692 -0.0961339
@@ -769,8 +770,8 @@ node trimesh ls1
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 1.57727 -10.2395 -5.03041 
   bitmap kreenrockskin1
@@ -854,8 +855,8 @@ node trimesh ls2
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -1.14367 -15.4005 -27.4456 
   bitmap kreenrockskin1
@@ -1015,8 +1016,8 @@ node trimesh lt
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 4.44212 3.56933 -22.4547 
   bitmap kreenrockskin1
@@ -1167,19 +1168,19 @@ node dummy lthigh_g
   parent pelvis_g
   position -0.10216 -0.0104689 -0.147619
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.890196 0.6 0.6 
+  wirecolor 0.52549 0.231373 0.0313726 
 endnode
 node dummy lshin_g
   parent lthigh_g
   position -0.02284 0.0274216 -0.460867
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.882353 0.345098 0.780392 
+  wirecolor 0.52549 0.231373 0.0313726 
 endnode
 node dummy lfoot_g
   parent lshin_g
   position 0.0167352 -0.0714765 -0.441155
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.882353 0.345098 0.780392 
+  wirecolor 0.52549 0.231373 0.0313726 
 endnode
 node trimesh rf
   parent lfoot_g
@@ -1197,10 +1198,10 @@ node trimesh rf
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center undefined
+  center -1.01952 16.6664 -3.38106 
   bitmap kreenrockskin1
   verts 92
     0.0350247 -0.0412212 -0.094627
@@ -1901,8 +1902,8 @@ node trimesh rs1
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -0.885305 -10.7024 -5.03764 
   bitmap kreenrockskin1
@@ -1986,8 +1987,8 @@ node trimesh rs2
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 2.06441 -15.5025 -27.1173 
   bitmap kreenrockskin1
@@ -2147,8 +2148,8 @@ node trimesh rt
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -3.42356 3.56933 -22.4744 
   bitmap kreenrockskin1
@@ -2311,8 +2312,8 @@ node trimesh pl
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 -36.1992 -37.4221 
   bitmap kreenrockskin1
@@ -2526,27 +2527,27 @@ node trimesh pl
 endnode
 node dummy torso_g
   parent rootdummy
-  position 0.000470099 -7.57337e-005 0.000904465
+  position 0.000470099 0.0105423 0.000904465
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.105882 0.694118 0.345098 
+  wirecolor 0.6 0.894118 0.6 
 endnode
 node dummy Lbicep_g
   parent torso_g
   position -0.22 0.0318677 0.431566
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.105882 0.694118 0.345098 
+  wirecolor 0.6 0.894118 0.6 
 endnode
 node dummy lforearm_g
   parent Lbicep_g
   position -0.1 -0.005 -0.336728
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.105882 0.694118 0.345098 
+  wirecolor 0.6 0.894118 0.6 
 endnode
 node dummy lforearm
   parent lforearm_g
   position -0.0693335 0.0233527 -0.189501
   orientation -5.71848e-007 -1.0 0.0 -0.069811
-  wirecolor 0.580392 0.694118 0.105882 
+  wirecolor 0.6 0.894118 0.6 
 endnode
 node trimesh lf1
   parent lforearm_g
@@ -2564,8 +2565,8 @@ node trimesh lf1
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -7.61116 1.55913 -21.6188 
   bitmap kreenrockskin1
@@ -2693,17 +2694,17 @@ node dummy lhand_g
   parent lf1
   position -0.173442 0.0385498 -0.403514
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.580392 0.694118 0.105882 
+  wirecolor 0.894118 0.839216 0.6 
 endnode
 node dummy lhand
   parent lhand_g
-  position -0.0177892 -1.43051e-007 -0.0900852
+  position -0.0177892 -1.37474e-007 -0.0900852
   orientation 1.0 0.0 0.0 -3.23736e-007
-  wirecolor 0.580392 0.694118 0.105882 
+  wirecolor 0.894118 0.839216 0.6 
 endnode
 node trimesh lh1
   parent lhand_g
-  position -0.000811996 -0.000742035 -0.000616684
+  position -0.000811996 -0.00074203 -0.000616672
   orientation 1.0 0.0 0.0 -2.26968e-007
   wirecolor 0.8 0.8 0.8 
   tilefade 0
@@ -2717,10 +2718,10 @@ node trimesh lh1
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center -1.85363 -0.882641 -15.1582 
+  center -1.85363 -0.88264 -15.1582 
   bitmap kreenrockskin1
   verts 58
     0.0241186 -0.00649918 0.0226046
@@ -3363,9 +3364,9 @@ node trimesh lh1
 endnode
 node dummy Lshoulder_g
   parent Lbicep_g
-  position 0.04 -0.0309054 0.00923202
+  position -0.00615662 -0.0309054 0.0546239
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.65098 0.898039 0.898039 
+  wirecolor 0.894118 0.6 0.721569 
 endnode
 node trimesh lb1
   parent Lbicep_g
@@ -3383,8 +3384,8 @@ node trimesh lb1
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -4.49186 -2.24137 -16.172 
   bitmap kreenrockskin1
@@ -3512,19 +3513,19 @@ node dummy neck_g
   parent torso_g
   position 0.0 0.0340826 0.511342
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.423529 0.0313726 0.533333 
+  wirecolor 0.603922 0.843137 0.898039 
 endnode
 node dummy head_g
   parent neck_g
   position 0.0 0.0552182 0.164941
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.423529 0.0313726 0.533333 
+  wirecolor 0.603922 0.843137 0.898039 
 endnode
 node dummy head
   parent head_g
   position 0.0024464 0.0567995 0.0458405
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.423529 0.0313726 0.533333 
+  wirecolor 0.603922 0.843137 0.898039 
 endnode
 node trimesh he
   parent head_g
@@ -3542,10 +3543,10 @@ node trimesh he
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center -9.53674e-007 8.12459 -0.455202 
+  center 0.0 8.12461 -0.4552 
   bitmap kreenrockskin1
   verts 534
     -0.0687807 0.146773 -0.025566
@@ -5820,13 +5821,11 @@ node trimesh ne
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
-  center 0.0 1.4717 9.89278 
   ambient 0.588235 0.588235 0.588235 
   diffuse 0.588235 0.588235 0.588235 
   specular 0.0 0.0 0.0 
-  shininess 10.0
+  shininess 10
+  center 0.0 1.4717 9.89278 
   bitmap kreenrockskin1
   verts 12
     0.0 -0.060175 -0.0509134
@@ -5885,19 +5884,19 @@ node dummy Rbicep_g
   parent torso_g
   position 0.22 0.0318677 0.431566
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.6 0.894118 0.721569 
+  wirecolor 0.878431 0.337255 0.337255 
 endnode
 node dummy Rshoulder_g
   parent Rbicep_g
-  position -0.04 -0.0309054 0.00923202
+  position 0.000950756 -0.0309054 0.0558571
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.6 0.894118 0.721569 
+  wirecolor 0.878431 0.337255 0.337255 
 endnode
 node dummy rforearm_g
   parent Rbicep_g
   position 0.1 -0.005 -0.336728
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.776471 0.882353 0.341176 
+  wirecolor 0.878431 0.337255 0.337255 
 endnode
 node trimesh rf1
   parent rforearm_g
@@ -5915,8 +5914,8 @@ node trimesh rf1
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 8.44113 1.76333 -21.6485 
   bitmap kreenrockskin1
@@ -6044,13 +6043,13 @@ node dummy rhand_g
   parent rf1
   position 0.175242 0.040592 -0.403811
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.776471 0.882353 0.341176 
+  wirecolor 0.694118 0.109804 0.584314 
 endnode
 node dummy rhand
   parent rhand_g
   position 0.0128411 0.0 -0.0919562
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.776471 0.882353 0.341176 
+  wirecolor 0.694118 0.109804 0.584314 
 endnode
 node trimesh rh1
   parent rhand_g
@@ -6068,10 +6067,10 @@ node trimesh rh1
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center 3.09987 -0.990479 -14.7476 
+  center 3.09988 -0.99048 -14.7476 
   bitmap kreenrockskin1
   verts 58
     -0.0116562 -0.0075774 0.0267101
@@ -6728,8 +6727,8 @@ node trimesh rb1
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 5.47154 -2.33387 -16.3195 
   bitmap kreenrockskin1
@@ -6857,7 +6856,7 @@ node dummy Impact
   parent torso_g
   position 0.0 0.107729 0.265939
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.568627 0.109804 0.694118 
+  wirecolor 0.898039 0.603922 0.843137 
 endnode
 node trimesh tr
   parent torso_g
@@ -6875,8 +6874,8 @@ node trimesh tr
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 -1.86555 28.9994 
   bitmap kreenrockskin1
@@ -7205,8 +7204,8 @@ node trimesh rb2
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 2.79443 0.0743701 -11.555 
   bitmap kreenrockskin1
@@ -7346,8 +7345,8 @@ node trimesh rf2
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 5.46775 1.9213 -16.56 
   bitmap kreenrockskin1
@@ -7487,10 +7486,10 @@ node trimesh rh2
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center 2.68956 1.5194 -10.6978 
+  center 2.68956 1.5194 -10.6979 
   bitmap kreenrockskin1
   verts 58
     -0.00130396 0.00795113 0.0149518
@@ -8147,8 +8146,8 @@ node trimesh lb2
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -3.61408 0.0 -12.1788 
   bitmap kreenrockskin1
@@ -8288,8 +8287,8 @@ node trimesh lf2
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -5.36522 2.11866 -16.6328 
   bitmap kreenrockskin1
@@ -8429,10 +8428,10 @@ node trimesh lg2
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
-  center -2.84384 0.00870323 -8.90304 
+  center -2.84384 0.0087049 -8.90306 
   bitmap kreenrockskin1
   verts 58
     -0.000238891 -0.00715584 0.0328999
@@ -9073,17 +9072,503 @@ node trimesh lg2
     0.926249 0.581903 0
     0.945261 0.542503 0
 endnode
+node dummy Cloak_g
+  parent torso_g
+  position 0.00295818 -0.194478 0.549419
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.34902 0.694118 
+endnode
+node dummy CL1_fg
+  parent Cloak_g
+  position -0.2415 -0.0011319 -0.0352829
+  orientation 1.0 0.0 0.0 -3.26468e-007
+  wirecolor 0.109804 0.34902 0.694118 
+endnode
+node dummy CR1_fg
+  parent Cloak_g
+  position 0.2415 -0.0011319 -0.0352829
+  orientation 1.0 0.0 0.0 -2.45756e-007
+  wirecolor 0.109804 0.34902 0.694118 
+endnode
+node dummy cloak_shL
+  parent Cloak_g
+  position -0.1071 -0.00495729 -0.025473
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.34902 0.694118 
+endnode
+node dummy cloak_shR
+  parent Cloak_g
+  position 0.1071 -0.00495729 -0.025473
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.34902 0.694118 
+endnode
+node dummy CL1_g
+  parent Cloak_g
+  position -0.2415 -0.0011319 -0.0497031
+  orientation 1.0 0.0 0.0 -1.46001e-007
+  wirecolor 0.109804 0.34902 0.694118 
+endnode
+node dummy CL2_g
+  parent CL1_g
+  position -0.0210001 -0.0959282 -0.33258
+  orientation 1.0 0.0 0.0 -1.46001e-007
+  wirecolor 0.109804 0.34902 0.694118 
+endnode
+node dummy CL3_g
+  parent CL2_g
+  position -0.01575 -0.00907197 -0.24535
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.34902 0.694118 
+endnode
+node dummy CL4_g
+  parent CL3_g
+  position -0.0262491 -0.018 -0.344168
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CL4_g
+  parent CL3_g
+  position -0.0262491 -0.0179997 -0.344168
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CL4_g
+  parent CL3_g
+  position -0.0230348 -0.0162417 -0.299927
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CL4_g
+  parent CL3_g
+  position -0.0262491 -0.0179999 -0.344168
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.431373 0.52549 
+endnode
+node dummy CL4_g
+  parent CL3_g
+  position -0.0262491 -0.0179996 -0.344168
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.431373 0.52549 
+endnode
+node dummy CL3_g
+  parent CL2_g
+  position -0.01575 -0.00907216 -0.24535
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CL3_g
+  parent CL2_g
+  position -0.0138209 -0.00818559 -0.21381
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CL3_g
+  parent CL2_g
+  position -0.01575 -0.00907197 -0.24535
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.431373 0.52549 
+endnode
+node dummy CL3_g
+  parent CL2_g
+  position -0.01575 -0.00907212 -0.24535
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.431373 0.52549 
+endnode
+node dummy CL2_g
+  parent CL1_g
+  position -0.0210001 -0.095928 -0.33258
+  orientation 1.0 0.0 0.0 -1.46001e-007
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CL2_g
+  parent CL1_g
+  position -0.0184278 -0.0865569 -0.28983
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CL2_g
+  parent CL1_g
+  position -0.0210001 -0.0959282 -0.33258
+  orientation 1.0 0.0 0.0 -1.46001e-007
+  wirecolor 0.568627 0.109804 0.694118 
+endnode
+node dummy CL2_g
+  parent CL1_g
+  position -0.0210001 -0.0959279 -0.33258
+  orientation 1.0 0.0 0.0 -1.46001e-007
+  wirecolor 0.0313726 0.431373 0.52549 
+endnode
+node dummy CR1_g
+  parent Cloak_g
+  position 0.2415 -0.00113174 -0.0497031
+  orientation 1.0 0.0 0.0 -1.26441e-007
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CR2_g
+  parent CR1_g
+  position 0.021 -0.0959283 -0.33258
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CR3_g
+  parent CR2_g
+  position 0.01575 -0.00907204 -0.24535
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CR4_g
+  parent CR3_g
+  position 0.02625 -0.018 -0.344168
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CR4_g
+  parent CR3_g
+  position 0.02625 -0.018 -0.344168
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CR4_g
+  parent CR3_g
+  position 0.0230348 -0.0162415 -0.299927
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CR4_g
+  parent CR3_g
+  position 0.02625 -0.018 -0.344168
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.0235294 
+endnode
+node dummy CR4_g
+  parent CR3_g
+  position 0.02625 -0.018 -0.344168
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.52549 0.431373 0.0313726 
+endnode
+node dummy CR3_g
+  parent CR2_g
+  position 0.01575 -0.00907196 -0.24535
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CR3_g
+  parent CR2_g
+  position 0.0138209 -0.00818585 -0.21381
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy CR3_g
+  parent CR2_g
+  position 0.01575 -0.00907194 -0.24535
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.0235294 
+endnode
+node dummy CR3_g
+  parent CR2_g
+  position 0.01575 -0.00907194 -0.24535
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.52549 0.431373 0.0313726 
+endnode
+node dummy CR2_g
+  parent CR1_g
+  position 0.021 -0.0959283 -0.33258
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy CR2_g
+  parent CR1_g
+  position 0.0184278 -0.0865569 -0.28983
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy CR2_g
+  parent CR1_g
+  position 0.021 -0.0959283 -0.33258
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.0235294 
+endnode
+node dummy CR2_g
+  parent CR1_g
+  position 0.021 -0.0959283 -0.33258
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.52549 0.431373 0.0313726 
+endnode
+node dummy CM1_g
+  parent Cloak_g
+  position 0.0 -0.10478 -0.0956232
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy CM2_g
+  parent CM1_g
+  position 0.0 -0.00684601 -0.30159
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy CM3_g
+  parent CM2_g
+  position 0.0 -0.023879 -0.23853
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy CM4_g
+  parent CM3_g
+  position 0.0 -0.025998 -0.343756
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy CM4_g
+  parent CM3_g
+  position 0.0 -0.0259978 -0.343756
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy CM4_g
+  parent CM3_g
+  position 0.0 -0.0234586 -0.299565
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy CM4_g
+  parent CM3_g
+  position 0.0 -0.0259981 -0.343756
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy CM4_g
+  parent CM3_g
+  position 0.0 -0.0259978 -0.343756
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy CM3_g
+  parent CM2_g
+  position 0.0 -0.0238789 -0.23853
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy CM3_g
+  parent CM2_g
+  position 0.0 -0.0215459 -0.207869
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy CM3_g
+  parent CM2_g
+  position 0.0 -0.0238789 -0.23853
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy CM3_g
+  parent CM2_g
+  position 0.0 -0.0238789 -0.23853
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy CM2_g
+  parent CM1_g
+  position 0.0 -0.00684601 -0.30159
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy CM2_g
+  parent CM1_g
+  position 0.0 -0.00617676 -0.261824
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy CM2_g
+  parent CM1_g
+  position 0.0 -0.00684601 -0.30159
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy CM2_g
+  parent CM1_g
+  position 0.0 -0.00684601 -0.30159
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.768628 0.345098 0.882353 
+endnode
+node dummy CL1_fg
+  parent Cloak_g
+  position -0.2415 -0.0011319 -0.0352829
+  orientation 1.0 0.0 0.0 -3.26468e-007
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy CR1_fg
+  parent Cloak_g
+  position 0.2415 -0.0011319 -0.0352829
+  orientation 1.0 0.0 0.0 -2.45756e-007
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy cloak_shL
+  parent Cloak_g
+  position -0.1071 -0.00495729 -0.025473
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy cloak_shR
+  parent Cloak_g
+  position 0.1071 -0.00495729 -0.025473
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy CL1_g
+  parent Cloak_g
+  position -0.2415 -0.0011319 -0.0497031
+  orientation 1.0 0.0 0.0 -1.46001e-007
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy CR1_g
+  parent Cloak_g
+  position 0.2415 -0.00113174 -0.0497031
+  orientation 1.0 0.0 0.0 -1.26441e-007
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy CM1_g
+  parent Cloak_g
+  position 0.0 -0.10478 -0.0956232
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy CL1_fg
+  parent Cloak_g
+  position -0.21192 0.00345169 0.0211916
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy CR1_fg
+  parent Cloak_g
+  position 0.21192 0.00345169 0.0211916
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy cloak_shL
+  parent Cloak_g
+  position -0.093982 0.0 0.0297424
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy cloak_shR
+  parent Cloak_g
+  position 0.093982 0.0 0.029742
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy CL1_g
+  parent Cloak_g
+  position -0.21192 0.00345169 0.00862549
+  orientation 1.0 -6.97307e-007 1.58395e-007 -1.88486e-007
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy CM1_g
+  parent Cloak_g
+  position 0.0 -0.0900712 -0.0323903
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy CR1_g
+  parent Cloak_g
+  position 0.21192 0.00345169 0.00862534
+  orientation 1.0 -6.97307e-007 0.0 -1.73776e-007
+  wirecolor 0.890196 0.596078 0.596078 
+endnode
+node dummy CL1_fg
+  parent Cloak_g
+  position -0.2415 -0.0011319 -0.0352829
+  orientation 1.0 0.0 0.0 -3.26468e-007
+  wirecolor 0.839216 0.898039 0.65098 
+endnode
+node dummy CR1_fg
+  parent Cloak_g
+  position 0.2415 -0.0011319 -0.0352829
+  orientation 1.0 0.0 0.0 -2.45756e-007
+  wirecolor 0.839216 0.898039 0.65098 
+endnode
+node dummy cloak_shL
+  parent Cloak_g
+  position -0.1071 -0.00495728 -0.025473
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.568627 0.109804 0.694118 
+endnode
+node dummy cloak_shR
+  parent Cloak_g
+  position 0.1071 -0.00495728 -0.025473
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.568627 0.109804 0.694118 
+endnode
+node dummy CL1_g
+  parent Cloak_g
+  position -0.2415 -0.0011319 -0.0497031
+  orientation 1.0 0.0 0.0 -1.46001e-007
+  wirecolor 0.568627 0.109804 0.694118 
+endnode
+node dummy CR1_g
+  parent Cloak_g
+  position 0.2415 -0.00113174 -0.0497031
+  orientation 1.0 0.0 0.0 -1.26441e-007
+  wirecolor 0.0235294 0.52549 0.0235294 
+endnode
+node dummy CM1_g
+  parent Cloak_g
+  position 0.0 -0.10478 -0.0956232
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.52549 0.431373 0.0313726 
+endnode
+node dummy CL1_fg
+  parent Cloak_g
+  position -0.2415 -0.0011319 -0.0352829
+  orientation 1.0 0.0 0.0 -3.26468e-007
+  wirecolor 0.768628 0.345098 0.882353 
+endnode
+node dummy CR1_fg
+  parent Cloak_g
+  position 0.2415 -0.0011319 -0.0352829
+  orientation 1.0 0.0 0.0 -2.45756e-007
+  wirecolor 0.768628 0.345098 0.882353 
+endnode
+node dummy cloak_shL
+  parent Cloak_g
+  position -0.1071 -0.00495728 -0.025473
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.768628 0.345098 0.882353 
+endnode
+node dummy cloak_shR
+  parent Cloak_g
+  position 0.1071 -0.00495728 -0.025473
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.584314 0.694118 
+endnode
+node dummy CL1_g
+  parent Cloak_g
+  position -0.2415 -0.0011319 -0.0497031
+  orientation 1.0 0.0 0.0 -1.46001e-007
+  wirecolor 0.109804 0.584314 0.694118 
+endnode
+node dummy CR1_g
+  parent Cloak_g
+  position 0.2415 -0.00113174 -0.0497031
+  orientation 1.0 0.0 0.0 -1.26441e-007
+  wirecolor 0.109804 0.584314 0.694118 
+endnode
+node dummy CM1_g
+  parent Cloak_g
+  position 0.0 -0.10478 -0.0956232
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.109804 0.584314 0.694118 
+endnode
 node dummy headconjure
   parent pmi0
   position -0.0271127 0.131638 2.58825
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.890196 0.6 0.6 
+  wirecolor 0.768628 0.345098 0.882353 
 endnode
 node dummy handconjure
   parent pmi0
   position 0.0082741 0.743911 1.59342
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.768628 0.345098 0.882353 
+  wirecolor 0.345098 0.560784 0.882353 
 endnode
 endmodelgeom pmi0
 donemodel pmi0

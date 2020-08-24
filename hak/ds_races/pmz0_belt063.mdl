@@ -15,13 +15,13 @@ node dummy pmz0_belt063
 endnode
 node trimesh belt
   parent pmz0_belt063
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.345098 0.345098 0.882353 
   tilefade 0
   scale 1.0
   render 1
-  shadow 1
+  Shadow 0
   beaming 0
   inheritcolor 0
   rotatetexture 0
@@ -142,7 +142,7 @@ node trimesh belt
 endnode
 node trimesh Box01
   parent belt
-  position -0.000107658 0.107439 -0.0351406
+  position -0.0001077 0.1074390 -0.0351406
   orientation 0.0 -0.751991 -0.659173 -3.14159
   wirecolor 0.694118 0.345098 0.101961 
   ambient 1.0 1.0 1.0 
@@ -260,13 +260,13 @@ node trimesh Box01
 endnode
 node trimesh pocket
   parent belt
-  position -0.130932 0.0835779 -0.123953
+  position -0.1309320 0.0835779 -0.1239530
   orientation -0.063925 -0.122937 -0.990354 -0.524691
   wirecolor 0.345098 0.345098 0.882353 
   tilefade 0
   scale 1.0
   render 1
-  shadow 1
+  Shadow 0
   beaming 0
   inheritcolor 0
   rotatetexture 0

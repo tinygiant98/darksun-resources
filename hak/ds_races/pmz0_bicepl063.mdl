@@ -15,7 +15,7 @@ node dummy pmz0_bicepl063
 endnode
 node trimesh pmz0_bicepl063g
   parent pmz0_bicepl063
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
   tilefade 0
@@ -33,7 +33,7 @@ node trimesh pmz0_bicepl063g
   Specular 0.0 0.0 0.0 
   shininess 1
   center -2.07813 1.4214 -13.039 
-  bitmap pmz0_bicep163
+  bitmap pmh0_bicep163
   verts 21
     -0.0274336 0.0906766 -0.0122633
     -0.102123 0.0143833 -0.000674809
@@ -132,7 +132,7 @@ node trimesh arm_band
   tilefade 0
   scale 1.0
   render 1
-  shadow 1
+  Shadow 0
   beaming 0
   inheritcolor 0
   rotatetexture 0
@@ -144,7 +144,7 @@ node trimesh arm_band
   Specular 0.0 0.0 0.0 
   shininess 1
   center 0.491537 -0.234634 0.762045 
-  bitmap pmz0_bicep163
+  bitmap pmh0_bicep163
   verts 22
     0.0 0.0 -0.00482352
     0.0674693 -0.0106646 -0.00482352

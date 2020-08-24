@@ -16,7 +16,7 @@ node dummy pmz0_forer186
 endnode
 node trimesh pmz0_forer186g
   parent pmz0_forer186
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation -0.413493 0.222457 -0.882914 -2.59811e-007
   wirecolor 0.694118 0.345098 0.101961 
   ambient 1.0 1.0 1.0 

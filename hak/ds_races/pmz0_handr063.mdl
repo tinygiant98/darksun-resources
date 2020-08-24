@@ -15,7 +15,7 @@ node dummy pmz0_handr063
 endnode
 node trimesh pmz0_handr063g
   parent pmz0_handr063
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation -1.0 0.0 0.0 -3.14159
   wirecolor 1.0 1.0 1.0 
   tilefade 0

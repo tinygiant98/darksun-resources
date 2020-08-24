@@ -4,7 +4,7 @@
 #NWmax MODEL ASCII
 # model: pmz0_chest057
 #local file: C:\Documents and Settings\Lisa\Desktop\New Folder\pmz0_chest057.max
-filedependancy pmz0_chest057.max
+filedependancy pmh0_chest057.max
 newmodel pmz0_chest057
 setsupermodel pmz0_chest057 NULL
 classification Character
@@ -16,7 +16,7 @@ node dummy pmz0_chest057
 endnode
 node danglymesh pmz0_chest057g
   parent pmz0_chest057
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
   tilefade 0
@@ -40,7 +40,7 @@ node danglymesh pmz0_chest057g
   showdispl true
   displtype 1
   center 0.0 -3.47565 22.5108 
-  bitmap pmz0_chesT057
+  bitmap pmz0_chest057
   verts 112
     0.0 0.121376 0.032055
     -0.093617 0.105472 0.151565

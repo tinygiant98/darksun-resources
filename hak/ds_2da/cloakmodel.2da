@@ -44,11 +44,11 @@
 40         Silver_Ravens               4     107     6    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
 41         The_Xanathars_Guild         5     108     9    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
 42         Zhentarim                   3     75      5    1        0        1        1        default 2.60        Estelindishttp://neverwintervault.org/project/nwn1/hakpak/fr-deity-and-faction-cloaks-v18-now-full-faerunian-pantheon-plus-six-new-faction
-43         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+43    Fur 						99      		99      			99    	1         			0         		  0         		  0         			default
 44         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
 45         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
 46         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
-47         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+47	  ClothWrapDec	11		24		  24	 1		   0		 1		   1		 ****
 48         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
 49         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
 50         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
@@ -72,11 +72,11 @@
 68         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
 69         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
 70         BenH_Wizard_Hat             150   150     150  0        0        0        0        default             Ben Harrisonhttp://www.nexusmods.com/neverwinter/mods/93
-71         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
-72         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
-73         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
-74         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
-75         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
+71    "Bear Pelt"   91      91        91     1         0         0         0         default
+72    "Tiger Pelt"  92      92        92     1         0         0         0         default
+73    "Lion Pelt"   93      93        93     1         0         0         0         default
+74    "Fur Mantle"  94      94        94     1         0         0         0         default
+75    "Wolf Pelt"   95      95        95     1         0         0         0         default
 76         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
 77         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  
 78         ****                        ****  ****    **** ****     ****     ****     ****     ****                                  

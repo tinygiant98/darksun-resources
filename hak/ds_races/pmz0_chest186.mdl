@@ -16,7 +16,7 @@ node dummy pmz0_chest186
 endnode
 node trimesh pmz0_chest186g
   parent pmz0_chest186
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 0.992956 -0.0983661 -0.0660553 0.0
   wirecolor 0.694118 0.345098 0.101961 
   ambient 1.0 1.0 1.0 

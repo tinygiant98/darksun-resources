@@ -1,21 +1,22 @@
-# Exported from NWMax Plus v6.11.28 at 1/23/2019 11:07:41 AM
+# Exported from NWmax 0.8 b61 at 8/1/2020 11:49:12 PM
 # mdl file
 #
-#NWMax Plus MODEL  ASCII
+#NWmax MODEL ASCII
 # model: pmj0_shinr001
+#local file: Unknown
 filedependancy Unknown
 newmodel pmj0_shinr001
 setsupermodel pmj0_shinr001 NULL
 classification Character
 setanimationscale 1.0
-#NWMax Plus GEOM  ASCII
+#NWmax GEOM  ASCII
 beginmodelgeom pmj0_shinr001
 node dummy pmj0_shinr001
   parent NULL
 endnode
 node trimesh d__
   parent pmj0_shinr001
-  position 0.0 0.0 0.0
+  position 0.0 0.0646482 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.8 0.8 0.8 
   tilefade 0
@@ -27,10 +28,10 @@ node trimesh d__
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 3.27635 -3.37697 -8.71041 
   bitmap DS_dwf_Bod

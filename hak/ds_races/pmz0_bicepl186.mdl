@@ -16,7 +16,7 @@ node dummy pmz0_bicepl186
 endnode
 node trimesh pmz0_bicepl186g
   parent pmz0_bicepl186
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 0.988371 -0.0629517 0.138422 -9.77589e-007
   wirecolor 0.694118 0.345098 0.101961 
   ambient 1.0 1.0 1.0 

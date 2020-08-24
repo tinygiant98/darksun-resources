@@ -16,7 +16,7 @@ node dummy pmz0_legr186
 endnode
 node trimesh pmz0_legr186g
   parent pmz0_legr186
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 0.546252 0.496065 0.674928 0.0
   wirecolor 0.694118 0.345098 0.101961 
   ambient 1.0 1.0 1.0 

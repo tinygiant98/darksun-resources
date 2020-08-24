@@ -1,14 +1,15 @@
-# Exported from NWMax Plus v6.11.28 at 9/29/2019 3:38:52 AM
+# Exported from NWmax 0.8 b61 at 8/4/2020 10:58:17 PM
 # mdl file
 #
-#NWMax Plus MODEL  ASCII
+#NWmax MODEL ASCII
 # model: pmj0_robe040
-filedependancy dwarf.max
+#local file: Unknown
+filedependancy Unknown
 newmodel pmj0_robe040
 setsupermodel pmj0_robe040 pmh0
 classification Character
 setanimationscale 0.66
-#NWMax Plus GEOM  ASCII
+#NWmax GEOM  ASCII
 beginmodelgeom pmj0_robe040
 node dummy pmj0_robe040
   parent NULL
@@ -27,10 +28,10 @@ node trimesh rootdummy
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 0.223529 0.235294 0.219608 
-  Diffuse 0.639216 0.682353 0.627451 
-  Specular 0.346667 0.46698 0.356863 
+  diffuse 0.639216 0.682353 0.627451 
+  specular 0.346667 0.46698 0.356863 
   shininess 30
   center 0.0 -0.0490699 0.0 
   bitmap NULL
@@ -71,10 +72,10 @@ node trimesh torso_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 0.0 -3.4788 22.7909 
   bitmap DS_dwf_Bod
@@ -3309,10 +3310,10 @@ node trimesh lbicep_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -3.79254 -0.4221 -12.3502 
   bitmap DS_dwf_Bod
@@ -4836,10 +4837,10 @@ node trimesh lforearm_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -1.27097 0.86195 -9.22255 
   bitmap DS_dwf_Bod
@@ -5942,10 +5943,10 @@ node trimesh lhand_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -0.430325 3.46225 -5.85813 
   bitmap DS_dwf_Bod
@@ -7060,10 +7061,10 @@ node trimesh rbicep_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 3.79254 -0.4221 -12.3502 
   bitmap DS_dwf_Bod
@@ -8587,10 +8588,10 @@ node trimesh rforearm_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 1.27097 0.86195 -9.22255 
   bitmap DS_dwf_Bod
@@ -9693,10 +9694,10 @@ node trimesh rhand_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 0.430325 3.46225 -5.85813 
   bitmap DS_dwf_Bod
@@ -10811,10 +10812,10 @@ node trimesh neck_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 0.0195503 1.0157 2.14685 
   bitmap DS_dwf_Bod
@@ -11126,10 +11127,10 @@ node trimesh head_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 0.18965 -0.439 7.88625 
   bitmap DS_dwf_head
@@ -12623,10 +12624,10 @@ node trimesh pelvis_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -4.95911e-005 -7.082 -9.30654 
   bitmap DS_dwf_Bod
@@ -13414,10 +13415,10 @@ node trimesh rthigh_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 0.424 -3.9367 -11.7619 
   bitmap DS_dwf_Bod
@@ -14256,10 +14257,10 @@ node trimesh rshin_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 3.27635 -3.37697 -8.71041 
   bitmap DS_dwf_Bod
@@ -15294,10 +15295,10 @@ node trimesh rfoot_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center 6.76681 9.87115 0.7875 
   bitmap DS_dwf_Bod
@@ -16434,10 +16435,10 @@ node trimesh lthigh_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -0.424 -3.9367 -11.7619 
   bitmap DS_dwf_Bod
@@ -17276,10 +17277,10 @@ node trimesh lshin_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -3.27635 -3.37697 -8.71041 
   bitmap DS_dwf_Bod
@@ -18314,10 +18315,10 @@ node trimesh lfoot_g
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfIllumColor 0.0 0.0 0.0 
+  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
   shininess 1
   center -6.76681 9.87115 0.7875 
   bitmap DS_dwf_Bod
@@ -19450,7 +19451,7 @@ node skin MHRobe
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 1.0
-  bitmap pmh0_robe003
+  bitmap pmh0_robe040
   verts 285
     0.391655 -0.0312544 0.230924
     0.368338 0.0787819 0.230925
@@ -19467,9 +19468,9 @@ node skin MHRobe
     0.0671841 -0.317895 0.469143
     0.0721575 -0.324622 0.230925
     0.301199 -0.238055 0.230925
-    0.27926 -0.246191 0.469144
+    0.27926 -0.246191 0.437212
     0.368338 -0.141291 0.230924
-    0.341425 -0.130721 0.469144
+    0.341425 -0.130721 0.437212
     0.289418 0.0269632 0.655903
     0.304965 -0.0562878 0.662808
     0.23798 0.10152 0.649929
@@ -19557,14 +19558,14 @@ node skin MHRobe
     0.233933 -0.130538 0.769175
     0.331703 -0.232949 0.768928
     0.397986 -0.175644 0.76868
-    0.366221 0.0975445 0.561617
-    0.281288 0.00553272 0.561618
-    0.481825 0.0499736 0.561334
-    0.520347 -0.0490907 0.561334
+    0.366221 0.0975445 0.529685
+    0.281288 0.00553272 0.5134
+    0.481825 0.0499736 0.529402
+    0.520347 -0.0490907 0.529402
     0.204218 -0.215592 0.561617
-    0.419189 -0.280023 0.561475
-    0.481825 -0.148156 0.561334
-    0.390643 -0.0565979 0.57963
+    0.419189 -0.280023 0.545189
+    0.481825 -0.148156 0.529402
+    0.390643 -0.0565979 0.547698
     0.145074 0.145322 0.774291
     0.159159 0.185044 0.791267
     0.285596 0.0434484 0.805377
@@ -19605,7 +19606,7 @@ node skin MHRobe
     -0.33139 0.0515669 0.469144
     -0.358302 0.0787819 0.230925
     -0.381619 -0.0312544 0.230925
-    -0.352979 -0.0395769 0.469144
+    -0.352979 -0.0395769 0.432087
     -0.269224 0.131716 0.469144
     -0.291163 0.175546 0.230925
     -0.17398 0.191207 0.469144
@@ -19618,7 +19619,7 @@ node skin MHRobe
     -0.0621213 -0.324622 0.230924
     -0.269223 -0.246191 0.469144
     -0.291163 -0.238055 0.230925
-    -0.331389 -0.130721 0.469144
+    -0.331389 -0.130721 0.432087
     -0.358302 -0.141291 0.230925
     -0.279382 0.0269637 0.655904
     -0.294928 -0.0562885 0.662808
@@ -19700,14 +19701,14 @@ node skin MHRobe
     -0.357456 -0.271106 0.769952
     -0.236081 -0.153833 0.770236
     -0.415978 -0.205485 0.769668
-    -0.285456 0.00613716 0.556485
-    -0.373677 0.101709 0.556485
-    -0.493754 0.0522977 0.55619
-    -0.533768 -0.0506004 0.556191
-    -0.428696 -0.290469 0.556337
+    -0.285456 0.00613716 0.496867
+    -0.373677 0.101709 0.519428
+    -0.493754 0.0522977 0.519133
+    -0.533768 -0.0506004 0.519134
+    -0.428696 -0.290469 0.533776
     -0.207704 -0.219242 0.556485
-    -0.493755 -0.153499 0.55619
-    -0.407759 -0.0589032 0.570946
+    -0.493755 -0.153499 0.519133
+    -0.407759 -0.0589032 0.533889
     -0.275559 0.043449 0.805378
     -0.149123 0.185044 0.791267
     -0.132818 0.14423 0.770024

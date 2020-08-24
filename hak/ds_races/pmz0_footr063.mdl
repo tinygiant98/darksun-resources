@@ -13,16 +13,16 @@ beginmodelgeom pmz0_footr063
 node dummy pmz0_footr063
   parent NULL
 endnode
-node trimesh pmz0_foor063g
+node trimesh pmh0_foor063g
   parent pmz0_footr063
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation -1.0 0.0 0.0 -3.14159
   wirecolor 0.686275 0.101961 0.101961 
   ambient 1.0 1.0 1.0 
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 10.0
-  bitmap pmz0_footl063
+  bitmap pmh0_footl063
   verts 27
     0.012224 -0.00270696 0.11552
     -0.04043 -0.0891909 0.134785

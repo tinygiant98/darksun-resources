@@ -15,7 +15,7 @@ node dummy pmz0_shor008
 endnode
 node trimesh pmz0_shor008g
   parent pmz0_shor008
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
   tilefade 0
@@ -33,7 +33,7 @@ node trimesh pmz0_shor008g
   Specular 0.0 0.0 0.0 
   shininess 1
   center 5.55887 0.967299 3.29055 
-  bitmap pmz0_shol008
+  bitmap pmh0_shol008
   verts 24
     0.168346 0.0226334 -0.111629
     0.0779186 0.125474 -0.104024
