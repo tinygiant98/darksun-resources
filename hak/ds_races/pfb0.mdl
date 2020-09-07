@@ -6,7 +6,7 @@
 #local file: Unknown
 filedependancy Unknown
 newmodel pfb0
-setsupermodel pfb0 a_fa
+setsupermodel pfb0 a_ba
 classification Character
 setanimationscale 0.89
 #NWmax GEOM  ASCII

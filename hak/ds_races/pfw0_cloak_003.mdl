@@ -16,9 +16,9 @@ node dummy pfw0_cloak_003
 endnode
 node trimesh rootdummy
   parent pfw0_cloak_003
-  position -0.02269069 0.0703981 1.15648
+  position 0.00269069 0.0063981 1.12648
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.521569 0.521569 0.521569 
+  wirecolor 0.521569 0.221569 0.521569 
   tilefade 0
   scale 1.0
   render 0

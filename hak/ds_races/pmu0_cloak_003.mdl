@@ -16,7 +16,7 @@ node dummy pmu0_cloak_003
 endnode
 node trimesh rootdummy
   parent pmu0_cloak_003
-  position -0.00336336 0.0204976 1.2072
+  position -0.00336336 0.0204976 1.1872
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.521569 0.521569 0.521569 
   tilefade 0
