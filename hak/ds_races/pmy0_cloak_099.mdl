@@ -5,7 +5,7 @@
 # model: pmy0_cloak_099
 filedependancy Unknown
 newmodel pmy0_cloak_099
-setsupermodel pmy0_cloak_099 pmj0
+setsupermodel pmy0_cloak_099 c_bugbeara
 classification Character
 setanimationscale 1.0
 #NWMax Plus GEOM  ASCII
@@ -15,7 +15,7 @@ node dummy pmy0_cloak_099
 endnode
 node trimesh rootdummy
   parent pmy0_cloak_099
-position -0.06682644750 0.03476200000 0.85080000000
+position -0.00726485760 0.10427481600 1.40080000000
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.521569 0.521569 0.521569 
   tilefade 0

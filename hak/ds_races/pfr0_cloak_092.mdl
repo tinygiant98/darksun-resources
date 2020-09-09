@@ -6,7 +6,7 @@
 #local file: C:\Users\JC\Desktop\Models\Cloaks\pfr0_cloak_092.max
 filedependancy pfr0_cloak_092.max
 newmodel pfr0_cloak_092
-setsupermodel pfr0_cloak_092 pmh0
+setsupermodel pfr0_cloak_092 pmk0
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII

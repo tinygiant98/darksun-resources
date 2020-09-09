@@ -6,7 +6,7 @@
 #local file: C:\Users\JC\Desktop\Models\Cloaks\pmy0_cloak_092.max
 filedependancy pmy0_cloak_092.max
 newmodel pmy0_cloak_092
-setsupermodel pmy0_cloak_092 pmd0
+setsupermodel pmy0_cloak_092 c_bugbeara
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
@@ -16,7 +16,7 @@ node dummy pmy0_cloak_092
 endnode
 node trimesh rootdummy
   parent pmy0_cloak_092
-position -0.06609609000 0.11343300000 0.85080000000
+position -0.00726485760 0.10427481600 1.40080000000
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.521569 0.521569 0.521569 
   tilefade 0

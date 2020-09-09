@@ -6,7 +6,7 @@
 #local file: D:\Work\clothing\cloaks\max\pfx0_cloak_006.max
 filedependancy pfx0_cloak_006.max
 newmodel pfx0_cloak_006
-setsupermodel pfx0_cloak_006 pmh0
+setsupermodel pfx0_cloak_006 pmk0
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII

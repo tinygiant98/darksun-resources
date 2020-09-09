@@ -6,7 +6,7 @@
 #local file: D:\NWN\override\fixedcloaks\pfi0_cloak_003.max
 filedependancy pfi0_cloak_003.max
 newmodel pfi0_cloak_003
-setsupermodel pfi0_cloak_003 pmh0
+setsupermodel pfi0_cloak_003 pmk0
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII

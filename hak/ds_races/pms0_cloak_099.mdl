@@ -5,7 +5,7 @@
 # model: pms0_cloak_099
 filedependancy Unknown
 newmodel pms0_cloak_099
-setsupermodel pms0_cloak_099 pmj0
+setsupermodel pms0_cloak_099 pmk0_noncom
 classification Character
 setanimationscale 1.0
 #NWMax Plus GEOM  ASCII

@@ -6,7 +6,7 @@
 #local file: Unknown
 filedependancy Unknown
 newmodel pmx0_cloak_011
-setsupermodel pmx0_cloak_011 a_ba
+setsupermodel pmx0_cloak_011 pmk0_noncom
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII

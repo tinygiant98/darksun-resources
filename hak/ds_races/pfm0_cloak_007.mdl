@@ -6,7 +6,7 @@
 #local file: C:\Documents and Settings\Lisa\Desktop\males\pfm0_cloak_007.max
 filedependancy pfm0_cloak_007.max
 newmodel pfm0_cloak_007
-setsupermodel pfm0_cloak_007 pmh0
+setsupermodel pfm0_cloak_007 pmk0
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
