@@ -6,7 +6,7 @@
 #local file: E:\Artwork\nwn\disciple\other-cloaks\pmy0_cloak_011.gmax
 filedependancy pmy0_cloak_011.gmax
 newmodel pmy0_cloak_011
-setsupermodel pmy0_cloak_011 c_bugbeara
+setsupermodel pmy0_cloak_011 pmy0 
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
@@ -16,7 +16,7 @@ node dummy pmy0_cloak_011
 endnode
 node trimesh rootdummy
   parent pmy0_cloak_011
-position -0.10044848440 -0.02229310400 2.10525625000
+position -0.10044848440 -0.05229310400 2.35525625000
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
   tilefade 0

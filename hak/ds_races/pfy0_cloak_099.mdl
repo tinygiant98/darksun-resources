@@ -5,7 +5,7 @@
 # model: pfy0_cloak_099
 filedependancy Unknown
 newmodel pfy0_cloak_099
-setsupermodel pfy0_cloak_099 a_dfa
+setsupermodel pfy0_cloak_099 pfy0
 classification Character
 setanimationscale 1.0
 #NWMax Plus GEOM  ASCII
@@ -15,7 +15,7 @@ node dummy pfy0_cloak_099
 endnode
 node trimesh rootdummy
   parent pfy0_cloak_099
-position -0.03832644750 0.00505155200 1.45350000000
+position -0.03832644750 0.00505155200 1.75350000000
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.521569 0.521569 0.521569 
   tilefade 0

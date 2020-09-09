@@ -6,7 +6,7 @@
 #local file: E:\Artwork\nwn\disciple\other-cloaks\pfy0_cloak_011.gmax
 filedependancy pfy0_cloak_011.gmax
 newmodel pfy0_cloak_011
-setsupermodel pfy0_cloak_011 a_dfa
+setsupermodel pfy0_cloak_011 pfy0
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
@@ -16,7 +16,7 @@ node dummy pfy0_cloak_011
 endnode
 node trimesh rootdummy
   parent pfy0_cloak_011
-position 0.00037373700 -0.00208464000 0.92283750000
+position 0.00037373700 -0.00208464000 1.32283750000
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
   tilefade 0

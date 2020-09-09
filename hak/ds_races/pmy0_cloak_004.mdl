@@ -6,7 +6,7 @@
 #local file: Unknown
 filedependancy Unknown
 newmodel pmy0_cloak_004
-setsupermodel pmy0 c_bugbeara
+setsupermodel pmy0 pmy0 
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
@@ -16,7 +16,7 @@ node dummy pmy0_cloak_004
 endnode
 node trimesh rootdummy
   parent pmy0_cloak_004
-  position -0.00787026 0.0529644 1.4508
+  position -0.00787026 0.0529644 1.7508
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.521569 0.521569 0.521569 
   tilefade 0

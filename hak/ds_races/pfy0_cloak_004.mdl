@@ -6,7 +6,7 @@
 #local file: Unknown
 filedependancy Unknown
 newmodel pfy0_cloak_004
-setsupermodel pfy0_cloak_004 a_dfa
+setsupermodel pfy0_cloak_004 pfy0
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
@@ -16,7 +16,7 @@ node dummy pfy0_cloak_004
 endnode
 node trimesh rootdummy
   parent pfy0_cloak_004
-position -0.00605404800 0.08689568000 1.30080000000
+position -0.00605404800 0.08689568000 1.70080000000
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.521569 0.521569 0.521569 
   tilefade 0
