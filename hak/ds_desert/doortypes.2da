@@ -240,5 +240,6 @@
 236        ArenaGate2*CN       TCN_UDoor_14   TCN01     nw_door_ttr_33   24993           0            1              8
 237        TNI01_RoundStair    tn_gdoor_08    TNI01     nw_door_ttr_34   5349            0            0              ****
 238        CaveDoor1*MD        TDT_UDoor_02   TDT01     nw_door_ttr_23   63510           1            1              0
-239        HutDoor1            TDS21_UDoor_01 ttd21     nw_door_ttr_04   5349            1            1              1  
+239        HutDoor1                 TDS21_UDoor_01 ttd21     nw_door_ttr_04   5349            1            1              1  
 240        TowerDoor1            TDS21_UDoor_02 ttd21     nw_door_ttr_04   5349           0            0              ****
+241        ChiefTentDoor1      TDS21_UDoor_03 ttd21     nw_door_ttr_04   5349           0            0              ****
