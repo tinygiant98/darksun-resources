@@ -1,0 +1,160 @@
+# Exported from NWMax Plus v6.11.28 at 9/19/2020 12:40:26 AM
+# mdl file
+#
+#NWMax Plus MODEL  ASCII
+# model: tds21_UDoor_03
+filedependancy tent.max
+newmodel tds21_UDoor_03
+setsupermodel tds21_UDoor_03 NULL
+classification Door
+#NWMax Plus GEOM  ASCII
+beginmodelgeom tds21_UDoor_03
+node dummy tds21_UDoor_03
+  parent NULL
+endnode
+node trimesh sam
+  parent tds21_UDoor_03
+  position 0.0 0.0 0.00999939
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 0
+  selfIllumColor 0.0 0.0 1.0 
+  ambient 0.2 0.2 0.2 
+  Diffuse 0.8 0.8 0.8 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 2.03174 -1.49923 203.0 
+  bitmap NULL
+  verts 8
+    2.50993 0.0 0.0
+    -2.4693 0.0 0.0
+    -2.17439 0.0 4.06
+    2.21503 0.0 4.06
+    -2.4693 -0.0299845 0.0
+    2.50993 -0.0299845 0.0
+    -2.17439 -0.0299845 4.06
+    2.21503 -0.0299845 4.06
+  faces 4
+    0 1 2  1  0 0 0  6
+    2 3 0  1  0 0 0  6
+    4 5 6  1  0 0 0  6
+    7 6 5  1  0 0 0  6
+endnode
+node dummy TDR_UDoor_08head
+  parent tds21_UDoor_03
+  position 0.0 0.0 2.47546
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.552941 0.027451 0.227451 
+endnode
+node dummy TDR_UDoor_08grnd
+  parent tds21_UDoor_03
+  position 0.0 0.0 0.02
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.552941 0.027451 0.227451 
+endnode
+node dummy TDR_UDoor_08impc
+  parent tds21_UDoor_03
+  position 0.0 0.0 1.29138
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.552941 0.027451 0.227451 
+endnode
+node dummy TDR_UDoor_08hhit
+  parent tds21_UDoor_03
+  position 0.0 0.0 2.13588
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.223529 0.0313726 0.533333 
+endnode
+node dummy 08_DWK_dp_closed_01
+  parent tds21_UDoor_03
+  position 0.0133803 0.831455 0.595532
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.223529 0.0313726 0.533333 
+endnode
+node dummy 08_DWK_dp_closed_02
+  parent tds21_UDoor_03
+  position 0.0133803 0.831455 0.595532
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.223529 0.0313726 0.533333 
+endnode
+endmodelgeom tds21_UDoor_03
+
+#NWMax Plus ANIM  ASCII
+newanim trans tds21_UDoor_03
+  length 0.0333333
+  transtime 0.25
+  animroot tds21_UDoor_03
+    node dummy tds21_UDoor_03
+        parent NULL
+    endnode
+    node trimesh sam
+        parent tds21_UDoor_03
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+    node dummy TDR_UDoor_08head
+        parent tds21_UDoor_03
+    endnode
+    node dummy TDR_UDoor_08grnd
+        parent tds21_UDoor_03
+    endnode
+    node dummy TDR_UDoor_08impc
+        parent tds21_UDoor_03
+    endnode
+    node dummy TDR_UDoor_08hhit
+        parent tds21_UDoor_03
+    endnode
+    node dummy 08_DWK_dp_closed_01
+        parent tds21_UDoor_03
+    endnode
+    node dummy 08_DWK_dp_closed_02
+        parent tds21_UDoor_03
+    endnode
+doneanim trans tds21_UDoor_03
+
+
+#NWMax Plus ANIM  ASCII
+newanim default tds21_UDoor_03
+  length 0.0333333
+  transtime 0.25
+  animroot tds21_UDoor_03
+    node dummy tds21_UDoor_03
+        parent NULL
+    endnode
+    node trimesh sam
+        parent tds21_UDoor_03
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy TDR_UDoor_08head
+        parent tds21_UDoor_03
+    endnode
+    node dummy TDR_UDoor_08grnd
+        parent tds21_UDoor_03
+    endnode
+    node dummy TDR_UDoor_08impc
+        parent tds21_UDoor_03
+    endnode
+    node dummy TDR_UDoor_08hhit
+        parent tds21_UDoor_03
+    endnode
+    node dummy 08_DWK_dp_closed_01
+        parent tds21_UDoor_03
+    endnode
+    node dummy 08_DWK_dp_closed_02
+        parent tds21_UDoor_03
+    endnode
+doneanim default tds21_UDoor_03
+
+donemodel tds21_UDoor_03
