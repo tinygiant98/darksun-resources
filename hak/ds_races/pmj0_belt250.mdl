@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pmh0_belt065
+# model: pmj0_belt250
 #local file: Unknown
 filedependancy Unknown
-newmodel pmh0_belt065
-setsupermodel pmh0_belt065 NULL
+newmodel pmj0_belt250
+setsupermodel pmj0_belt250 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pmh0_belt065
-node dummy pmh0_belt065
+beginmodelgeom pmj0_belt250
+node dummy pmj0_belt250
   parent NULL
 endnode
-node trimesh pmh0_belt065
-  parent pmh0_belt065
+node trimesh pmj0_belt250
+  parent pmj0_belt250
   position 0.00183197 0.00750436 -0.312079
   orientation 0.0 0.0 -1.0 -3.20268
   wirecolor 1.0 1.0 1.0 
@@ -34,7 +34,7 @@ node trimesh pmh0_belt065
   specular 0.0 0.0 0.0 
   shininess 1
   center undefined
-  bitmap pmh0_belt065
+  bitmap pmj0_belt250
   verts 624
     0.0863961 -0.21776 0.0125104
     0.0987405 -0.235989 0.0290816
@@ -6877,5 +6877,5 @@ node trimesh pmh0_belt065
     0.9532 0.384 0
     0.9478 0.3643 0
 endnode
-endmodelgeom pmh0_belt065
-donemodel pmh0_belt065
+endmodelgeom pmj0_belt250
+donemodel pmj0_belt250
