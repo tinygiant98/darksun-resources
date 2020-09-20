@@ -1,9 +1,9 @@
-# Exported from NWMax Plus v6.11.28 at 1/3/2020 1:36:27 AM
+# Exported from NWMax Plus v6.11.28 at 9/20/2020 3:44:08 PM
 # mdl file
 #
 #NWMax Plus MODEL  ASCII
 # model: plc_ds_fsta4
-filedependancy stallswithedits_recover.max
+filedependancy Unknown
 newmodel plc_ds_fsta4
 setsupermodel plc_ds_fsta4 NULL
 classification Character
@@ -13,50 +13,250 @@ beginmodelgeom plc_ds_fsta4
 node dummy plc_ds_fsta4
   parent NULL
 endnode
-node trimesh Lnkundr
+node dummy c06_head
+  parent plc_ds_fsta4
+  position 0.0 0.0 0.964856
+  orientation -0.57735 0.57735 0.57735 -2.0944
+  wirecolor 0.882353 0.341176 0.560784 
+endnode
+node dummy c06_head_hit
+  parent plc_ds_fsta4
+  position 0.0 0.0125 0.525904
+  orientation -0.57735 0.57735 0.57735 -2.0944
+  wirecolor 0.882353 0.341176 0.560784 
+endnode
+node emitter c06_dust
+  parent plc_ds_fsta4
+  position 0.0 -0.0181677 0.396442
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 0.87451 0.776471 0.337255 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.439216 0.384314 0.239216 
+  colorEnd 0.639216 0.603922 0.482353 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node dummy c06_ground
   parent plc_ds_fsta4
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 0
-  Shadow 0
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
-  ambient 0.25 0.25 0.25 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.0 0.0 0.0 
-  shininess 0
-  center 1.17465 -0.000879884 -93.7564 
-  bitmap plc_ds_tntpl
-  verts 4
-    -0.623715 0.0325682 -1.2275
-    0.574674 -0.0329348 -0.644528
-    0.647208 0.0329172 -1.2306
-    -0.549127 -0.0321838 -0.651208
-  faces 2
-    0 1 2  1  4 5 6  5
-    3 1 0  1  7 5 4  5
-  tverts 8
-    0.270027 0.708578 0
-    0.292365 -0.211237 0
-    1.22942 0.711149 0
-    1.21399 -0.217522 0
-    0.287952 -0.208465 0
-    1.23042 0.722939 0
-    1.21591 -0.213419 0
-    0.274248 0.712267 0
+  wirecolor 0.109804 0.109804 0.694118 
+endnode
+node dummy c06_hand
+  parent plc_ds_fsta4
+  position 0.0 -0.5 0.864856
+  orientation -0.57735 0.57735 0.57735 -2.0944
+  wirecolor 0.109804 0.109804 0.694118 
+endnode
+node emitter c06_chunkywood2
+  parent plc_ds_fsta4
+  position 0.00624439 -0.0175785 0.414694
+  orientation 1.0 0.0 0.0 -5.93412
+  wirecolor 0.101961 0.694118 0.101961 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 89.0
+  ySize 55.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 2
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName PLC_Chunk_W02
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter c06_chunkywood1
+  parent plc_ds_fsta4
+  position 0.00624439 -0.0165034 0.414694
+  orientation 1.0 0.0 0.0 -4.76837e-006
+  wirecolor 0.521569 0.0156863 0.0156863 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 89.0
+  ySize 55.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.482353 0.431373 0.313726 
+  colorEnd 0.584314 0.529412 0.403922 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 2
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 2.9
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_cloud01
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName PLC_Chunk_W01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node dummy c06_impact
+  parent plc_ds_fsta4
+  position 0.0 0.00664187 0.513196
+  orientation -0.57735 0.57735 0.57735 -2.0944
+  wirecolor 0.443137 0.529412 0.0235294 
+endnode
+node dummy anim_base
+  parent plc_ds_fsta4
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.443137 0.529412 0.0235294 
 endnode
 node trimesh foodstall
-  parent Lnkundr
+  parent anim_base
   position 0.0 0.0 -0.31312
   orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.341176 0.878431 0.776471 
+  wirecolor 0.337255 0.87451 0.776471 
   tilefade 0
   scale 1.0
   render 1
@@ -66,12 +266,12 @@ node trimesh foodstall
   rotatetexture 0
   alpha 1.0
   transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
+  selfIllumColor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
   Diffuse 1.0 1.0 1.0 
   Specular 0.0 0.0 0.0 
   shininess 1
-  center -0.00160217 -22.2372 98.5965 
+  center -0.00149536 -22.237 98.5967 
   bitmap plc_ds_fsta1
   verts 569
     -1.20811 0.658306 1.19286
@@ -6046,485 +6246,168 @@ node trimesh foodstall
     0.315317 0.794267 0
     0.365846 0.808994 0
 endnode
-node emitter fire!15
-  parent plc_ds_fsta4
-  position 0.00845276 -0.0260181 0.39126
-  orientation 1.0 0.0 0.0 -4.71239
-  wirecolor 1.0 1.0 1.0 
-  update_sel 3
-  update Explosion
-  render_sel 1
-  render Normal
-  blend_sel 1
-  Blend Normal
-  spawnType 0
-  xSize 100.0
-  ySize 99.0
-  inherit 1
-  inherit_local 0
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0.0
-  combinetime 0.0
-  deadspace 0.0
-  opacity 0.5
-  colorStart 0.431373 0.0588235 0.0588235 
-  colorEnd 0.945098 0.529412 0.364706 
-  alphaStart 1.0
-  alphaEnd 0.0
-  sizeStart 4.0
-  sizeEnd 1.0
-  sizeStart_y 0.0
-  sizeEnd_y 0.0
-  birthrate 10
-  lifeExp 2.5
-  mass 0.09
-  spread 2.96706
-  particleRot 0.5
-  velocity 2.0
-  randvel 0.5
-  bounce_co 0.0
-  blurlength 10.0
-  loop 0
-  bounce 0
-  m_isTinted 1
-  Splat 0
-  affectedByWind false
-  texture fxpa_smoke01
-  twosidedtex 1
-  xgrid 4
-  ygrid 4
-  fps 10
-  frameStart 0
-  frameEnd 24
-  random 0
-  lightningDelay 0.0
-  lightningRadius 0.0
-  lightningSubDiv 0
-  lightningScale 0.0
-  blastRadius 0.2
-  blastLength 1.0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0.0
-  p2p_bezier3 0.0
-  grav 0.0
-  Drag 0.0
-endnode
-node emitter ChunkyWood17
-  parent plc_ds_fsta4
-  position 0.00845276 -0.0260181 0.571526
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
-  update_sel 3
-  update Explosion
-  render_sel 1
-  render Normal
-  blend_sel 1
-  Blend Normal
-  spawnType 0
-  xSize 89.0
-  ySize 40.0
-  inherit 1
-  inherit_local 0
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0.0
-  combinetime 0.0
-  deadspace 0.0
-  opacity 0.5
-  colorStart 0.482353 0.435294 0.317647 
-  colorEnd 0.584314 0.533333 0.407843 
-  alphaStart 1.0
-  alphaEnd 1.0
-  sizeStart 0.1
-  sizeEnd 0.1
-  sizeStart_y 0.0
-  sizeEnd_y 0.0
-  birthrate 3
-  lifeExp 0.75
-  mass 3.0
-  spread 1.22173
-  particleRot 2.9
-  velocity 8.0
-  randvel 0.3
-  bounce_co 0.5
-  blurlength 10.0
-  loop 0
-  bounce 1
-  m_isTinted 0
-  Splat 0
-  affectedByWind false
-  texture fxpa_cloud02
-  twosidedtex 1
-  xgrid 5
-  ygrid 5
-  fps 0
-  frameStart 0
-  frameEnd 24
-  random 0
-  chunkName PLC_Chunk_W02
-  lightningDelay 0.0
-  lightningRadius 0.0
-  lightningSubDiv 0
-  lightningScale 0.0
-  blastRadius 0.0
-  blastLength 0.0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0.0
-  p2p_bezier3 0.0
-  grav 0.0
-  Drag 0.0
-endnode
-node emitter ChunkyWood18
-  parent plc_ds_fsta4
-  position 0.00845276 -0.0260181 0.465304
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
-  update_sel 3
-  update Explosion
-  render_sel 1
-  render Normal
-  blend_sel 1
-  Blend Normal
-  spawnType 0
-  xSize 89.0
-  ySize 40.0
-  inherit 1
-  inherit_local 0
-  inheritvel 0
-  inherit_part 0
-  renderorder 0
-  threshold 0.0
-  combinetime 0.0
-  deadspace 0.0
-  opacity 0.5
-  colorStart 0.431373 0.152941 0.133333 
-  colorEnd 0.494118 0.364706 0.262745 
-  alphaStart 1.0
-  alphaEnd 1.0
-  sizeStart 0.1
-  sizeEnd 0.1
-  sizeStart_y 0.0
-  sizeEnd_y 0.0
-  birthrate 3
-  lifeExp 0.75
-  mass 3.0
-  spread 1.22173
-  particleRot 5.0
-  velocity 8.0
-  randvel 0.3
-  bounce_co 0.5
-  blurlength 10.0
-  loop 0
-  bounce 1
-  m_isTinted 1
-  Splat 0
-  affectedByWind false
-  texture fxpa_cloud02
-  twosidedtex 0
-  xgrid 5
-  ygrid 5
-  fps 0
-  frameStart 0
-  frameEnd 24
-  random 0
-  chunkName PLC_Chunk_W01
-  lightningDelay 0.0
-  lightningRadius 0.0
-  lightningSubDiv 0
-  lightningScale 0.0
-  blastRadius 0.0
-  blastLength 0.0
-  p2p 0
-  p2p_type Bezier
-  p2p_sel 1
-  p2p_bezier2 0.0
-  p2p_bezier3 0.0
-  grav 0.0
-  Drag 0.0
-endnode
-node dummy ChunkyWood18_XYdimension
-  parent ChunkyWood18
-  position 0.0 0.0 0.0
-  orientation -1.0 0.0 0.0 -6.28318
-  wirecolor 0.65098 0.898039 0.898039 
-endnode
-node dummy A09_hand
-  parent plc_ds_fsta4
-  position 0.00398437 -1.13699 0.628682
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.423529 0.0313726 0.533333 
-endnode
-node dummy A09_head
-  parent plc_ds_fsta4
-  position 0.00398437 0.0108252 1.51351
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.423529 0.0313726 0.533333 
-endnode
-node dummy A09_head_hit
-  parent plc_ds_fsta4
-  position 0.00398437 0.0108252 1.03203
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.423529 0.0313726 0.533333 
-endnode
-node dummy A09_impact
-  parent plc_ds_fsta4
-  position 0.00398437 0.011001 0.562415
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.423529 0.0313726 0.533333 
-endnode
-node dummy A09_ground
-  parent plc_ds_fsta4
-  position -0.00363281 0.0069873 0.0
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 0.0313726 0.239216 0.541176 
-endnode
 endmodelgeom plc_ds_fsta4
 
 #NWMax Plus ANIM  ASCII
-newanim open plc_ds_fsta4
+newanim default plc_ds_fsta4
   length 0.0333333
   transtime 0.25
   animroot plc_ds_fsta4
     node dummy plc_ds_fsta4
         parent NULL
     endnode
-    node trimesh Lnkundr
+    node dummy c06_head
         parent plc_ds_fsta4
     endnode
-    node trimesh foodstall
-        parent Lnkundr
-    endnode
-    node emitter fire!15
+    node dummy c06_head_hit
         parent plc_ds_fsta4
     endnode
-    node emitter ChunkyWood17
+    node emitter c06_dust
         parent plc_ds_fsta4
     endnode
-    node emitter ChunkyWood18
+    node dummy c06_ground
         parent plc_ds_fsta4
     endnode
-    node dummy ChunkyWood18_XYdimension
-        parent ChunkyWood18
-    endnode
-    node dummy A09_hand
+    node dummy c06_hand
         parent plc_ds_fsta4
     endnode
-    node dummy A09_head
+    node emitter c06_chunkywood2
         parent plc_ds_fsta4
     endnode
-    node dummy A09_head_hit
+    node emitter c06_chunkywood1
         parent plc_ds_fsta4
     endnode
-    node dummy A09_impact
+    node dummy c06_impact
         parent plc_ds_fsta4
     endnode
-    node dummy A09_ground
-        parent plc_ds_fsta4
-    endnode
-doneanim open plc_ds_fsta4
-
-
-#NWMax Plus ANIM  ASCII
-newanim close2open plc_ds_fsta4
-  length 0.633333
-  transtime 0.25
-  animroot plc_ds_fsta4
-    node dummy plc_ds_fsta4
-        parent NULL
-    endnode
-    node trimesh Lnkundr
-        parent plc_ds_fsta4
-    endnode
-    node trimesh foodstall
-        parent Lnkundr
-    endnode
-    node emitter fire!15
-        parent plc_ds_fsta4
-    endnode
-    node emitter ChunkyWood17
-        parent plc_ds_fsta4
-    endnode
-    node emitter ChunkyWood18
-        parent plc_ds_fsta4
-    endnode
-    node dummy ChunkyWood18_XYdimension
-        parent ChunkyWood18
-    endnode
-    node dummy A09_hand
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head_hit
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_impact
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_ground
-        parent plc_ds_fsta4
-    endnode
-doneanim close2open plc_ds_fsta4
-
-
-#NWMax Plus ANIM  ASCII
-newanim open2close plc_ds_fsta4
-  length 0.633333
-  transtime 0.25
-  animroot plc_ds_fsta4
-    node dummy plc_ds_fsta4
-        parent NULL
-    endnode
-    node trimesh Lnkundr
+    node dummy anim_base
         parent plc_ds_fsta4
         positionkey
-            0.633333 0.0 0.0 0.0
+            0.0 0.0 0.0 0.0
         endlist
         orientationkey
-            0.633333 0.0 0.0 0.0 0.0
+            0.0 0.0 0.0 0.0 0.0
         endlist
     endnode
     node trimesh foodstall
-        parent Lnkundr
+        parent anim_base
     endnode
-    node emitter fire!15
+    node dummy plc_ds_fsta4_pwk
         parent plc_ds_fsta4
     endnode
-    node emitter ChunkyWood17
-        parent plc_ds_fsta4
+    node pwk pwk_PWK
+        parent plc_ds_fsta4_pwk
     endnode
-    node emitter ChunkyWood18
-        parent plc_ds_fsta4
-    endnode
-    node dummy ChunkyWood18_XYdimension
-        parent ChunkyWood18
-    endnode
-    node dummy A09_hand
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head_hit
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_impact
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_ground
-        parent plc_ds_fsta4
-    endnode
-doneanim open2close plc_ds_fsta4
+doneanim default plc_ds_fsta4
 
 
 #NWMax Plus ANIM  ASCII
-newanim close plc_ds_fsta4
-  length 0.0333333
-  transtime 0.25
+newanim damage plc_ds_fsta4
+  length 0.166667
+  transtime 0.5
   animroot plc_ds_fsta4
     node dummy plc_ds_fsta4
         parent NULL
     endnode
-    node trimesh Lnkundr
+    node dummy c06_head
         parent plc_ds_fsta4
+    endnode
+    node dummy c06_head_hit
+        parent plc_ds_fsta4
+    endnode
+    node emitter c06_dust
+        parent plc_ds_fsta4
+    endnode
+    node dummy c06_ground
+        parent plc_ds_fsta4
+    endnode
+    node dummy c06_hand
+        parent plc_ds_fsta4
+    endnode
+    node emitter c06_chunkywood2
+        parent plc_ds_fsta4
+    endnode
+    node emitter c06_chunkywood1
+        parent plc_ds_fsta4
+    endnode
+    node dummy c06_impact
+        parent plc_ds_fsta4
+    endnode
+    node dummy anim_base
+        parent plc_ds_fsta4
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.166667 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 1.0 0.0 0.0 -0.0872665
+            0.0666667 0.905547 -0.423842 -0.0185053 -0.0963553
+            0.1 -0.729803 -0.679594 -0.0744277 -0.0597794
+            0.133333 -0.669715 0.736176 -0.0976017 -0.0654932
+            0.166667 0.0 0.0 0.0 0.0
+        endlist
     endnode
     node trimesh foodstall
-        parent Lnkundr
+        parent anim_base
     endnode
-    node emitter fire!15
+    node dummy plc_ds_fsta4_pwk
         parent plc_ds_fsta4
     endnode
-    node emitter ChunkyWood17
-        parent plc_ds_fsta4
+    node pwk pwk_PWK
+        parent plc_ds_fsta4_pwk
     endnode
-    node emitter ChunkyWood18
-        parent plc_ds_fsta4
-    endnode
-    node dummy ChunkyWood18_XYdimension
-        parent ChunkyWood18
-    endnode
-    node dummy A09_hand
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head_hit
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_impact
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_ground
-        parent plc_ds_fsta4
-    endnode
-doneanim close plc_ds_fsta4
+doneanim damage plc_ds_fsta4
 
 
 #NWMax Plus ANIM  ASCII
 newanim die plc_ds_fsta4
-  length 0.133333
-  transtime 0.0
+  length 0.1
+  transtime 0.05
   animroot plc_ds_fsta4
-  event 0.0333333 detonate
-  event 0.0333333 detonate
-  event 0.0333333 detonate
-  event 0.0333333 detonate
-  event 0.0333333 detonate
-  event 0.0333333 detonate
-  event 0.0333333 detonate
-  event 0.0333333 detonate
-  event 0.0333333 detonate
-  event 0.0333333 detonate
-  event 0.0333333 detonate
-  event 0.0333333 detonate
+  event 0.0 detonate
     node dummy plc_ds_fsta4
         parent NULL
     endnode
-    node trimesh Lnkundr
+    node dummy c06_head
+        parent plc_ds_fsta4
+    endnode
+    node dummy c06_head_hit
+        parent plc_ds_fsta4
+    endnode
+    node emitter c06_dust
+        parent plc_ds_fsta4
+    endnode
+    node dummy c06_ground
+        parent plc_ds_fsta4
+    endnode
+    node dummy c06_hand
+        parent plc_ds_fsta4
+    endnode
+    node emitter c06_chunkywood2
+        parent plc_ds_fsta4
+    endnode
+    node emitter c06_chunkywood1
+        parent plc_ds_fsta4
+    endnode
+    node dummy c06_impact
+        parent plc_ds_fsta4
+    endnode
+    node dummy anim_base
         parent plc_ds_fsta4
         positionkey
-            0.0 0.0 0.0 0.0
-            0.133333 0.0 0.0 -3.66914
+            0.0 0.0 0.0 -2.0
+            0.1 0.0 0.0 -3.0
         endlist
     endnode
     node trimesh foodstall
-        parent Lnkundr
+        parent anim_base
     endnode
-    node emitter fire!15
+    node dummy plc_ds_fsta4_pwk
         parent plc_ds_fsta4
     endnode
-    node emitter ChunkyWood17
-        parent plc_ds_fsta4
-    endnode
-    node emitter ChunkyWood18
-        parent plc_ds_fsta4
-    endnode
-    node dummy ChunkyWood18_XYdimension
-        parent ChunkyWood18
-    endnode
-    node dummy A09_hand
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head_hit
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_impact
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_ground
-        parent plc_ds_fsta4
+    node pwk pwk_PWK
+        parent plc_ds_fsta4_pwk
     endnode
 doneanim die plc_ds_fsta4
 
@@ -6532,142 +6415,56 @@ doneanim die plc_ds_fsta4
 #NWMax Plus ANIM  ASCII
 newanim dead plc_ds_fsta4
   length 0.0333333
-  transtime 0.0
-  animroot plc_ds_fsta4
-    node dummy plc_ds_fsta4
-        parent NULL
-    endnode
-    node trimesh Lnkundr
-        parent plc_ds_fsta4
-    endnode
-    node trimesh foodstall
-        parent Lnkundr
-    endnode
-    node emitter fire!15
-        parent plc_ds_fsta4
-    endnode
-    node emitter ChunkyWood17
-        parent plc_ds_fsta4
-    endnode
-    node emitter ChunkyWood18
-        parent plc_ds_fsta4
-    endnode
-    node dummy ChunkyWood18_XYdimension
-        parent ChunkyWood18
-    endnode
-    node dummy A09_hand
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head_hit
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_impact
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_ground
-        parent plc_ds_fsta4
-    endnode
-doneanim dead plc_ds_fsta4
-
-
-#NWMax Plus ANIM  ASCII
-newanim damage plc_ds_fsta4
-  length 0.0666667
-  transtime 0.0
-  animroot plc_ds_fsta4
-    node dummy plc_ds_fsta4
-        parent NULL
-    endnode
-    node trimesh Lnkundr
-        parent plc_ds_fsta4
-        positionkey
-            0.0 0.0 0.0 0.012281
-            0.0333333 0.0 0.0 0.0071109
-            0.0666667 0.0 0.0 0.0
-        endlist
-        orientationkey
-            0.0 1.0 0.0 0.0 -0.0174533
-            0.0333333 -1.0 0.0 0.0 -0.0174533
-            0.0666667 0.0 0.0 0.0 0.0
-        endlist
-    endnode
-    node trimesh foodstall
-        parent Lnkundr
-    endnode
-    node emitter fire!15
-        parent plc_ds_fsta4
-    endnode
-    node emitter ChunkyWood17
-        parent plc_ds_fsta4
-    endnode
-    node emitter ChunkyWood18
-        parent plc_ds_fsta4
-    endnode
-    node dummy ChunkyWood18_XYdimension
-        parent ChunkyWood18
-    endnode
-    node dummy A09_hand
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head_hit
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_impact
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_ground
-        parent plc_ds_fsta4
-    endnode
-doneanim damage plc_ds_fsta4
-
-
-#NWMax Plus ANIM  ASCII
-newanim default plc_ds_fsta4
-  length 0.0
   transtime 0.25
   animroot plc_ds_fsta4
     node dummy plc_ds_fsta4
         parent NULL
     endnode
-    node trimesh Lnkundr
+    node dummy c06_head
         parent plc_ds_fsta4
+    endnode
+    node dummy c06_head_hit
+        parent plc_ds_fsta4
+    endnode
+    node emitter c06_dust
+        parent plc_ds_fsta4
+    endnode
+    node dummy c06_ground
+        parent plc_ds_fsta4
+    endnode
+    node dummy c06_hand
+        parent plc_ds_fsta4
+    endnode
+    node emitter c06_chunkywood2
+        parent plc_ds_fsta4
+    endnode
+    node emitter c06_chunkywood1
+        parent plc_ds_fsta4
+    endnode
+    node dummy c06_impact
+        parent plc_ds_fsta4
+    endnode
+    node dummy anim_base
+        parent plc_ds_fsta4
+        positionkey
+            0.0 0.0 0.0 -4.0
+        endlist
     endnode
     node trimesh foodstall
-        parent Lnkundr
+        parent anim_base
+        positionkey
+            0.0 0.0 0.0 -0.31312
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
     endnode
-    node emitter fire!15
+    node dummy plc_ds_fsta4_pwk
         parent plc_ds_fsta4
     endnode
-    node emitter ChunkyWood17
-        parent plc_ds_fsta4
+    node pwk pwk_PWK
+        parent plc_ds_fsta4_pwk
     endnode
-    node emitter ChunkyWood18
-        parent plc_ds_fsta4
-    endnode
-    node dummy ChunkyWood18_XYdimension
-        parent ChunkyWood18
-    endnode
-    node dummy A09_hand
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_head_hit
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_impact
-        parent plc_ds_fsta4
-    endnode
-    node dummy A09_ground
-        parent plc_ds_fsta4
-    endnode
-doneanim default plc_ds_fsta4
+doneanim dead plc_ds_fsta4
 
 donemodel plc_ds_fsta4
