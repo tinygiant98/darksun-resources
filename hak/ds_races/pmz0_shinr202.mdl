@@ -16,14 +16,14 @@ node dummy pmz0_shinr202
 endnode
 node trimesh pmz0_shinr202g
   parent pmz0_shinr202
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 1.0 0.0 0.0 -1.19209e-007
   wirecolor 0.8 0.8 0.8 
   ambient 1.0 1.0 1.0 
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 10.0
-  bitmap skdjskdj
+  bitmap pmh0_shinr202
   verts 66
     0.0143099 -0.0103124 0.0365845
     0.0571947 -0.0132958 -0.00499181
@@ -308,7 +308,7 @@ node trimesh pmz0_shinr202g
 endnode
 node danglymesh legstuff
   parent pmz0_shinr202g
-  position 1.709e-005 -0.0445829 -0.119852
+  position 0.0000171 -0.0445829 -0.1198520
   orientation -1.0 0.0 0.0 -1.19209e-007
   wirecolor 0.87451 0.776471 0.337255 
   tilefade 0

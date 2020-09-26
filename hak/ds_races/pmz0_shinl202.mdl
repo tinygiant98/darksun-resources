@@ -16,7 +16,7 @@ node dummy pmz0_shinl202
 endnode
 node trimesh pmz0_shinl202g
   parent pmz0_shinl202
-  position 0.0 0.0 0.0
+  position 0.0000000 0.0000000 0.0000000
   orientation 1.0 0.0 0.0 -1.19209e-007
   wirecolor 0.8 0.8 0.8 
   tilefade 0
@@ -36,7 +36,7 @@ node trimesh pmz0_shinl202g
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 10.0
-  bitmap skdjskdj
+  bitmap pmh0_shinl202
   verts 66
     -0.0143099 -0.0103124 0.0365845
     -0.0571947 -0.0132958 -0.00499181
