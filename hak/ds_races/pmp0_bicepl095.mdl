@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pmw0_bicepl095
+# model: pmp0_bicepl095
 #local file: C:\Users\Pablo\Documents\3DS\XYZ.max
 filedependancy XYZ.max
-newmodel pmw0_bicepl095
-setsupermodel pmw0_bicepl095 NULL
+newmodel pmp0_bicepl095
+setsupermodel pmp0_bicepl095 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pmw0_bicepl095
-node dummy pmw0_bicepl095
+beginmodelgeom pmp0_bicepl095
+node dummy pmp0_bicepl095
   parent NULL
 endnode
-node trimesh pmw0_bicepl095g
-  parent pmw0_bicepl095
+node trimesh pmp0_bicepl095g
+  parent pmp0_bicepl095
   position 0.0000000 0.0000000 0.0000000
   orientation -1.0 0.0 0.0 -3.14159
   wirecolor 1.0 1.0 1.0 
@@ -372,5 +372,5 @@ node trimesh pmw0_bicepl095g
     0.74985 0.521604 0
     0.74806 0.711825 0
 endnode
-endmodelgeom pmw0_bicepl095
-donemodel pmw0_bicepl095
+endmodelgeom pmp0_bicepl095
+donemodel pmp0_bicepl095
