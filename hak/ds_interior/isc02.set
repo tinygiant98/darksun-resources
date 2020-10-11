@@ -40,7 +40,7 @@ Count=0
 Count=0
 
 [TILES]
-Count=17
+Count=19
 
 [TILE0]
 Model=isc02_a00_01
@@ -520,8 +520,64 @@ PathNode=I
 Orientation=0
 ImageMap2D=mi_isc02_a20_02
 
+[TILE17]
+Model=isc02_a40_04
+WalkMesh=msb01
+TopLeft=Floor
+TopLeftHeight=0
+TopRight=Floor
+TopRightHeight=0
+BottomLeft=Floor
+BottomLeftHeight=0
+BottomRight=Floor
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=0
+MainLight2=0
+SourceLight1=0
+SourceLight2=0
+AnimLoop1=0
+AnimLoop2=0
+AnimLoop3=0
+Doors=0
+Sounds=0
+PathNode=A
+Orientation=0
+ImageMap2D=mi_isc02_a40_01
+
+[TILE18]
+Model=isc02_a40_05
+WalkMesh=msb01
+TopLeft=Floor
+TopLeftHeight=0
+TopRight=Floor
+TopRightHeight=0
+BottomLeft=Floor
+BottomLeftHeight=0
+BottomRight=Floor
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=0
+MainLight2=0
+SourceLight1=0
+SourceLight2=0
+AnimLoop1=0
+AnimLoop2=0
+AnimLoop3=0
+Doors=0
+Sounds=0
+PathNode=A
+Orientation=0
+ImageMap2D=mi_isc02_a40_01
+
 [GROUPS]
-Count=2
+Count=5
 
 [GROUP0]
 Name=Cavern Exit
@@ -535,4 +591,21 @@ Rows=1
 Columns=1
 Tile0=14
 
+[GROUP2]
+Name=Wezer Sacks
+Rows=1
+Columns=1
+Tile0=18
+
+[GROUP3]
+Name=Wezer Hive
+Rows=1
+Columns=1
+Tile0=17
+
+[GROUP4]
+Name=Cavern Pillar
+Rows=1
+Columns=1
+Tile0=15
 
