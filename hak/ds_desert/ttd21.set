@@ -22798,14 +22798,14 @@ Type=243
 X=-19.7
 Y=1
 Z=3
-Orientation=0
+Orientation=180
 
 [TILE786DOOR1]
 Type=243
 X=-7.5
 Y=-30.9
 Z=2.9
-Orientation=180
+Orientation=0
 
 [GROUPS]
 Count=165

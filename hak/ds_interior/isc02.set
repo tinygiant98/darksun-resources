@@ -616,14 +616,14 @@ Type=243
 X=35
 Y=0
 Z=-0.3
-Orientation=0
+Orientation=180
 
 [TILE19DOOR2]
 Type=243
 X=17.8
 Y=49
 Z=-0.3
-Orientation=180
+Orientation=0
 
 [TILE20]
 Model=ISC02_T01_02
