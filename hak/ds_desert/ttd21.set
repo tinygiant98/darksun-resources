@@ -1,4 +1,4 @@
-; created with .Set Editor Beta 0.85
+2; created with .Set Editor Beta 0.85
 ; comment, contacts and bugs reports to Jlenlc@wanadoo.fr
 
 [GENERAL]
@@ -4893,7 +4893,7 @@ AnimLoop2=1
 AnimLoop3=1
 Doors=0
 Sounds=0
-PathNode=B
+PathNode=A
 Orientation=180
 ImageMap2D=mi_tced2_e07_02
 
@@ -22794,18 +22794,18 @@ Orientation=0
 ImageMap2D=mitd01_P03
 
 [TILE786DOOR0]
-Type=241
+Type=243
 X=-19.7
 Y=1
 Z=3
-Orientation=180
+Orientation=0
 
 [TILE786DOOR1]
-Type=241
-X=-7.6
-Y=-31
+Type=243
+X=-7.5
+Y=-30.9
 Z=2.9
-Orientation=0
+Orientation=180
 
 [GROUPS]
 Count=165
