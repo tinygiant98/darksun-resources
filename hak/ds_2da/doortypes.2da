@@ -242,6 +242,7 @@
 238        CaveDoor1*MD        TDT_UDoor_02   TDT01     nw_door_ttr_23   63510           1            1              0
 239        HutDoor1                 TDS21_UDoor_01 ttd21     nw_door_ttr_04   5349            1            1              1  
 240        TowerDoor1            TDS21_UDoor_02 ttd21     nw_door_ttr_04   5349           0            0              ****
-241        **** **** **** **** **** ****              ****
+241        caveopening            isc02_UDoor_03 ttd21     nw_door_ttr_04   5349           0            0              ****
 242        ChiefTentDoor2      isc02_udoor_01 isc02     nw_door_ttr_04   63520           1            1              ****
 243        ChiefTentDoor3      isc02_udoor_02 isc02     nw_door_ttr_04   63520           1            1              ****
+244        caveopening2           isc02_UDoor_04 ttd21     nw_door_ttr_04   5349           0            0              ****
