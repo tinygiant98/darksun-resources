@@ -40,7 +40,7 @@ Count=0
 Count=0
 
 [TILES]
-Count=55
+Count=57
 
 [TILE0]
 Model=isc02_a00_01
@@ -435,6 +435,13 @@ Sounds=0
 PathNode=I
 Orientation=0
 ImageMap2D=mi_isc02_a20_03
+
+[TILE13DOOR0]
+Type=241
+X=4
+Y=0
+Z=0
+Orientation=-90
 
 [TILE14]
 Model=isc02_b50_01
@@ -1605,8 +1612,71 @@ PathNode=A
 Orientation=0
 ImageMap2D=none
 
+[TILE55]
+Model=isc02_a10_02
+WalkMesh=msb01
+TopLeft=Wall
+TopLeftHeight=0
+TopRight=Wall
+TopRightHeight=0
+BottomLeft=Floor
+BottomLeftHeight=0
+BottomRight=Wall
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=0
+MainLight2=0
+SourceLight1=0
+SourceLight2=0
+AnimLoop1=0
+AnimLoop2=0
+AnimLoop3=0
+Doors=-1
+Sounds=-1
+PathNode=H
+Orientation=0
+ImageMap2D=mi_isc02_a10_01
+
+[TILE56]
+Model=isc02_a20_05
+WalkMesh=msb01
+TopLeft=Floor
+TopLeftHeight=0
+TopRight=Wall
+TopRightHeight=0
+BottomLeft=Floor
+BottomLeftHeight=0
+BottomRight=Wall
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=0
+MainLight2=0
+SourceLight1=0
+SourceLight2=0
+AnimLoop1=0
+AnimLoop2=0
+AnimLoop3=0
+Doors=-1
+Sounds=-1
+PathNode=I
+Orientation=0
+ImageMap2D=mi_isc02_a20_02
+
+[TILE56DOOR0]
+Type=244
+X=2.5
+Y=0
+Z=2.55
+Orientation=-90
+
 [GROUPS]
-Count=6
+Count=7
 
 [GROUP0]
 Name=Cavern Exit
@@ -1679,4 +1749,9 @@ Tile33=52
 Tile34=53
 Tile35=54
 
+[GROUP6]
+Name=Cavern Chute
+Rows=1
+Columns=1
+Tile0=56
 
