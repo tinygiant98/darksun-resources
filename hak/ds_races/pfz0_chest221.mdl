@@ -1,4 +1,4 @@
-# Exported from NWMax Plus v6.11.28 at 8/12/2020 10:49:24 PM
+# Exported from NWMax Plus v6.11.28 at 8/12/2020 10:49:18 PM
 # mdl file
 #
 #NWMax Plus MODEL  ASCII
@@ -33,7 +33,7 @@ node trimesh Object033
   Specular 0.0 0.0 0.0 
   shininess 10
   center 0.0 -0.653668 22.9807 
-  bitmap sunclerictops
+  bitmap pfh0_chest221
   verts 1507
     -0.0358233 0.0468391 0.287883
     -0.0164081 0.052684 0.28511
