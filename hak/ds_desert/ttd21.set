@@ -23072,7 +23072,7 @@ ImageMap2D=mitd01_P03
 
 [TILE795DOOR0]
 Type=246
-X=0.00
+X=-3.60
 Y=0.00
 Z=3.00
 Orientation=88
