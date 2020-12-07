@@ -1,9 +1,9 @@
-# Exported from NWMax Plus v6.11.28 at 12/2/2020 10:48:00 PM
+# Exported from NWMax Plus v6.11.28 at 12/2/2020 11:40:13 PM
 # mdl file
 #
 #NWMax Plus MODEL  ASCII
 # model: isc02_udoor_06
-filedependancy door.max
+filedependancy Unknown
 newmodel isc02_udoor_06
 setsupermodel isc02_udoor_06 NULL
 classification Door
@@ -219,35 +219,46 @@ node dummy tn2_UDoor_05hhit
   parent isc02_udoor_06
   position 0.0203906 1.93861e-005 2.43588
   orientation 0.0 0.0 -1.0 -1.5708
-  wirecolor 0.894118 0.721569 0.6 
+  wirecolor 0.768628 0.345098 0.882353 
 endnode
 node dummy tn2_UDoor_05head
   parent isc02_udoor_06
   position 0.0203906 1.93537e-005 2.97952
   orientation 0.0 0.0 -1.0 -1.5708
-  wirecolor 0.894118 0.721569 0.6 
+  wirecolor 0.768628 0.345098 0.882353 
 endnode
 node dummy tn2_UDoor_05impc
   parent isc02_udoor_06
   position 0.0203906 1.94585e-005 1.22079
   orientation 0.0 0.0 -1.0 -1.5708
-  wirecolor 0.894118 0.721569 0.6 
+  wirecolor 0.768628 0.345098 0.882353 
 endnode
-node dummy tn2_UDoor_05grnd
+node dummy tn2_UDoor_06grnd
   parent isc02_udoor_06
   position 0.0203906 1.95301e-005 0.02
   orientation 0.0 0.0 -1.0 -1.5708
-  wirecolor 0.882353 0.345098 0.780392 
+  wirecolor 0.768628 0.345098 0.882353 
 endnode
 node trimesh d11
   parent isc02_udoor_06
   position 1.6 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 0.0 0.0 
-  ambient 1 1 1 
-  diffuse 1 1 1 
-  specular 0.0 0.0 0.0 
-  shininess 10.0
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfIllumColor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center -78.5871 5.2059 68.3181 
   bitmap ak_buil_as_d3
   verts 334
     -0.0371015 0.031829 1.02318
@@ -1679,10 +1690,21 @@ node trimesh d22
   position -1.6 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 0.0 0.0 
-  ambient 1 1 1 
-  diffuse 1 1 1 
-  specular 0.0 0.0 0.0 
-  shininess 10.0
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfIllumColor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 75.0814 -5.83215 66.3182 
   bitmap ak_buil_as_d3
   verts 334
     0.00204681 -0.0388369 1.02318
@@ -3137,7 +3159,7 @@ newanim opening1 isc02_udoor_06
     node dummy tn2_UDoor_05impc
         parent isc02_udoor_06
     endnode
-    node dummy tn2_UDoor_05grnd
+    node dummy tn2_UDoor_06grnd
         parent isc02_udoor_06
     endnode
     node trimesh d11
@@ -3157,6 +3179,30 @@ newanim opening1 isc02_udoor_06
             0.0 0.0 0.0 0.0 0.0
             0.633333 0.0 0.0 -1.0 -1.79865
         endlist
+    endnode
+    node dummy isc02_udoor_06_DWK
+        parent isc02_udoor_06
+    endnode
+    node dwk 12_DWK_wg_closed
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open1
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open2
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_02
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open1_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open2_01
+        parent isc02_udoor_06_DWK
     endnode
 doneanim opening1 isc02_udoor_06
 
@@ -3187,12 +3233,16 @@ newanim opening2 isc02_udoor_06
     node dummy tn2_UDoor_05impc
         parent isc02_udoor_06
     endnode
-    node dummy tn2_UDoor_05grnd
+    node dummy tn2_UDoor_06grnd
         parent isc02_udoor_06
     endnode
     node trimesh d11
         parent isc02_udoor_06
+        positionkey
+            0.0 1.6 0.0 0.0
+        endlist
         orientationkey
+            0.0 0.0 0.0 0.0 0.0
             0.0333333 0.0 0.0 0.0 0.0
             0.633333 0.0 0.0 1.0 -1.74803
         endlist
@@ -3200,13 +3250,39 @@ newanim opening2 isc02_udoor_06
     node trimesh d22
         parent isc02_udoor_06
         positionkey
+            0.0 -1.6 -2.86102e-007 0.0
             0.0333333 -1.6 0.0 0.0
             0.633333 -1.6 0.0615244 0.0
         endlist
         orientationkey
-            0.0333333 0.0 0.0 0.0 0.0
+            0.0 0.0 0.0 0.0 -2.52881e-007
+            0.0333333 0.92388 0.0 0.382683 -4.67431e-007
             0.633333 0.0 0.0 -1.0 -1.79865
         endlist
+    endnode
+    node dummy isc02_udoor_06_DWK
+        parent isc02_udoor_06
+    endnode
+    node dwk 12_DWK_wg_closed
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open1
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open2
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_02
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open1_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open2_01
+        parent isc02_udoor_06_DWK
     endnode
 doneanim opening2 isc02_udoor_06
 
@@ -3237,7 +3313,7 @@ newanim closing1 isc02_udoor_06
     node dummy tn2_UDoor_05impc
         parent isc02_udoor_06
     endnode
-    node dummy tn2_UDoor_05grnd
+    node dummy tn2_UDoor_06grnd
         parent isc02_udoor_06
     endnode
     node trimesh d11
@@ -3245,6 +3321,7 @@ newanim closing1 isc02_udoor_06
         orientationkey
             0.0 0.0 0.0 1.0 -1.74803
             0.566667 0.0 0.0 0.0 0.0
+            0.633333 0.0 0.0 0.0 0.0
         endlist
     endnode
     node trimesh d22
@@ -3253,12 +3330,38 @@ newanim closing1 isc02_udoor_06
             0.0 -1.6 0.0615244 0.0
             0.566667 -1.6 0.0 0.0
             0.6 -1.6 0.0 0.0
+            0.633333 -1.6 0.0 0.0
         endlist
         orientationkey
             0.0 0.0 0.0 -1.0 -1.79865
             0.566667 0.0 0.0 0.0 0.0
             0.6 0.0 0.0 0.0 0.0
+            0.633333 0.0 0.0 0.0 0.0
         endlist
+    endnode
+    node dummy isc02_udoor_06_DWK
+        parent isc02_udoor_06
+    endnode
+    node dwk 12_DWK_wg_closed
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open1
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open2
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_02
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open1_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open2_01
+        parent isc02_udoor_06_DWK
     endnode
 doneanim closing1 isc02_udoor_06
 
@@ -3289,7 +3392,7 @@ newanim closing2 isc02_udoor_06
     node dummy tn2_UDoor_05impc
         parent isc02_udoor_06
     endnode
-    node dummy tn2_UDoor_05grnd
+    node dummy tn2_UDoor_06grnd
         parent isc02_udoor_06
     endnode
     node trimesh d11
@@ -3297,6 +3400,7 @@ newanim closing2 isc02_udoor_06
         orientationkey
             0.0 0.0 0.0 1.0 -1.74803
             0.566667 0.0 0.0 0.0 0.0
+            0.633333 0.0 0.0 0.0 0.0
         endlist
     endnode
     node trimesh d22
@@ -3304,11 +3408,37 @@ newanim closing2 isc02_udoor_06
         positionkey
             0.0 -1.6 0.0615244 0.0
             0.566667 -1.6 0.0 0.0
+            0.633333 -1.6 0.0 0.0
         endlist
         orientationkey
             0.0 0.0 0.0 -1.0 -1.79865
             0.566667 0.0 0.0 0.0 0.0
+            0.633333 0.0 0.0 0.0 0.0
         endlist
+    endnode
+    node dummy isc02_udoor_06_DWK
+        parent isc02_udoor_06
+    endnode
+    node dwk 12_DWK_wg_closed
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open1
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open2
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_02
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open1_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open2_01
+        parent isc02_udoor_06_DWK
     endnode
 doneanim closing2 isc02_udoor_06
 
@@ -3339,7 +3469,7 @@ newanim closed isc02_udoor_06
     node dummy tn2_UDoor_05impc
         parent isc02_udoor_06
     endnode
-    node dummy tn2_UDoor_05grnd
+    node dummy tn2_UDoor_06grnd
         parent isc02_udoor_06
     endnode
     node trimesh d11
@@ -3347,6 +3477,30 @@ newanim closed isc02_udoor_06
     endnode
     node trimesh d22
         parent isc02_udoor_06
+    endnode
+    node dummy isc02_udoor_06_DWK
+        parent isc02_udoor_06
+    endnode
+    node dwk 12_DWK_wg_closed
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open1
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open2
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_02
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open1_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open2_01
+        parent isc02_udoor_06_DWK
     endnode
 doneanim closed isc02_udoor_06
 
@@ -3377,7 +3531,7 @@ newanim opened1 isc02_udoor_06
     node dummy tn2_UDoor_05impc
         parent isc02_udoor_06
     endnode
-    node dummy tn2_UDoor_05grnd
+    node dummy tn2_UDoor_06grnd
         parent isc02_udoor_06
     endnode
     node trimesh d11
@@ -3397,6 +3551,30 @@ newanim opened1 isc02_udoor_06
             0.0 0.0 0.0 -1.0 -1.79865
             0.0333333 0.0 0.0 -1.0 -1.79865
         endlist
+    endnode
+    node dummy isc02_udoor_06_DWK
+        parent isc02_udoor_06
+    endnode
+    node dwk 12_DWK_wg_closed
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open1
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open2
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_02
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open1_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open2_01
+        parent isc02_udoor_06_DWK
     endnode
 doneanim opened1 isc02_udoor_06
 
@@ -3427,7 +3605,7 @@ newanim opened2 isc02_udoor_06
     node dummy tn2_UDoor_05impc
         parent isc02_udoor_06
     endnode
-    node dummy tn2_UDoor_05grnd
+    node dummy tn2_UDoor_06grnd
         parent isc02_udoor_06
     endnode
     node trimesh d11
@@ -3447,6 +3625,30 @@ newanim opened2 isc02_udoor_06
             0.0 0.0 0.0 -1.0 -1.79865
             0.0333333 0.0 0.0 -1.0 -1.79865
         endlist
+    endnode
+    node dummy isc02_udoor_06_DWK
+        parent isc02_udoor_06
+    endnode
+    node dwk 12_DWK_wg_closed
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open1
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open2
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_02
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open1_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open2_01
+        parent isc02_udoor_06_DWK
     endnode
 doneanim opened2 isc02_udoor_06
 
@@ -3477,7 +3679,7 @@ newanim trans isc02_udoor_06
     node dummy tn2_UDoor_05impc
         parent isc02_udoor_06
     endnode
-    node dummy tn2_UDoor_05grnd
+    node dummy tn2_UDoor_06grnd
         parent isc02_udoor_06
     endnode
     node trimesh d11
@@ -3485,6 +3687,30 @@ newanim trans isc02_udoor_06
     endnode
     node trimesh d22
         parent isc02_udoor_06
+    endnode
+    node dummy isc02_udoor_06_DWK
+        parent isc02_udoor_06
+    endnode
+    node dwk 12_DWK_wg_closed
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open1
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open2
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_02
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open1_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open2_01
+        parent isc02_udoor_06_DWK
     endnode
 doneanim trans isc02_udoor_06
 
@@ -3524,7 +3750,7 @@ newanim die isc02_udoor_06
     node dummy tn2_UDoor_05impc
         parent isc02_udoor_06
     endnode
-    node dummy tn2_UDoor_05grnd
+    node dummy tn2_UDoor_06grnd
         parent isc02_udoor_06
     endnode
     node trimesh d11
@@ -3545,9 +3771,33 @@ newanim die isc02_udoor_06
             0.233333 -0.839106 0.0615245 -0.899367
         endlist
         orientationkey
-            0.0 0.0 0.0 0.0 0.0
+            0.0 0.993687 -0.0782818 0.0803594 -7.40874e-007
             0.233333 -0.437727 0.245448 0.864957 -1.27679
         endlist
+    endnode
+    node dummy isc02_udoor_06_DWK
+        parent isc02_udoor_06
+    endnode
+    node dwk 12_DWK_wg_closed
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open1
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open2
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_02
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open1_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open2_01
+        parent isc02_udoor_06_DWK
     endnode
 doneanim die isc02_udoor_06
 
@@ -3578,7 +3828,7 @@ newanim dead isc02_udoor_06
     node dummy tn2_UDoor_05impc
         parent isc02_udoor_06
     endnode
-    node dummy tn2_UDoor_05grnd
+    node dummy tn2_UDoor_06grnd
         parent isc02_udoor_06
     endnode
     node trimesh d11
@@ -3606,6 +3856,30 @@ newanim dead isc02_udoor_06
             0.0333333 -0.437727 0.245448 0.864957 -1.27679
             0.0666667 -0.437727 0.245448 0.864957 -0.729593
         endlist
+    endnode
+    node dummy isc02_udoor_06_DWK
+        parent isc02_udoor_06
+    endnode
+    node dwk 12_DWK_wg_closed
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open1
+        parent isc02_udoor_06_DWK
+    endnode
+    node dwk 12_DWK_wg_open2
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_close_02
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open1_01
+        parent isc02_udoor_06_DWK
+    endnode
+    node dummy 01_DWK_dp_open2_01
+        parent isc02_udoor_06_DWK
     endnode
 doneanim dead isc02_udoor_06
 

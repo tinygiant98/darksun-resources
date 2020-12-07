@@ -39,7 +39,7 @@ node aabb Mesh08
     Door
     Snow
     Sand
-  ambient 0.0 0.0 0.0 
+  ambient 1 1 1
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 10.0
@@ -1062,8 +1062,8 @@ node trimesh Mesh07
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.588 0.588 0.588 
-  diffuse 0.588 0.588 0.588 
+  ambient 1 1 1
+  diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 10
   center 0.0 -63.0 309.0 
@@ -1759,8 +1759,8 @@ node trimesh Mesh06
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.588 0.588 0.588 
-  diffuse 0.588 0.588 0.588 
+  ambient 1 1 1
+  diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 10
   center 0.0 -437.5 150.0 

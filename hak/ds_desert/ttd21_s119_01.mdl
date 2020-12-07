@@ -29,8 +29,8 @@ node trimesh Mesh14
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.588 0.588 0.588 
-  diffuse 0.588 0.588 0.588 
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.0 0.0 0.0 
   shininess 10
   center 0.0 -16.0 235.5 
@@ -1006,8 +1006,8 @@ node trimesh Mesh13
   alpha 1.0
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
-  ambient 0.588 0.588 0.588 
-  diffuse 0.588 0.588 0.588 
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.0 0.0 0.0 
   shininess 10
   center 0.0 -437.5 150.0 
@@ -1323,8 +1323,8 @@ node aabb Mesh15
     Door
     Snow
     Sand
-  ambient 0.0 0.0 0.0 
-  diffuse 1.0 1.0 1.0 
+  ambient 1 1 1
+  diffuse 1 1 1
   specular 0.0 0.0 0.0 
   shininess 10.0
   bitmap Obscuring
