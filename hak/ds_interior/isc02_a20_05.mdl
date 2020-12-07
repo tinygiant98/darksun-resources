@@ -2281,7 +2281,7 @@ node trimesh sand
   Specular 0.0 0.0 0.0 
   shininess 10
   center -71.5 8.0 136.5 
-  bitmap ttd21_sand01
+  bitmap ttd21_sand06
   verts 27
     0.9 -3.68 -0.32
     -3.86 1.98 -1.01

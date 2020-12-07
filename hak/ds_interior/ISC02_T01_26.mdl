@@ -50,7 +50,7 @@ node aabb wok_26
   multimaterial 3
     tentbig
     07 - Default
-    ttd21_sand01
+    ttd21_sand06
   ambient 1.0 1.0 1.0 
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
