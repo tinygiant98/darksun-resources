@@ -1,10 +1,10 @@
-# Exported from NWMax Plus v6.11.28 at 2/1/2021 3:09:35 AM
+# Exported from NWMax Plus v6.11.28 at 2/1/2021 3:14:32 AM
 # wok file
 #
 #NWMax Plus WALKMESH  ASCII
-beginwalkmeshgeom twm00_sp04_01
+beginwalkmeshgeom twm00_k04_01
 node aabb wok_sp04_01
-  parent twm00_sp04_01
+  parent twm00_k04_01
   position 0.0 0.0 3.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -204,4 +204,4 @@ node aabb wok_sp04_01
         2.5 2.5 0.25 5.0 5.0 0.25 15
         2.5 2.5 0.25 5.0 5.0 0.25 40
 endnode
-endwalkmeshgeom twm00_sp04_01
+endwalkmeshgeom twm00_k04_01
