@@ -34,7 +34,7 @@ node trimesh pmu0_forer095g
   Specular 0.0 0.0 0.0 
   shininess 10
   center undefined
-  bitmap pmh0_forer095
+  bitmap pmu0_forer095
   verts 96
     -0.0052685 -0.0509719 0.0235897
     0.0641742 0.0069799 -0.0098465

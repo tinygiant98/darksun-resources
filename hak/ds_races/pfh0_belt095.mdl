@@ -1,10 +1,10 @@
-# Exported from NWmax 0.8 b61 at 11/15/2020 9:18:41 AM
+# Exported from NWmax 0.8 b61 at 18/05/2015 21:16:15
 # mdl file
 #
 #NWmax MODEL ASCII
 # model: pfh0_belt095
-#local file: Unknown
-filedependancy Unknown
+#local file: C:\Users\Pablo\Documents\3DS\XYZ.max
+filedependancy XYZ.max
 newmodel pfh0_belt095
 setsupermodel pfh0_belt095 NULL
 classification Character
@@ -16,7 +16,7 @@ node dummy pfh0_belt095
 endnode
 node danglymesh pfh0_belt095g
   parent pfh0_belt095
-  position 0.0000000 -0.0195561 -0.0053725
+  position 0.0 -0.0195561 -0.00537248
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.694118 0.337255 0.101961 
   tilefade 0
@@ -30,16 +30,16 @@ node danglymesh pfh0_belt095g
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
   shininess 10
-  center 1.34295 -3.9147 -15.3748 
+  center 1.34295 -3.91468 -15.3748 
   period 8.0
   tightness 3.0
   displacement 0.05
   showdispl true
   displtype 1
-  center 1.34295 -3.9147 -15.3748 
+  center 1.34295 -3.91468 -15.3748 
   bitmap pfh0_belt095
   verts 231
     -0.0388368 -0.0914044 -0.002035

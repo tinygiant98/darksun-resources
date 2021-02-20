@@ -23,7 +23,7 @@ node trimesh pmu0_bicepr095g
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 10.0
-  bitmap pmh0_bicepr095
+  bitmap pmu0_bicepr095
   verts 85
     0.1225476 0.0172600 -0.0006748
     0.0329204 0.1088119 -0.0122633

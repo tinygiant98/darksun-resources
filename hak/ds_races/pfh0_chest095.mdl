@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b61 at 11/15/2020 9:22:33 AM
+# Exported from NWmax 0.8 b61 at 18/05/2015 18:05:19
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -16,7 +16,7 @@ node dummy pfh0_chest095
 endnode
 node trimesh pfh0_chest095g
   parent pfh0_chest095
-  position -0.0009430 0.0000000 0.0000000
+  position -0.000943 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.894118 0.839216 0.6 
   tilefade 0
@@ -30,10 +30,10 @@ node trimesh pfh0_chest095g
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
   shininess 10
-  center -0.00220013 -0.28835 18.0503 
+  center undefined
   bitmap pfh0_chest095
   verts 233
     0.0147416 -0.0945745 0.404994

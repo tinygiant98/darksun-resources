@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b61 at 11/15/2020 9:39:11 AM
+# Exported from NWmax 0.8 b61 at 18/05/2015 22:48:47
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -16,7 +16,7 @@ node dummy pfh0_pelvis095
 endnode
 node trimesh pfh0_pelvis095g
   parent pfh0_pelvis095
-  position 0.0000000 0.0000000 0.0000000
+  position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.894118 0.839216 0.6 
   tilefade 0
@@ -30,8 +30,8 @@ node trimesh pfh0_pelvis095g
   transparencyhint 0
   selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
   shininess 10
   center 0.020051 -3.80189 -11.537 
   bitmap pfh0_pelvis095

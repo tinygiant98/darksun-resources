@@ -1,10 +1,10 @@
-# Exported from NWmax 0.8 b61 at 11/15/2020 9:21:58 AM
+# Exported from NWmax 0.8 b61 at 18/05/2015 18:36:40
 # mdl file
 #
 #NWmax MODEL ASCII
 # model: pfh0_bicepr095
-#local file: Unknown
-filedependancy Unknown
+#local file: C:\Users\Pablo\Documents\3DS\XYZ.max
+filedependancy XYZ.max
 newmodel pfh0_bicepr095
 setsupermodel pfh0_bicepr095 NULL
 classification Character
@@ -16,24 +16,13 @@ node dummy pfh0_bicepr095
 endnode
 node trimesh pfh0_bicepr095g
   parent pfh0_bicepr095
-  position 0.0000000 0.0000000 0.0000000
+  position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.894118 0.839216 0.6 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
-  shininess 10
-  center 3.84144 -0.058135 -14.2224 
+  shininess 10.0
   bitmap pfh0_bicepr095
   verts 85
     0.0647644 0.019638 -0.0261541

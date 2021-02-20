@@ -1,4 +1,4 @@
-# Exported from NWmax 0.8 b61 at 11/15/2020 9:37:46 AM
+# Exported from NWmax 0.8 b61 at 18/05/2015 21:07:28
 # mdl file
 #
 #NWmax MODEL ASCII
@@ -16,24 +16,13 @@ node dummy pfh0_neck095
 endnode
 node trimesh pfh0_neck095g
   parent pfh0_neck095
-  position 0.0000000 0.0000000 0.0000000
+  position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
   ambient 1.0 1.0 1.0 
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
-  shininess 10
-  center -0.0555699 -0.207425 3.92335 
+  shininess 10.0
   bitmap pfh0_footr095
   verts 10
     0.0575693 -0.00281454 -0.00371982

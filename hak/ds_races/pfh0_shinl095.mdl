@@ -1,10 +1,10 @@
-# Exported from NWmax 0.8 b61 at 11/15/2020 9:39:57 AM
+# Exported from NWmax 0.8 b61 at 18/05/2015 20:04:59
 # mdl file
 #
 #NWmax MODEL ASCII
 # model: pfh0_shinl095
-#local file: Unknown
-filedependancy Unknown
+#local file: C:\Users\Pablo\Documents\3DS\XYZ.max
+filedependancy XYZ.max
 newmodel pfh0_shinl095
 setsupermodel pfh0_shinl095 NULL
 classification Character
@@ -16,24 +16,16 @@ node dummy pfh0_shinl095
 endnode
 node trimesh pfh0_shinl095g
   parent pfh0_shinl095
-  position 0.0000000 0.0000000 0.0000000
+  position 0.0 0.0 0.0
   orientation -1.0 0.0 0.0 -3.14159
-  wirecolor 0.776471 0.87451 0.337255 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
+  wirecolor 0.776471 0.878431 0.341176 
+  multimaterial 2
+    pfh0_shinl001
+    pfh0_shinr095
   ambient 1.0 1.0 1.0 
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
-  shininess 10
-  center 0.0531251 2.20533 19.8221 
+  shininess 10.0
   bitmap pfh0_shinr095
   verts 115
     -0.00290085 0.00850816 0.32366

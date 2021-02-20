@@ -1,10 +1,10 @@
-# Exported from NWmax 0.8 b61 at 11/15/2020 9:46:19 AM
+# Exported from NWmax 0.8 b61 at 18/05/2015 21:20:28
 # mdl file
 #
 #NWmax MODEL ASCII
 # model: pfh0_shor095
-#local file: Unknown
-filedependancy Unknown
+#local file: C:\Users\Pablo\Documents\3DS\XYZ.max
+filedependancy XYZ.max
 newmodel pfh0_shor095
 setsupermodel pfh0_shor095 NULL
 classification Character
@@ -16,30 +16,19 @@ node dummy pfh0_shor095
 endnode
 node danglymesh pfh0_shor095g
   parent pfh0_shor095
-  position -0.0063431 -0.0048142 -0.0251824
+  position -0.00634312 -0.00481423 -0.0251824
   orientation 1.0 0.0 0.0 0.0
   wirecolor 0.894118 0.839216 0.6 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
-  ambient 1.0 1.0 1.0 
-  diffuse 1.0 1.0 1.0 
-  specular 0.0 0.0 0.0 
-  shininess 10
-  center 11.0742 -0.35365 3.67636 
   period 8.0
   tightness 3.0
   displacement 0.05
   showdispl true
   displtype 1
   center 11.0742 -0.35365 3.67636 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
   bitmap pfh0_shor095
   verts 160
     0.158058 0.0410411 0.0100952

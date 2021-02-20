@@ -23,7 +23,7 @@ node trimesh pmu0_forel095g
   diffuse 1.0 1.0 1.0 
   specular 0.0 0.0 0.0 
   shininess 10.0
-  bitmap pmh0_forel095
+  bitmap pmh0_forer095
   verts 96
     0.0052685 0.0509719 -0.0235897
     -0.0641742 -0.0069799 0.0098465
